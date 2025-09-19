@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>cap_email</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-12 23:01:38</sys_created_on>
+        <sys_id>b882514447443a106c0c59f4f16d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cap_email</sys_name>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b882514447443a106c0c59f4f16d4371</sys_update_name>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-12 23:01:38</sys_updated_on>
+        <table>x_ssad6_paquetiz_0_ord_servicio</table>
+        <ui_policy display_value="Mandatory Fields Policy (New State)">b482514447443a106c0c59f4f16d4366</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=b882514447443a106c0c59f4f16d4371"/>
+</record_update>

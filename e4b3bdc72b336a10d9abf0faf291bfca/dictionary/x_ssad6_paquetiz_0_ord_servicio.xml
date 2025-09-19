@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0991f1174733a6106c0c59f4f16d4366" label="Orden de Servicio" max_length="40" name="x_ssad6_paquetiz_0_ord_servicio" type="collection">
+        <element label="Equipment delivery" max_length="40" name="equip_delivery" type="glide_date_time"/>
+        <element label="Folio number" max_length="40" name="folio_number" type="string"/>
+        <element label="Company name" max_length="40" name="company_name" type="string"/>
+        <element label="Previous location" max_length="40" name="previous_location" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Contract code" max_length="40" name="contract_code" type="string"/>
+        <element label="Implementations IO" max_length="40" name="implementation_io" type="string"/>
+        <element label="Assignment date" max_length="40" name="assignment_date" type="glide_date_time"/>
+        <element label="Municipality" max_length="40" name="municipality" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element choice="1" label="Link type" max_length="40" name="link_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="MPLS" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="IDE" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="NUBE" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="IDATA" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="INFINITUM" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Previous proyect" max_length="40" name="previous_proyect" type="integer"/>
+        <element label="Site name" max_length="40" name="site_name" type="string"/>
+        <element label="Site ID" max_length="40" name="site_id" type="string"/>
+        <element label="Unique customer code" max_length="40" name="unique_customer_cod" type="string"/>
+        <element label="Link folio" max_length="40" name="link_folio" type="string"/>
+        <element label="Onsite contact" max_length="40" name="onsite_contact" type="string"/>
+        <element label="CAP name" max_length="40" name="cap_name" type="string"/>
+        <element label="Rental code" max_length="40" name="rental_code" type="string"/>
+        <element label="OC placement" max_length="40" name="oc_placement" type="glide_date"/>
+        <element label="Service" max_length="32" name="service" reference="cmdb_ci" type="reference"/>
+        <element label="QO" max_length="40" name="qo" type="string"/>
+        <element label="Link delivery" max_length="40" name="link_delivery" type="glide_date_time"/>
+        <element label="Assigned_to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element choice="1" label="IOM movement type" max_length="40" name="iom_move_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Activation" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Service plan change" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Upgrade" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Address change" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Feature activation" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Deactivation" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element label="IOM release date" max_length="40" name="iom_release_date" type="glide_date_time"/>
+        <element label="Telmex installation responsible (onsite)" max_length="40" name="telmex_insta_resp_onsite" type="string"/>
+        <element choice="1" label="Sale channel" max_length="40" name="sale_channel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="TIENDAS TMX" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="TELCEL" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="CECOR" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="DIVISIONAL" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="SCITUM" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CLARO" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="TELECORP" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element choice="1" label="Market" max_length="40" name="market" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Empresarial" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="PYME" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Estimated supply" max_length="40" name="estim_supply" type="glide_date"/>
+        <element label="Equipment model" max_length="40" name="equip_model" type="string"/>
+        <element label="Estimated equipment delivery" max_length="40" name="estim_equip_delivery" type="glide_date"/>
+        <element label="RFC" max_length="40" name="rfc" type="string"/>
+        <element label="Floor" max_length="40" name="floor" type="string"/>
+        <element label="Information request to CAP" max_length="40" name="info_request_cap" type="glide_date_time"/>
+        <element choice="1" label="Telmex sector" max_length="40" name="telmex_sector" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Private" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Government II" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Divisional" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Government I" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Component C ID" max_length="40" name="component_c_id" type="string"/>
+        <element label="Cancellation date" max_length="40" name="cancel_date" type="glide_date_time"/>
+        <element label="Customer name" max_length="32" name="customer_name" reference="core_company" type="reference"/>
+        <element label="CAP phone" max_length="40" name="cap_phone" type="phone_number_e164"/>
+        <element label="Telmex installation case" max_length="40" name="telmex_insta_case" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Support company" max_length="40" name="support_company" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="GUIAR" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CLEAN PIPES" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="VITECSA" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="SCITUM" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="NEC" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="CISTIC" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="HPGC" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="DICE" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="INTOSYS" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="ZILCAMEDIA" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="SONDA" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="QUANTI" sequence="7" value="8"/>
+            </choice>
+        </element>
+        <element label="CP" max_length="40" name="cp" type="string"/>
+        <element choice="1" label="Service type" max_length="40" name="service_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="EPDR" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="SPAC" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SPAL" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="AVN" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="CPES" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="SASE" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="SPAD2" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="FLEXIPORT" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="SPAD" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="FCE" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SPAC2" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="TSI" sequence="14" value="15"/>
+                <element inactive_on_update="false" label="TS" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="SUR" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="SSEG" sequence="11" value="12"/>
+            </choice>
+        </element>
+        <element label="Corporate code" max_length="40" name="corporate_cod" type="string"/>
+        <element label="Component ID" max_length="40" name="component_id" type="string"/>
+        <element label="Cancellation folio" max_length="40" name="cancel_folio" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Street" max_length="40" name="street" type="string"/>
+        <element label="Estimated link delivery" max_length="40" name="estim_link_delivery" type="glide_date"/>
+        <element choice="1" label="Div name" max_length="40" name="div_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Gulf" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Southeast" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Financial" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Telnor" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="West" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Northwest" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Industry &amp; health" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="North" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Services &amp; tourism" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="Bajío" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Public &amp; parastatal government" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="Metro" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Group companies" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Pacific" sequence="7" value="8"/>
+            </choice>
+        </element>
+        <element choice="1" label="Segment" max_length="40" name="segment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="B" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="P" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="N" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="CM" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="C" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SI" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="A" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="CE" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="TM" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="C-" sequence="2" value="c"/>
+                <element inactive_on_update="false" label="PR" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="NC" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="CP" sequence="6" value="7"/>
+            </choice>
+        </element>
+        <element label="Company acronym" max_length="40" name="company_acronym" type="string"/>
+        <element choice="1" dependent="status" dependent_on_field="status" label="Status reason" max_length="40" name="status_reason" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="6" inactive_on_update="false" label="Customer does not require service" sequence="36" value="37"/>
+                <element dependent_value="7" inactive_on_update="false" label="Unknown" sequence="22" value="23"/>
+                <element dependent_value="2" inactive_on_update="false" label="Additional customer information" sequence="2" value="3"/>
+                <element dependent_value="4" inactive_on_update="false" label="CAP-execution under review" sequence="9" value="10"/>
+                <element dependent_value="4" inactive_on_update="false" label="Customer call date" sequence="13" value="14"/>
+                <element dependent_value="4" inactive_on_update="false" label="No response from customer" sequence="17" value="18"/>
+                <element dependent_value="4" inactive_on_update="false" label="On-site adjustments" sequence="5" value="6"/>
+                <element dependent_value="4" inactive_on_update="false" label="Additional customer information" sequence="32" value="33"/>
+                <element dependent_value="6" inactive_on_update="false" label="Dissatisfied customer" sequence="27" value="29"/>
+                <element dependent_value="7" inactive_on_update="false" label="Commercial terms &amp; conditions" sequence="31" value="27"/>
+                <element dependent_value="7" inactive_on_update="false" label="Duplicate service orders" sequence="24" value="25"/>
+                <element dependent_value="7" inactive_on_update="false" label="Branch closure" sequence="20" value="21"/>
+                <element dependent_value="6" inactive_on_update="false" label="Branch closure" sequence="35" value="36"/>
+                <element dependent_value="4" inactive_on_update="false" label="Customer installation date" sequence="14" value="15"/>
+                <element dependent_value="4" inactive_on_update="false" label="Customer call" sequence="6" value="7"/>
+                <element dependent_value="2" inactive_on_update="false" label="Scheduled installation" sequence="3" value="4"/>
+                <element dependent_value="4" inactive_on_update="false" label="Link delivery" sequence="10" value="11"/>
+                <element dependent_value="7" inactive_on_update="false" label="Customer does not require service" sequence="21" value="22"/>
+                <element dependent_value="6" inactive_on_update="false" label="Bandwidth increase" sequence="28" value="30"/>
+                <element dependent_value="6" inactive_on_update="false" label="Requirement change" sequence="34" value="35"/>
+                <element dependent_value="4" inactive_on_update="false" label="Scheduled call" sequence="7" value="8"/>
+                <element dependent_value="4" inactive_on_update="false" label="Equipment in transit" sequence="11" value="12"/>
+                <element dependent_value="4" inactive_on_update="false" label="Customer rescheduling" sequence="15" value="16"/>
+                <element dependent_value="2" inactive_on_update="false" label="Implementation adjustment" sequence="0" value="1"/>
+                <element dependent_value="7" inactive_on_update="false" label="Carrier change" sequence="18" value="19"/>
+                <element dependent_value="7" inactive_on_update="false" label="Out of scope" sequence="23" value="24"/>
+                <element dependent_value="6" inactive_on_update="false" label="Customer budget" sequence="29" value="31"/>
+                <element dependent_value="7" inactive_on_update="false" label="No link available" sequence="25" value="26"/>
+                <element dependent_value="6" inactive_on_update="false" label="Carrier change" sequence="33" value="34"/>
+                <element dependent_value="6" inactive_on_update="false" label="Unknown" sequence="37" value="38"/>
+                <element dependent_value="2" inactive_on_update="false" label="MV closing documents" sequence="1" value="2"/>
+                <element dependent_value="4" inactive_on_update="false" label="CAP customer information" sequence="8" value="9"/>
+                <element dependent_value="4" inactive_on_update="false" label="Cancellation evidence" sequence="12" value="13"/>
+                <element dependent_value="4" inactive_on_update="false" label="No response from CAP" sequence="16" value="17"/>
+                <element dependent_value="4" inactive_on_update="false" label="Scope adjustment" sequence="4" value="5"/>
+                <element dependent_value="6" inactive_on_update="false" label="Address change" sequence="26" value="28"/>
+                <element dependent_value="6" inactive_on_update="false" label="Contract termination" sequence="30" value="32"/>
+                <element dependent_value="7" inactive_on_update="false" label="Requirement change" sequence="19" value="20"/>
+            </choice>
+        </element>
+        <element attributes="email=true" label="CAP email" max_length="40" name="cap_email" type="string"/>
+        <element label="Contracted C licence" max_length="40" name="contracted_c_lic" type="string"/>
+        <element label="Information received from CAP" max_length="40" name="info_received_cap" type="glide_date_time"/>
+        <element label="Assignment_group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Telmex supply order" max_length="40" name="telmex_supply_order" type="string"/>
+        <element choice="3" default="1" label="OS status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Terminated" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Pending" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Documentation" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="7"/>
+            </choice>
+        </element>
+        <element label="Quote" max_length="40" name="quote" type="string"/>
+        <element label="Cross streets" max_length="40" name="cross_streets" type="string"/>
+        <element label="District" max_length="40" name="district" type="string"/>
+        <element label="Contract period" max_length="40" name="contract_period" type="integer"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="service"/>
+        </index>
+        <index name="index4">
+            <element name="customer_name"/>
+        </index>
+    </element>
+</database>
