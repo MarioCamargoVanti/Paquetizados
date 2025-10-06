@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=55000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>eeeac6897743011031e3b3c64b5a99bd</copied_from>
+        <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
+        <description>Creación de orden de facturación cuando el estado de la orden de aprovisionamiento sea Instalado</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>create_billing_order</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_ssad6_paquetiz_0_ord_aprovisionamiento","reference_display":"Orden de aprovisionamiento","type":"reference","base_type":"reference","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["supply_ord_id"]},"attributes":{}}]</label_cache>
+        <master_snapshot>915db9f147d832106c0c59f4f16d43d4</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Create billing order</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>d55db9f147d832106c0c59f4f16d43ed</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:52:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af1db5f147d832106c0c59f4f16d43fd</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Create billing order</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name>sys_hub_flow_af1db5f147d832106c0c59f4f16d43fd</sys_update_name>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:48</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=af1db5f147d832106c0c59f4f16d43fd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=af1db5f147d832106c0c59f4f16d43fd"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_ssad6_paquetiz_0_ord_aprovisionamiento">statusCHANGESTO3<item display_value="Installed" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d55db9f147d832106c0c59f4f16d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:48</sys_updated_on>
+        <table>x_ssad6_paquetiz_0_ord_aprovisionamiento</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>af1db5f147d832106c0c59f4f16d43fd</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:48</sys_created_on>
+        <sys_id>5d5db9f147d832106c0c59f4f16d43ed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:48</sys_updated_on>
+        <trigger display_value="">d55db9f147d832106c0c59f4f16d43ed</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT IN5d5db9f147d832106c0c59f4f16d43ed"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=af1db5f147d832106c0c59f4f16d43fd"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT INa71db5f147d832106c0c59f4f16d43fe"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>af1db5f147d832106c0c59f4f16d43fd</id>
+        <name>Create billing order</name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:52:52</sys_created_on>
+        <sys_id>a71db5f147d832106c0c59f4f16d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:52:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a71db5f147d832106c0c59f4f16d43fe"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT IN2b1df5f147d832106c0c59f4f16d4301,631df5f147d832106c0c59f4f16d4312,6b1df5f147d832106c0c59f4f16d4303"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create billing order">af1db5f147d832106c0c59f4f16d43fd</model>
+        <model_id>af1db5f147d832106c0c59f4f16d43fd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_af1db5f147d832106c0c59f4f16d43fd</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:52:52</sys_created_on>
+        <sys_id>2b1df5f147d832106c0c59f4f16d4301</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2b1df5f147d832106c0c59f4f16d4301"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Create billing order">af1db5f147d832106c0c59f4f16d43fd</model>
+        <model_id>af1db5f147d832106c0c59f4f16d43fd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_af1db5f147d832106c0c59f4f16d43fd</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:52:52</sys_created_on>
+        <sys_id>631df5f147d832106c0c59f4f16d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:52:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=631df5f147d832106c0c59f4f16d4312"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create billing order">af1db5f147d832106c0c59f4f16d43fd</model>
+        <model_id>af1db5f147d832106c0c59f4f16d43fd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_af1db5f147d832106c0c59f4f16d43fd</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:52:52</sys_created_on>
+        <sys_id>6b1df5f147d832106c0c59f4f16d4303</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6b1df5f147d832106c0c59f4f16d4303"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=af1db5f147d832106c0c59f4f16d43fd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=af1db5f147d832106c0c59f4f16d43fd"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT IN7f1df5f147d832106c0c59f4f16d432c"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create billing order">af1db5f147d832106c0c59f4f16d43fd</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:52:52</sys_created_on>
+        <sys_id>7f1df5f147d832106c0c59f4f16d432c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:47</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+Va227bOBD9FUJPu0B2IVm2ZadP2Vy2AdqmcNzuQxAIFEnZwsqSS1JK3CJfsw/7If2xHeoWWRdfk22cvjQVr3OGZ84MZd180yT3JhPGLwMhcUDY9UJcUu1Yo8TFOhsMLatr6oahmwYzHZP0u04PD4fY1Y40HzvMh6Fj7PgMnr1AMh5gf7yYM2iWqtkO8Ez1zXBAsQz5QjuWPGJHmsvD2ZjN5j6WMNjFvoDGkFPGtWPjSEumZWvA9Bj7kXq+t4XAtG/P8ZeISe+rrdswx8ZzHsae8EKY5rFAhjCFegIWX3zOZkLLHHNYVaodvmlk6vmUs0A7vrkF0xVkg1JsdJhOTMPsdHS9M+gaTt90jA41McODBsgVM2UD8kdM7F6ygDJawK05hTNMrwJ/UYyYgk9T42f4XnhfYfWBrsa5DGwnGbDi0c5Ap81kGnqEXc0l+CVtSe1MO0M/mgUfUvuVu5iLI1+W3BUJWI/NlcnKiMwi93oa3o3yDS+8IEGXdfohwX7xhCVwy4kkE8rhrueD6+3UNyKMeGL96Pz0anRm/3UyPn17PrJH59fj0eXp+PxMe0hw2V8itWJqYWaLncKBAYJwby5PiPTinEQPR09B6dMwoF7itxqtSd4lyjaVSFA61dxnq7iu6wWNSGnXnPEAQUbi9O3Jhz/BN1fmBjx2nCGmDLfwuG+14GwwQjZALtu9itFZyyaU7ur6DyJ1pkW7cnoWUuaflTmQMs/2gnkklbdyD9nhnHHlGZinfT55lx3om+zvxejq/ZvikGHeHQ6ksGVoY0rtkv/VFoBlXXCkPnkoVPDCYz5NRz5bzPAogM3tghP1yEmOrjjDd54Al92AMuTnkxgD/e67bMlRFKAQyAP/IBJxOB6J8jBzL2d4kp2q+zEPieRYMibHmNv2zBYLYU8jx146G9tx+sMe67eJfW/Jp0kwwtI3mnb7oPjCfEZkiffuJ1F+eu8J4QWTknsLjMnx1SAW6CB+UO7BFKo4LKy3+whgnUJxhRqVrL6KIOtksk+o0XWsvm4pnwC1HdfQLb2HXWrq+tBcSe1Wg2WF688il9uJpUiizN8gpqrezo1XDPa3IWy8zPZsnY5iR6bJpy/QtEpuMbdKLgVD0+azzYn6xIUWprFScLpprnjWQkoFiOuHd6BEOyQEB5O/JzyMAlqVTLUm8gL0OAL9knn+18MSzHJycEPOVuNdHnE4KPdOC48kygMYB4t6Qkgb10l/lxFq9bt9HRTfBLF3esOhQ3DHda2+xXTaSuBGgw5C8tcETNwUcW0a20jGuInDWwj/jzdwL/nP2Ngo/mnfa5f5uykLbADJbV8JeU3tJ75HWd63nxjUtoofb3jbv/cx3QHt9SyLWKCBoAZulznY6HYApdU3WX8dzlWGyQbs/8sNWkm+MqRFKT6lXS/rFdHLpLRgUqpMtn35EsDVIJmDU/NKOV0dKEqkKuToQxj8dvk4Dl0zIdIXMAeU4ct1zCagFQPRq0LthHJaq9sA6R/QvoRUXUxazvxnu+1XIixedmXDbX8Xh64tBwfmsEddszkBWJ3VqtCO5sUXhhuqUNyqZ00F2KZRHjeKRVGQVUu6Hc69wqZsaXNNMfrzOmWvAjgP2dbXH7sY+1MUGEm9uE+VoaxlduiWk89ZiKADwSbIc1FmLaPIWSA5ZXAYPtyRYEOkdj+wrFNOunXkRai9atzpnbJWa0Azysr+AwL2NGVEJY5Wvidq8Ne6KoG4Q4cOzZZrYq/9mtheKlS6X3y9sLWoxE0atTI/brdudc3GDFk642VObFgQvGLUz/bKq8GK15zLFdxxusoOGTwMSOWeTA74F+4o8L5EzCZTHEzSX69zXBdACIbJFKVDUDrkcJFi/w4vhFatPSCYlV5kP/NBAyhHkCr8gQJlMeOL2kmqRhTNqcrPBwVth3Kj9EliZraQHEZOFku6TBq+UciieW15YQx7HZMOwAFDs+4Ao1Vt2u1qrSfWfIy4pp44v2ckkpijE6K+uKTABQGO4wypoMYo+Vzp+7/f/wnhvxADYh4qVUdhhDCcIBaIYjTn3ox5HKOYff39Kd9oEFY/kabc2ypGcZuONWXbdQEfV6WiyL5VU5ajKa5EXjatu/bdxeuHv1fNkodoY9GSee9pC5Vd65Lb/wAuE84LnC0AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT IN985db9f147d832106c0c59f4f16d4375"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create billing order">af1db5f147d832106c0c59f4f16d43fd</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:43</sys_created_on>
+        <sys_id>985db9f147d832106c0c59f4f16d4375</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-02 17:08:45</sys_updated_on>
+        <ui_id>5c16222f-1540-4ce6-95b7-873f31115bc7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VUy27bMBD8FYNnQZCs1Eh8KxL41MZA0/qSBsRKXMUEKIrhw7Fj+Kv6Cf2xLiXZMZIYbYBe4ht3Z5czI45vt0wKNmWTHLNPF/mkKvKiGGfZ+PwsLydFmY9FAYhnLGEaGiSkh1Ih7w4JW4EKsbjmzoGYcAMPAb184hlvreA1VD5YqGSrCSykMwo2i2FmbgXqkcDRAfX7V4RVS6mERc2mt3cJM2DpKo+WTbcvWv9KXEGJiqDfI/MTQvzGvFn7cjw7uu4bJC3yyRKGa49aIBGpQTlMWANagG/thk29DVSwCGKu1eaAWErtaSGL2LWTT3TteRZxNZKyCvve4cgH1/pyfQUebmhzdGyAVstWVuh6TwTWEJS/PK71gLnx8TN0I53MYbpVodHXvSXssGD/kagSHJFAE3VG5oOM+mbZPn7bs5xJ3VkyNFVbgTqcwHsry+Ajny1DhQ0t4g0YI/U9N7ZdyW6YuDTpvaJDWqv2kS518l6n9DqIeEq2Qjqj+lVXXoCVUcVXWkPDu4S5jbtU4NyzFjKRP4TIpFc2aOC9DXGkstL4z3TBCge6u2SfCIHZxcmHlZfPD6kLgTtKgwvGqE2XACl+hiwrxHb7w5ACFDxPq2DJNL/bvc7EOybfGZO/q9nHZCZRCfeGvH1GsCHKHnkv90VOhuZoMTSHrOT/Kyv5JOt+HygxvbgPH5ij/8YT0bn7A2yamRZOBgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=985db9f147d832106c0c59f4f16d4375"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=af1db5f147d832106c0c59f4f16d43fd"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=af1db5f147d832106c0c59f4f16d43fd"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=af1db5f147d832106c0c59f4f16d43fd"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=af1db5f147d832106c0c59f4f16d43fd"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_af1db5f147d832106c0c59f4f16d43fd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:52:52</sys_created_on>
+        <sys_id>2f1df5f147d832106c0c59f4f16d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:52:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_af1db5f147d832106c0c59f4f16d43fd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:52:52</sys_created_on>
+        <sys_id>671df5f147d832106c0c59f4f16d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:52:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_af1db5f147d832106c0c59f4f16d43fd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:52:52</sys_created_on>
+        <sys_id>6f1df5f147d832106c0c59f4f16d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:52:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_af1db5f147d832106c0c59f4f16d43fd"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_af1db5f147d832106c0c59f4f16d43fd"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>eeeac6897743011031e3b3c64b5a99bd</copied_from>
+        <copied_from_name/>
+        <description>Creación de orden de facturación cuando el estado de la orden de aprovisionamiento sea Instalado</description>
+        <flow_priority/>
+        <internal_name>create_billing_order</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_ssad6_paquetiz_0_ord_aprovisionamiento","reference_display":"Orden de aprovisionamiento","type":"reference","base_type":"reference","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["supply_ord_id"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Create billing order</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create billing order">af1db5f147d832106c0c59f4f16d43fd</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>915db9f147d832106c0c59f4f16d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:47</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=915db9f147d832106c0c59f4f16d43d4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=915db9f147d832106c0c59f4f16d43d4"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=915db9f147d832106c0c59f4f16d43d4"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=915db9f147d832106c0c59f4f16d43d4^sys_idNOT IN1d5db9f147d832106c0c59f4f16d43d4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>915db9f147d832106c0c59f4f16d43d4</id>
+        <name>Create billing order</name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:47</sys_created_on>
+        <sys_id>1d5db9f147d832106c0c59f4f16d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:47</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1d5db9f147d832106c0c59f4f16d43d4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=915db9f147d832106c0c59f4f16d43d4^sys_idNOT IN195db9f147d832106c0c59f4f16d43de,d15db9f147d832106c0c59f4f16d43d5,d95db9f147d832106c0c59f4f16d43e3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Create billing order">915db9f147d832106c0c59f4f16d43d4</model>
+        <model_id>915db9f147d832106c0c59f4f16d43d4</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_915db9f147d832106c0c59f4f16d43d4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:47</sys_created_on>
+        <sys_id>195db9f147d832106c0c59f4f16d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=195db9f147d832106c0c59f4f16d43de"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create billing order">915db9f147d832106c0c59f4f16d43d4</model>
+        <model_id>915db9f147d832106c0c59f4f16d43d4</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_915db9f147d832106c0c59f4f16d43d4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:47</sys_created_on>
+        <sys_id>d15db9f147d832106c0c59f4f16d43d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d15db9f147d832106c0c59f4f16d43d5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create billing order">915db9f147d832106c0c59f4f16d43d4</model>
+        <model_id>915db9f147d832106c0c59f4f16d43d4</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_915db9f147d832106c0c59f4f16d43d4</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:47</sys_created_on>
+        <sys_id>d95db9f147d832106c0c59f4f16d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d95db9f147d832106c0c59f4f16d43e3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=915db9f147d832106c0c59f4f16d43d4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=915db9f147d832106c0c59f4f16d43d4"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=915db9f147d832106c0c59f4f16d43d4^sys_idNOT IN915db9f147d832106c0c59f4f16d43ec"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create billing order">915db9f147d832106c0c59f4f16d43d4</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:48</sys_created_on>
+        <sys_id>915db9f147d832106c0c59f4f16d43ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:48</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=915db9f147d832106c0c59f4f16d43d4^sys_idNOT IN5d5db9f147d832106c0c59f4f16d43eb"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create billing order">915db9f147d832106c0c59f4f16d43d4</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:48</sys_created_on>
+        <sys_id>5d5db9f147d832106c0c59f4f16d43eb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:48</sys_updated_on>
+        <ui_id>5c16222f-1540-4ce6-95b7-873f31115bc7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VUy27bMBD8FYNnQZCs1Eh8KxL41MZA0/qSBsRKXMUEKIrhw7Fj+Kv6Cf2xLiXZMZIYbYBe4ht3Z5czI45vt0wKNmWTHLNPF/mkKvKiGGfZ+PwsLydFmY9FAYhnLGEaGiSkh1Ih7w4JW4EKsbjmzoGYcAMPAb184hlvreA1VD5YqGSrCSykMwo2i2FmbgXqkcDRAfX7V4RVS6mERc2mt3cJM2DpKo+WTbcvWv9KXEGJiqDfI/MTQvzGvFn7cjw7uu4bJC3yyRKGa49aIBGpQTlMWANagG/thk29DVSwCGKu1eaAWErtaSGL2LWTT3TteRZxNZKyCvve4cgH1/pyfQUebmhzdGyAVstWVuh6TwTWEJS/PK71gLnx8TN0I53MYbpVodHXvSXssGD/kagSHJFAE3VG5oOM+mbZPn7bs5xJ3VkyNFVbgTqcwHsry+Ajny1DhQ0t4g0YI/U9N7ZdyW6YuDTpvaJDWqv2kS518l6n9DqIeEq2Qjqj+lVXXoCVUcVXWkPDu4S5jbtU4NyzFjKRP4TIpFc2aOC9DXGkstL4z3TBCge6u2SfCIHZxcmHlZfPD6kLgTtKgwvGqE2XACl+hiwrxHb7w5ACFDxPq2DJNL/bvc7EOybfGZO/q9nHZCZRCfeGvH1GsCHKHnkv90VOhuZoMTSHrOT/Kyv5JOt+HygxvbgPH5ij/8YT0bn7A2yamRZOBgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5d5db9f147d832106c0c59f4f16d43eb"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=915db9f147d832106c0c59f4f16d43d4"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=915db9f147d832106c0c59f4f16d43d4"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=915db9f147d832106c0c59f4f16d43d4"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=915db9f147d832106c0c59f4f16d43d4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_915db9f147d832106c0c59f4f16d43d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:48</sys_created_on>
+        <sys_id>195db9f147d832106c0c59f4f16d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_915db9f147d832106c0c59f4f16d43d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:47</sys_created_on>
+        <sys_id>555db9f147d832106c0c59f4f16d43e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_915db9f147d832106c0c59f4f16d43d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:47</sys_created_on>
+        <sys_id>915db9f147d832106c0c59f4f16d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_915db9f147d832106c0c59f4f16d43d4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_915db9f147d832106c0c59f4f16d43d4"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>af1db5f147d832106c0c59f4f16d43fd</sys_id>
+        <latest_snapshot>915db9f147d832106c0c59f4f16d43d4</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch7-08-14-2025_08-22-2025_1958.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT IN915db9f147d832106c0c59f4f16d43ee"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"915db9f147d832106c0c59f4f16d43ee","name":"plan","plan_signature":null}}</plan>
+        <plan_id>af1db5f147d832106c0c59f4f16d43fd</plan_id>
+        <snapshot>6e81cb922bdcf610d9abf0faf291bf89</snapshot>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-30 22:53:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>915db9f147d832106c0c59f4f16d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-09-30 22:53:48</sys_updated_on>
+        <trigger display_value="">d55db9f147d832106c0c59f4f16d43ed</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=af1db5f147d832106c0c59f4f16d43fd"/>
+</record_update>

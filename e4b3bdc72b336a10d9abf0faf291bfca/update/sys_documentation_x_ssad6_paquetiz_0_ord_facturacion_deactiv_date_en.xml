@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="deactiv_date" label="Deactivation date" language="en" table="x_ssad6_paquetiz_0_ord_facturacion">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>deactiv_date</element>
+            <help/>
+            <hint/>
+            <label>Deactivation date</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-29 17:35:52</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Deactivation date</sys_name>
+            <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+            <sys_update_name>sys_documentation_x_ssad6_paquetiz_0_ord_facturacion_deactiv_date_en</sys_update_name>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:35:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

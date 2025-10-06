@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b5cf34a047dc76106c0c59f4f16d432e" sys_domain="global" table="x_ssad6_paquetiz_0_ord_servicio" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 21:12:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5cf34a047dc76106c0c59f4f16d4331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ssad6_paquetiz_0_ord_servicio" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b5cf34a047dc76106c0c59f4f16d432e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">2191f1934733a6106c0c59f4f16d439d</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 21:12:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-06 17:29:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1bc23272b90b210d9abf0faf291bfe9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ssad6_paquetiz_0_ord_servicio" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b5cf34a047dc76106c0c59f4f16d432e</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">f9bc23272b90b210d9abf0faf291bfe6</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-06 17:41:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 21:12:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1cf34a047dc76106c0c59f4f16d4332</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ssad6_paquetiz_0_ord_servicio" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b5cf34a047dc76106c0c59f4f16d432e</sys_ui_form>
+            <sys_ui_section caption="CAP" display_value="CAP" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">7dcff0a047dc76106c0c59f4f16d4325</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-06 17:41:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 21:12:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ecf34a047dc76106c0c59f4f16d4334</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ssad6_paquetiz_0_ord_servicio" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b5cf34a047dc76106c0c59f4f16d432e</sys_ui_form>
+            <sys_ui_section caption="Customer information" display_value="Customer information" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b9cf34a047dc76106c0c59f4f16d432c</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-06 17:41:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 21:12:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86cf34a047dc76106c0c59f4f16d4337</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ssad6_paquetiz_0_ord_servicio" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b5cf34a047dc76106c0c59f4f16d432e</sys_ui_form>
+            <sys_ui_section caption="Telmex information" display_value="Telmex information" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">79cf34a047dc76106c0c59f4f16d432d</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-06 17:41:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_ssad6_paquetiz_0_ord_servicio</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 21:12:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5cf34a047dc76106c0c59f4f16d432e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ssad6_paquetiz_0_ord_servicio</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b5cf34a047dc76106c0c59f4f16d432e</sys_update_name>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 21:12:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

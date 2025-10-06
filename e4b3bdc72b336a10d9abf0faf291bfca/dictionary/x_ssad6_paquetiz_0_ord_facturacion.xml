@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="e3080da847dc76106c0c59f4f16d43c4" label="Orden de facturación" max_length="40" name="x_ssad6_paquetiz_0_ord_facturacion" type="collection">
+        <element label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
+        <element label="Additional comments" max_length="40" name="comments" type="journal_input"/>
+        <element choice="1" label="Validation frequency" max_length="40" name="validation_frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monthly" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Bimonthly" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Semiannual" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Deactivation folio" max_length="40" name="deactiv_folio" type="string"/>
+        <element label="CRS reception date" max_length="40" name="crs_recep_date" type="glide_date_time"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Billing end" max_length="40" name="billing_end" type="glide_date_time"/>
+        <element label="Reconciliation date" max_length="40" name="reconciliation_date" type="glide_date_time"/>
+        <element choice="1" dependent="status" dependent_on_field="status" label="Status reason" max_length="40" name="status_reason" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="7" inactive_on_update="false" label="Mode change" sequence="1" value="2"/>
+                <element dependent_value="6" inactive_on_update="false" label="Link termination" sequence="11" value="12"/>
+                <element dependent_value="7" inactive_on_update="false" label="FCS duplication" sequence="5" value="6"/>
+                <element dependent_value="6" inactive_on_update="false" label="Customer service" sequence="10" value="11"/>
+                <element dependent_value="6" inactive_on_update="false" label="Mode change" sequence="15" value="16"/>
+                <element dependent_value="7" inactive_on_update="false" label="Revocation" sequence="9" value="10"/>
+                <element dependent_value="6" inactive_on_update="false" label="Out of scope" sequence="12" value="13"/>
+                <element dependent_value="7" inactive_on_update="false" label="Out of scope SPA" sequence="6" value="7"/>
+                <element dependent_value="7" inactive_on_update="false" label="Service change" sequence="2" value="3"/>
+                <element dependent_value="7" inactive_on_update="false" label="Link change" sequence="3" value="4"/>
+                <element dependent_value="6" inactive_on_update="false" label="Customer budget" sequence="13" value="14"/>
+                <element dependent_value="7" inactive_on_update="false" label="Other" sequence="7" value="8"/>
+                <element dependent_value="6" inactive_on_update="false" label="Contract termination" sequence="14" value="15"/>
+                <element dependent_value="7" inactive_on_update="false" label="Renewal" sequence="8" value="9"/>
+                <element dependent_value="7" inactive_on_update="false" label="Address change" sequence="0" value="1"/>
+                <element dependent_value="7" inactive_on_update="false" label="Penalty terms" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Elapsed months" max_length="40" name="elapsed_months" type="integer"/>
+        <element label="Telmex activation date" max_length="40" name="telmex_activ_date" type="glide_date_time"/>
+        <element label="Payment start 84" max_length="40" name="payment_start_84" type="glide_date_time"/>
+        <element label="Reception form 84 date" max_length="40" name="recep_form_84_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="ID orden aprovisionamiento" max_length="32" name="supply_ord_id" reference="x_ssad6_paquetiz_0_ord_aprovisionamiento" type="reference"/>
+        <element label="Telmex deactivation date" max_length="40" name="telmex_deactiv_date" type="glide_date_time"/>
+        <element label="Price" max_length="40" name="price" type="currency"/>
+        <element label="Form 84 code" max_length="40" name="form_84_cod" type="string"/>
+        <element label="CRS send date" max_length="40" name="crs_send_date" type="glide_date_time"/>
+        <element label="Documents reception" max_length="255" name="docs_reception" type="glide_date_time"/>
+        <element choice="3" default="1" label="OF status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Validated" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Pending" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Invoiced" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Installed" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="ADT reconciliation" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Terminated" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Implementation documents" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="IDC reconciliation" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Deactivation date" max_length="40" name="deactiv_date" type="glide_date_time"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Installation date" max_length="40" name="installation_date" type="glide_date_time"/>
+        <element label="Payment end 84" max_length="40" name="payment_end_84" type="glide_date_time"/>
+        <element label="Scitum seller" max_length="32" name="scitum_seller" reference="sys_user" type="reference"/>
+        <element label="Component R ID" max_length="40" name="component_r_id" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="supply_ord_id"/>
+        </index>
+        <index name="index3">
+            <element name="scitum_seller"/>
+        </index>
+        <index name="index4">
+            <element name="assignment_group"/>
+        </index>
+    </element>
+</database>

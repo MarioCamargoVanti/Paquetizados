@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Filter choices OA status</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   var status = g_form.getValue('status');
+   switch(status){
+		case '1': //New
+			g_form.removeOption('status','2');
+			g_form.removeOption('status','3');
+			g_form.removeOption('status','4');
+			g_form.removeOption('status','5');
+			g_form.removeOption('status','8');
+			break;
+		case '2': //In progress
+			g_form.removeOption('status','1');
+			g_form.removeOption('status','3');
+			g_form.removeOption('status','5');
+			g_form.removeOption('status','6');
+			g_form.removeOption('status','7');
+			g_form.removeOption('status','8');
+			break;
+		case '3': //Installed
+			g_form.removeOption('status','1');
+			g_form.removeOption('status','2');
+			g_form.removeOption('status','5');
+			g_form.removeOption('status','6');
+			break;
+		case '4': //Pending
+			g_form.removeOption('status','1');
+			g_form.removeOption('status','3');
+			g_form.removeOption('status','6');
+			g_form.removeOption('status','7');
+			g_form.removeOption('status','8');
+			break;
+		case '5': //Received
+			g_form.removeOption('status','1');
+			g_form.removeOption('status','2');
+			g_form.removeOption('status','3');
+			g_form.removeOption('status','4');
+			g_form.removeOption('status','8');
+			break;
+		case '6': //Assigned
+			g_form.removeOption('status','1');
+			g_form.removeOption('status','2');
+			g_form.removeOption('status','4');
+			g_form.removeOption('status','5');
+			g_form.removeOption('status','7');
+			g_form.removeOption('status','8');
+			break;
+		case '8': //Validated
+			g_form.removeOption('status','1');
+			g_form.removeOption('status','2');
+			g_form.removeOption('status','3');
+			g_form.removeOption('status','4');
+			g_form.removeOption('status','5');
+			g_form.removeOption('status','6');
+			break;
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-09-26 22:29:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72bf49a04710b6106c0c59f4f16d43f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Filter choices OA status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name>sys_script_client_72bf49a04710b6106c0c59f4f16d43f5</sys_update_name>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-02 17:11:53</sys_updated_on>
+        <table>x_ssad6_paquetiz_0_ord_aprovisionamiento</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

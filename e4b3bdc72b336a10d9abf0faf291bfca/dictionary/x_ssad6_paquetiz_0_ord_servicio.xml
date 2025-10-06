@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="0991f1174733a6106c0c59f4f16d4366" label="Orden de Servicio" max_length="40" name="x_ssad6_paquetiz_0_ord_servicio" type="collection">
+    <element audit="true" db_object_id="0991f1174733a6106c0c59f4f16d4366" label="Orden de Servicio" max_length="40" name="x_ssad6_paquetiz_0_ord_servicio" type="collection">
         <element label="Equipment delivery" max_length="40" name="equip_delivery" type="glide_date_time"/>
         <element label="Folio number" max_length="40" name="folio_number" type="string"/>
         <element label="Company name" max_length="40" name="company_name" type="string"/>
-        <element label="Previous location" max_length="40" name="previous_location" type="string"/>
-        <element label="Country" max_length="40" name="country" type="string"/>
         <element label="Contract code" max_length="40" name="contract_code" type="string"/>
         <element label="Implementations IO" max_length="40" name="implementation_io" type="string"/>
         <element label="Assignment date" max_length="40" name="assignment_date" type="glide_date_time"/>
-        <element label="Municipality" max_length="40" name="municipality" type="string"/>
-        <element label="State" max_length="40" name="state" type="string"/>
         <element choice="1" label="Link type" max_length="40" name="link_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="MPLS" sequence="0" value="1"/>
@@ -20,7 +16,7 @@
             </choice>
         </element>
         <element label="Previous proyect" max_length="40" name="previous_proyect" type="integer"/>
-        <element label="Site name" max_length="40" name="site_name" type="string"/>
+        <element label="Site name" max_length="40" name="site_name" reference="cmn_location" type="reference"/>
         <element label="Site ID" max_length="40" name="site_id" type="string"/>
         <element label="Unique customer code" max_length="40" name="unique_customer_cod" type="string"/>
         <element label="Link folio" max_length="40" name="link_folio" type="string"/>
@@ -28,13 +24,22 @@
         <element label="CAP name" max_length="40" name="cap_name" type="string"/>
         <element label="Rental code" max_length="40" name="rental_code" type="string"/>
         <element label="OC placement" max_length="40" name="oc_placement" type="glide_date"/>
-        <element label="Service" max_length="32" name="service" reference="cmdb_ci" type="reference"/>
+        <element choice="1" label="Service" mandatory="true" max_length="32" name="service" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SSE" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SPAC" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="SPAD" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="SPAL" sequence="2" value="3"/>
+            </choice>
+        </element>
         <element label="QO" max_length="40" name="qo" type="string"/>
         <element label="Link delivery" max_length="40" name="link_delivery" type="glide_date_time"/>
+        <element label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
         <element label="Assigned_to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element choice="1" label="IOM movement type" max_length="40" name="iom_move_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Activation" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Baja" language="es" sequence="5" value="6"/>
                 <element inactive_on_update="false" label="Service plan change" sequence="4" value="5"/>
                 <element inactive_on_update="false" label="Upgrade" sequence="3" value="4"/>
                 <element inactive_on_update="false" label="Address change" sequence="2" value="3"/>
@@ -65,7 +70,6 @@
         <element label="Equipment model" max_length="40" name="equip_model" type="string"/>
         <element label="Estimated equipment delivery" max_length="40" name="estim_equip_delivery" type="glide_date"/>
         <element label="RFC" max_length="40" name="rfc" type="string"/>
-        <element label="Floor" max_length="40" name="floor" type="string"/>
         <element label="Information request to CAP" max_length="40" name="info_request_cap" type="glide_date_time"/>
         <element choice="1" label="Telmex sector" max_length="40" name="telmex_sector" type="choice">
             <choice>
@@ -77,7 +81,7 @@
         </element>
         <element label="Component C ID" max_length="40" name="component_c_id" type="string"/>
         <element label="Cancellation date" max_length="40" name="cancel_date" type="glide_date_time"/>
-        <element label="Customer name" max_length="32" name="customer_name" reference="core_company" type="reference"/>
+        <element label="Customer name" max_length="32" name="customer_name" reference="customer_account" type="reference"/>
         <element label="CAP phone" max_length="40" name="cap_phone" type="phone_number_e164"/>
         <element label="Telmex installation case" max_length="40" name="telmex_insta_case" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
@@ -97,7 +101,6 @@
                 <element inactive_on_update="false" label="QUANTI" sequence="7" value="8"/>
             </choice>
         </element>
-        <element label="CP" max_length="40" name="cp" type="string"/>
         <element choice="1" label="Service type" max_length="40" name="service_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="EPDR" sequence="2" value="3"/>
@@ -120,8 +123,6 @@
         <element label="Corporate code" max_length="40" name="corporate_cod" type="string"/>
         <element label="Component ID" max_length="40" name="component_id" type="string"/>
         <element label="Cancellation folio" max_length="40" name="cancel_folio" type="string"/>
-        <element label="City" max_length="40" name="city" type="string"/>
-        <element label="Street" max_length="40" name="street" type="string"/>
         <element label="Estimated link delivery" max_length="40" name="estim_link_delivery" type="glide_date"/>
         <element choice="1" label="Div name" max_length="40" name="div_name" type="choice">
             <choice>
@@ -201,10 +202,11 @@
                 <element dependent_value="7" inactive_on_update="false" label="Requirement change" sequence="19" value="20"/>
             </choice>
         </element>
+        <element label="Additional comments" max_length="40" name="comments" type="journal_input"/>
         <element attributes="email=true" label="CAP email" max_length="40" name="cap_email" type="string"/>
         <element label="Contracted C licence" max_length="40" name="contracted_c_lic" type="string"/>
         <element label="Information received from CAP" max_length="40" name="info_received_cap" type="glide_date_time"/>
-        <element label="Assignment_group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element label="Telmex supply order" max_length="40" name="telmex_supply_order" type="string"/>
         <element choice="3" default="1" label="OS status" max_length="40" name="status" type="choice">
             <choice>
@@ -217,9 +219,8 @@
                 <element inactive_on_update="false" label="Cancelled" sequence="6" value="7"/>
             </choice>
         </element>
-        <element label="Quote" max_length="40" name="quote" type="string"/>
-        <element label="Cross streets" max_length="40" name="cross_streets" type="string"/>
-        <element label="District" max_length="40" name="district" type="string"/>
+        <element label="Proyect ID" max_length="40" name="proyect_id" type="string"/>
+        <element label="Quote" mandatory="true" max_length="40" name="quote" type="string"/>
         <element label="Contract period" max_length="40" name="contract_period" type="integer"/>
         <index name="index">
             <element name="assigned_to"/>

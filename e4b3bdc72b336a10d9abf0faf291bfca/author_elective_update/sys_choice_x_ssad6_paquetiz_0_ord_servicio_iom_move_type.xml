@@ -115,6 +115,25 @@
             <element>iom_move_type</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Baja</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_servicio</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-25 18:51:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-25 18:51:51</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>iom_move_type</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Deactivation</label>
             <language>en</language>
             <name>x_ssad6_paquetiz_0_ord_servicio</name>
