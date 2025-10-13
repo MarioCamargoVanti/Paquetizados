@@ -4,29 +4,57 @@
             <element>service_ord_id.telmex_supply_order</element>
             <position>0</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-09-30 21:33:27</sys_created_on>
-            <sys_id>a0fa2d71479832106c0c59f4f16d43e5</sys_id>
+            <sys_created_on>2025-10-13 16:31:43</sys_created_on>
+            <sys_id>13822fbd2b64f210d9abf0faf291bffd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Telmex information" display_value="Telmex information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">d8fa2d71479832106c0c59f4f16d43b4</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-09-30 21:33:27</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:31:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_ord_id.telmex_insta_resp_onsite</element>
+            <position>1</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 16:31:43</sys_created_on>
+            <sys_id>57822fbd2b64f210d9abf0faf291bffd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telmex information" display_value="Telmex information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">d8fa2d71479832106c0c59f4f16d43b4</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 16:31:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-09-30 21:33:27</sys_created_on>
-            <sys_id>e4fa2d71479832106c0c59f4f16d43e5</sys_id>
+            <sys_created_on>2025-10-13 16:31:43</sys_created_on>
+            <sys_id>5b822fbd2b64f210d9abf0faf291bffd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Telmex information" display_value="Telmex information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">d8fa2d71479832106c0c59f4f16d43b4</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-09-30 21:33:27</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:31:43</sys_updated_on>
             <sys_user/>
             <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_ord_id.rental_code</element>
+            <position>3</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 16:31:43</sys_created_on>
+            <sys_id>5f822fbd2b64f210d9abf0faf291bffd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telmex information" display_value="Telmex information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">d8fa2d71479832106c0c59f4f16d43b4</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 16:31:43</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Telmex information</caption>

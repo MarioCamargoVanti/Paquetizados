@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1ea918c94724b6106c0c59f4f16d4388" label="Código de renta" max_length="40" name="x_ssad6_paquetiz_0_rental_code" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Service" mandatory="true" max_length="40" name="service" type="string"/>
+        <element attributes="omit_sys_original=true" label="Price" mandatory="true" max_length="20" name="price" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="SKU" mandatory="true" max_length="40" name="sku" type="string"/>
+    </element>
+</database>

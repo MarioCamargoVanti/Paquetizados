@@ -4,13 +4,13 @@
             <element>package_type</element>
             <position>0</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-09-30 22:35:19</sys_created_on>
-            <sys_id>6e19fdbd479832106c0c59f4f16d4372</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>409123bd2b64f210d9abf0faf291bf6e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer information" display_value="Customer information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">1cfa2d71479832106c0c59f4f16d43b3</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-09-30 22:35:19</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>service_ord_id.link_folio</element>
             <position>1</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-09-30 22:35:19</sys_created_on>
-            <sys_id>a219fdbd479832106c0c59f4f16d4373</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>849123bd2b64f210d9abf0faf291bf6e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer information" display_value="Customer information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">1cfa2d71479832106c0c59f4f16d43b3</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-09-30 22:35:19</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>service_ord_id.site_name</element>
             <position>2</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-09-30 22:35:19</sys_created_on>
-            <sys_id>e619fdbd479832106c0c59f4f16d4373</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>889123bd2b64f210d9abf0faf291bf6e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer information" display_value="Customer information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">1cfa2d71479832106c0c59f4f16d43b3</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-09-30 22:35:19</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,69 +46,69 @@
             <element>service_ord_id.customer_name</element>
             <position>3</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-09-30 22:35:19</sys_created_on>
-            <sys_id>2e19fdbd479832106c0c59f4f16d4373</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>8c9123bd2b64f210d9abf0faf291bf6e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer information" display_value="Customer information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">1cfa2d71479832106c0c59f4f16d43b3</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-09-30 22:35:19</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_ord_id.support_company</element>
+            <position>4</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>809123bd2b64f210d9abf0faf291bf6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer information" display_value="Customer information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">1cfa2d71479832106c0c59f4f16d43b3</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-09-30 22:35:19</sys_created_on>
-            <sys_id>6219fdbd479832106c0c59f4f16d4374</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>849123bd2b64f210d9abf0faf291bf6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer information" display_value="Customer information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">1cfa2d71479832106c0c59f4f16d43b3</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-09-30 22:35:19</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>service_type</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-09-30 22:35:19</sys_created_on>
-            <sys_id>a619fdbd479832106c0c59f4f16d4374</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>889123bd2b64f210d9abf0faf291bf6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer information" display_value="Customer information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">1cfa2d71479832106c0c59f4f16d43b3</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-09-30 22:35:19</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>contract_expira_date</element>
-            <position>6</position>
-            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-09-30 22:35:19</sys_created_on>
-            <sys_id>ea19fdbd479832106c0c59f4f16d4374</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Customer information" display_value="Customer information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">1cfa2d71479832106c0c59f4f16d43b3</sys_ui_section>
-            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-09-30 22:35:19</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>service_ord_id.company_acronym</element>
             <position>7</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-09-30 22:35:19</sys_created_on>
-            <sys_id>2219fdbd479832106c0c59f4f16d4375</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>8c9123bd2b64f210d9abf0faf291bf6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer information" display_value="Customer information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">1cfa2d71479832106c0c59f4f16d43b3</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-09-30 22:35:19</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,27 +116,27 @@
             <element>service_ord_id.site_id</element>
             <position>8</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-09-30 22:35:19</sys_created_on>
-            <sys_id>2e19fdbd479832106c0c59f4f16d4381</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>809123bd2b64f210d9abf0faf291bf70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer information" display_value="Customer information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">1cfa2d71479832106c0c59f4f16d43b3</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-09-30 22:35:19</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>service_ord_id.support_company</element>
+            <element>service_ord_id.company_acronym</element>
             <position>9</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-09-30 22:35:19</sys_created_on>
-            <sys_id>6219fdbd479832106c0c59f4f16d4382</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>849123bd2b64f210d9abf0faf291bf70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Customer information" display_value="Customer information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">1cfa2d71479832106c0c59f4f16d43b3</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-09-30 22:35:19</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

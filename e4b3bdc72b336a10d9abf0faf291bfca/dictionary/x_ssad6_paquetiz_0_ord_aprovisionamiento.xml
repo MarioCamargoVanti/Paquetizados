@@ -9,24 +9,36 @@
         <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Reception date" max_length="40" name="reception_date" type="glide_date_time"/>
-        <element label="Equipment model" max_length="40" name="equip_model" type="string"/>
         <element label="Technical report" max_length="40" name="technical_report" type="file_attachment"/>
         <element label="Contract expiration date" max_length="40" name="contract_expira_date" type="glide_date_time"/>
-        <element label="Responsible" max_length="40" name="responsible" type="string"/>
         <element label="Software" max_length="40" name="software" type="string"/>
         <element choice="1" label="Connection type" max_length="40" name="connection_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="IP address" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="DHCP" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="PPPoE" language="pt" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="PPPoE" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="PPPoE" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="DHCP" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Direcciones IP" language="es" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="DHCP" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Endereços IP" language="pt" sequence="0" value="1"/>
             </choice>
         </element>
         <element choice="1" label="Service type" max_length="40" name="service_type" type="choice">
             <choice>
+                <element inactive_on_update="false" label="RMA" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Instalación" language="es" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Installation" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Maintenance" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Mantenimiento" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Renovação técnica" language="pt" sequence="3" value="4"/>
                 <element inactive_on_update="false" label="RMA" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Tech Renewal" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Renovación tec." language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="RMA" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Manutenção" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Instalação" language="pt" sequence="0" value="1"/>
             </choice>
         </element>
         <element label="Primary DNS" max_length="40" name="primary_dns" type="string"/>
@@ -36,42 +48,91 @@
         <element label="Work order" max_length="40" name="work_order" type="file_attachment"/>
         <element choice="3" default="1" label="OA status" max_length="40" name="status" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Recebido" language="pt" sequence="4" value="5"/>
                 <element inactive_on_update="false" label="New" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Validated" sequence="7" value="8"/>
                 <element inactive_on_update="false" label="Pending" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Instalado" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="En curso" language="es" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Cancelled" sequence="6" value="7"/>
                 <element inactive_on_update="false" label="Installed" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Cancelado" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Validado" language="pt" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Em andamento" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Cancelado" language="es" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Nuevo" language="es" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Assigned" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Atribuído" language="pt" sequence="5" value="6"/>
                 <element inactive_on_update="false" label="In progress" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Pendiente" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Validado" language="es" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Pendente" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Asignado" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Recibido" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Novo" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Instalado" language="es" sequence="2" value="3"/>
                 <element inactive_on_update="false" label="Received" sequence="4" value="5"/>
             </choice>
         </element>
         <element choice="1" dependent="status" dependent_on_field="status" label="Status reason" max_length="40" name="status_reason" type="choice" use_dependent_field="true">
             <choice>
+                <element dependent_value="4" inactive_on_update="false" label="Cliente" language="pt" sequence="0" value="1"/>
+                <element dependent_value="7" inactive_on_update="false" label="Scitum" language="es" sequence="8" value="9"/>
                 <element dependent_value="7" inactive_on_update="false" label="Red uno" sequence="6" value="7"/>
                 <element dependent_value="4" inactive_on_update="false" label="Customer" sequence="0" value="1"/>
+                <element dependent_value="7" inactive_on_update="false" label="Red uno" language="pt" sequence="6" value="7"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cliente" language="es" sequence="9" value="10"/>
+                <element dependent_value="7" inactive_on_update="false" label="Multivendor" language="es" sequence="5" value="6"/>
+                <element dependent_value="7" inactive_on_update="false" label="Red uno" language="es" sequence="6" value="7"/>
+                <element dependent_value="7" inactive_on_update="false" label="Renovación tec." language="es" sequence="7" value="8"/>
+                <element dependent_value="4" inactive_on_update="false" label="Manutenção" language="pt" sequence="2" value="3"/>
+                <element dependent_value="4" inactive_on_update="false" label="Mantenimiento" language="es" sequence="2" value="3"/>
+                <element dependent_value="7" inactive_on_update="false" label="Scitum" language="pt" sequence="8" value="9"/>
                 <element dependent_value="7" inactive_on_update="false" label="Customer" sequence="9" value="10"/>
                 <element dependent_value="4" inactive_on_update="false" label="RMA" sequence="3" value="4"/>
                 <element dependent_value="7" inactive_on_update="false" label="Multivendor" sequence="5" value="6"/>
+                <element dependent_value="7" inactive_on_update="false" label="Implementação" language="pt" sequence="4" value="5"/>
+                <element dependent_value="4" inactive_on_update="false" label="RMA" language="es" sequence="3" value="4"/>
+                <element dependent_value="7" inactive_on_update="false" label="Multivendor" language="pt" sequence="5" value="6"/>
+                <element dependent_value="4" inactive_on_update="false" label="Cliente" language="es" sequence="0" value="1"/>
                 <element dependent_value="7" inactive_on_update="false" label="Scitum" sequence="8" value="9"/>
                 <element dependent_value="4" inactive_on_update="false" label="Maintenance" sequence="2" value="3"/>
                 <element dependent_value="7" inactive_on_update="false" label="Implementation" sequence="4" value="5"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cliente" language="pt" sequence="9" value="10"/>
+                <element dependent_value="4" inactive_on_update="false" label="Instalação" language="pt" sequence="1" value="2"/>
+                <element dependent_value="4" inactive_on_update="false" label="Instalación" language="es" sequence="1" value="2"/>
+                <element dependent_value="7" inactive_on_update="false" label="Implementación" language="es" sequence="4" value="5"/>
+                <element dependent_value="4" inactive_on_update="false" label="RMA" language="pt" sequence="3" value="4"/>
+                <element dependent_value="7" inactive_on_update="false" label="Renovação técnica" language="pt" sequence="7" value="8"/>
                 <element dependent_value="7" inactive_on_update="false" label="Tech Renewal" sequence="7" value="8"/>
                 <element dependent_value="4" inactive_on_update="false" label="Installation" sequence="1" value="2"/>
             </choice>
         </element>
-        <element label="ID orden de servicio" max_length="32" name="service_ord_id" reference="x_ssad6_paquetiz_0_ord_servicio" type="reference"/>
+        <element label="Service order ID" max_length="32" name="service_ord_id" reference="x_ssad6_paquetiz_0_ord_servicio" type="reference"/>
         <element label="Secondary DNS" max_length="40" name="secondary_dns" type="string"/>
+        <element label="Bandwidth" max_length="40" name="bandwidth" type="string"/>
         <element choice="1" label="License type" max_length="40" name="lic_type" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Enterprice" language="pt" sequence="2" value="3"/>
                 <element inactive_on_update="false" label="Basic" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="UTM" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Enterprice" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Básica" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Básica" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="UTM" language="pt" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Enterprice" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="UTM" language="es" sequence="0" value="1"/>
             </choice>
         </element>
         <element label="Configuration questionnaire" max_length="40" name="config_quest" type="file_attachment"/>
         <element choice="1" label="Package type" max_length="40" name="package_type" type="choice">
             <choice>
+                <element inactive_on_update="false" label="CPES" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="AVN" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="EPDR" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="SSEG" language="pt" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="SSE-" language="es" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="SASE" language="es" sequence="6" value="7"/>
                 <element inactive_on_update="false" label="SPAC" sequence="7" value="8"/>
                 <element inactive_on_update="false" label="GIA-" sequence="5" value="6"/>
                 <element inactive_on_update="false" label="TS--" sequence="13" value="14"/>
@@ -79,21 +140,48 @@
                 <element inactive_on_update="false" label="SSEG" sequence="11" value="12"/>
                 <element inactive_on_update="false" label="CPES" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="SPAL" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="GIA-" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="SPAL" language="es" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="TS--" language="es" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="SPAL" language="pt" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="SPAC" language="pt" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="SUR-" language="pt" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="EPDR" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="SASE" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="TSL-" language="pt" sequence="14" value="15"/>
+                <element inactive_on_update="false" label="SSEG" language="es" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="GIA-" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="TSL-" language="es" sequence="14" value="15"/>
+                <element inactive_on_update="false" label="AVN" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="SPAD" language="es" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="SPAD" language="pt" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="FLXP" language="pt" sequence="4" value="5"/>
                 <element inactive_on_update="false" label="AVN" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="EPDR" sequence="2" value="3"/>
                 <element inactive_on_update="false" label="SSE-" sequence="10" value="11"/>
                 <element inactive_on_update="false" label="SPAD" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="FLXP" language="es" sequence="4" value="5"/>
                 <element inactive_on_update="false" label="SASE" sequence="6" value="7"/>
                 <element inactive_on_update="false" label="TSL-" sequence="14" value="15"/>
                 <element inactive_on_update="false" label="FLXP" sequence="4" value="5"/>
                 <element inactive_on_update="false" label="SUR-" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="SSE-" language="pt" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="TS--" language="pt" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="SUR-" language="es" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="FCE-" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CPES" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="FCE-" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SPAC" language="es" sequence="7" value="8"/>
             </choice>
         </element>
         <element label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
-        <element label="Equipment brand" max_length="40" name="equip_brand" type="string"/>
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element choice="1" label="SDWAM configuration" max_length="40" name="sdwam_config" type="choice">
             <choice>
+                <element inactive_on_update="false" label="No habilitado" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Habilitado" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Habilitado" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Não habilitado" language="pt" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Disabled" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Enabled" sequence="0" value="1"/>
             </choice>

@@ -4,55 +4,55 @@
             <element>connection_type</element>
             <position>0</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>644e1c332b54b210d9abf0faf291bf5c</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>f781ef7d2b64f210d9abf0faf291bfe9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>equip_brand</element>
-            <position>1</position>
-            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>ec4e1c332b54b210d9abf0faf291bf5c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
-            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>primary_dns</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>244e1c332b54b210d9abf0faf291bf5d</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>3f81ef7d2b64f210d9abf0faf291bfe9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>local_ip</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>684e1c332b54b210d9abf0faf291bf5d</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>3381ef7d2b64f210d9abf0faf291bfea</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lic_type</element>
+            <position>3</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>3781ef7d2b64f210d9abf0faf291bfea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,139 +60,125 @@
             <element>sdwam_config</element>
             <position>4</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>ac4e1c332b54b210d9abf0faf291bf5d</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>3b81ef7d2b64f210d9abf0faf291bfea</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>real_insta_date</element>
-            <position>5</position>
-            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>e04e1c332b54b210d9abf0faf291bf5e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
-            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>software</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>284e1c332b54b210d9abf0faf291bf5e</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>7f81ef7d2b64f210d9abf0faf291bfea</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>6c4e1c332b54b210d9abf0faf291bf5e</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>7381ef7d2b64f210d9abf0faf291bfeb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cpe_ip</element>
-            <position>8</position>
+            <element>bandwidth</element>
+            <position>7</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>ac4e1c332b54b210d9abf0faf291bf90</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>7781ef7d2b64f210d9abf0faf291bfeb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>equip_model</element>
-            <position>9</position>
-            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>e04e1c332b54b210d9abf0faf291bf91</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
-            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>secondary_dns</element>
-            <position>10</position>
+            <position>8</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>284e1c332b54b210d9abf0faf291bf91</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>7b81ef7d2b64f210d9abf0faf291bfeb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cpe_ip</element>
+            <position>9</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>7f81ef7d2b64f210d9abf0faf291bfeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>lic_number</element>
-            <position>11</position>
+            <position>10</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>6c4e1c332b54b210d9abf0faf291bf91</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>7381ef7d2b64f210d9abf0faf291bfec</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>lic_type</element>
-            <position>12</position>
-            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>a04e1c332b54b210d9abf0faf291bf92</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
-            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reception_date</element>
-            <position>13</position>
+            <position>11</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-06 21:06:16</sys_created_on>
-            <sys_id>e44e1c332b54b210d9abf0faf291bf92</sys_id>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>7781ef7d2b64f210d9abf0faf291bfec</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-06 21:06:16</sys_updated_on>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>real_insta_date</element>
+            <position>12</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 16:27:23</sys_created_on>
+            <sys_id>7b81ef7d2b64f210d9abf0faf291bfec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CI information" display_value="CI information" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">9cfae971479832106c0c59f4f16d43d2</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 16:27:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

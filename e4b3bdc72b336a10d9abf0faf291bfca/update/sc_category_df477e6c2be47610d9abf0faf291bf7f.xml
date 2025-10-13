@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Category for service order creation</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-09 16:10:54</sys_created_on>
+        <sys_id>df477e6c2be47610d9abf0faf291bf7f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Empacotado</sys_name>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name>sc_category_df477e6c2be47610d9abf0faf291bf7f</sys_update_name>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:15:12</sys_updated_on>
+        <title>Packaged</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=df477e6c2be47610d9abf0faf291bf7f"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>df477e6c2be47610d9abf0faf291bf7f</documentkey>
+        <fieldname>description</fieldname>
+        <language>es</language>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-10 16:12:54</sys_created_on>
+        <sys_id>ae71c44547e0b6106c0c59f4f16d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:12:54</sys_updated_on>
+        <tablename>sc_category</tablename>
+        <value>Categoria para creación de ordenes de servicio</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>df477e6c2be47610d9abf0faf291bf7f</documentkey>
+        <fieldname>description</fieldname>
+        <language>pt</language>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-10 16:13:51</sys_created_on>
+        <sys_id>94b1c44547e0b6106c0c59f4f16d43d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:15:12</sys_updated_on>
+        <tablename>sc_category</tablename>
+        <value>Categoria para criação de ordens de serviço</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>df477e6c2be47610d9abf0faf291bf7f</documentkey>
+        <fieldname>title</fieldname>
+        <language>es</language>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-10 16:12:54</sys_created_on>
+        <sys_id>2e71c44547e0b6106c0c59f4f16d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:12:54</sys_updated_on>
+        <tablename>sc_category</tablename>
+        <value>Paquetizados</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>df477e6c2be47610d9abf0faf291bf7f</documentkey>
+        <fieldname>title</fieldname>
+        <language>pt</language>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-10 16:13:51</sys_created_on>
+        <sys_id>98b1c44547e0b6106c0c59f4f16d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:13:51</sys_updated_on>
+        <tablename>sc_category</tablename>
+        <value>Empacotado</value>
+    </sys_translated_text>
+</record_update>
