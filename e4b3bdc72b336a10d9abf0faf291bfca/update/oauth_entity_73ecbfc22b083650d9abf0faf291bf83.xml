@@ -11,7 +11,7 @@
         <client_type>integration_as_a_user</client_type>
         <client_uuid>33ecbfc22b083650d9abf0faf291bf83</client_uuid>
         <code_challenge_method>S256</code_challenge_method>
-        <comments/>
+        <comments>OAUTH para integración IOM con Paquetizados</comments>
         <default_grant_type>password</default_grant_type>
         <enable_zta>false</enable_zta>
         <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
@@ -38,14 +38,14 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-19 16:40:07</sys_created_on>
         <sys_id>73ecbfc22b083650d9abf0faf291bf83</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Integration IOM</sys_name>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>oauth_entity_73ecbfc22b083650d9abf0faf291bf83</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-19 17:20:40</sys_updated_on>
+        <sys_updated_on>2025-10-22 23:37:27</sys_updated_on>
         <token_format>opaque</token_format>
         <token_url/>
         <type>client</type>

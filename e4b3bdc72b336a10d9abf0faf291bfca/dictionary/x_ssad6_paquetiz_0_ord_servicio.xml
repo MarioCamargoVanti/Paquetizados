@@ -53,7 +53,7 @@
         <element label="QO" max_length="40" name="qo" type="string"/>
         <element label="Link delivery" max_length="40" name="link_delivery" type="glide_date_time"/>
         <element label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
-        <element label="Assigned_to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element default="cc0cfb132bfbaa10d9abf0faf291bf95" dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
         <element choice="1" label="IOM movement type" max_length="40" name="iom_move_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Incremento" language="es" sequence="3" value="4"/>
@@ -450,7 +450,7 @@
         <element attributes="email=true" label="CAP email" max_length="40" name="cap_email" type="string"/>
         <element label="Contracted C licence" max_length="40" name="contracted_c_lic" type="string"/>
         <element label="Information received from CAP" max_length="40" name="info_received_cap" type="glide_date_time"/>
-        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element default="14c889db47a0be106c0c59f4f16d43f7" label="Assignment group" max_length="32" name="assignment_group" read_only="true" reference="sys_user_group" reference_qual="active=true^descriptionLIKEpaquetizados^EQ" reference_qual_condition="active=true^descriptionLIKEpaquetizados^EQ" type="reference"/>
         <element label="Telmex supply order" max_length="40" name="telmex_supply_order" type="string"/>
         <element choice="3" default="1" label="OS status" max_length="40" name="status" type="choice">
             <choice>

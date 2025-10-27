@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=55000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=1463798000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>create_billing_order</internal_name>
-        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_ssad6_paquetiz_0_ord_aprovisionamiento","reference_display":"Orden de aprovisionamiento","type":"reference","base_type":"reference","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["supply_ord_id"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.service_ord_id.assignment_group","label":"Trigger - Record Updated➛ Record➛Service order ID➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_ssad6_paquetiz_0_ord_servicio","column_name":"assignment_group","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["assignment_group"]}},{"name":"Updated_1.current.service_ord_id.assigned_to","label":"Trigger - Record Updated➛ Record➛Service order ID➛Assigned_to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ssad6_paquetiz_0_ord_servicio","column_name":"assigned_to","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["assigned_to"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_ssad6_paquetiz_0_ord_aprovisionamiento","reference_display":"Supply order","type":"reference","base_type":"reference","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["supply_ord_id"]},"attributes":{}}]</label_cache>
         <master_snapshot>915db9f147d832106c0c59f4f16d43d4</master_snapshot>
         <master_snapshot_digest/>
         <name>Create billing order</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>af1db5f147d832106c0c59f4f16d43fd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Create billing order</sys_name>
         <sys_overrides/>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sys_hub_flow_af1db5f147d832106c0c59f4f16d43fd</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-30 22:53:48</sys_updated_on>
+        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -85,14 +85,14 @@
         <identifier>af1db5f147d832106c0c59f4f16d43fd</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-09-30 22:53:48</sys_created_on>
-        <sys_id>5d5db9f147d832106c0c59f4f16d43ed</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2025-10-17 21:29:31</sys_created_on>
+        <sys_id>381dcddf47a0be106c0c59f4f16d432d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-30 22:53:48</sys_updated_on>
+        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
         <trigger display_value="">d55db9f147d832106c0c59f4f16d43ed</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT IN5d5db9f147d832106c0c59f4f16d43ed"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT IN381dcddf47a0be106c0c59f4f16d432d"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=af1db5f147d832106c0c59f4f16d43fd"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT INa71db5f147d832106c0c59f4f16d43fe"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -400,13 +400,13 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:53:43</sys_created_on>
         <sys_id>985db9f147d832106c0c59f4f16d4375</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-02 17:08:45</sys_updated_on>
+        <sys_updated_on>2025-10-23 22:05:43</sys_updated_on>
         <ui_id>5c16222f-1540-4ce6-95b7-873f31115bc7</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/9VUy27bMBD8FYNnQZCs1Eh8KxL41MZA0/qSBsRKXMUEKIrhw7Fj+Kv6Cf2xLiXZMZIYbYBe4ht3Z5czI45vt0wKNmWTHLNPF/mkKvKiGGfZ+PwsLydFmY9FAYhnLGEaGiSkh1Ih7w4JW4EKsbjmzoGYcAMPAb184hlvreA1VD5YqGSrCSykMwo2i2FmbgXqkcDRAfX7V4RVS6mERc2mt3cJM2DpKo+WTbcvWv9KXEGJiqDfI/MTQvzGvFn7cjw7uu4bJC3yyRKGa49aIBGpQTlMWANagG/thk29DVSwCGKu1eaAWErtaSGL2LWTT3TteRZxNZKyCvve4cgH1/pyfQUebmhzdGyAVstWVuh6TwTWEJS/PK71gLnx8TN0I53MYbpVodHXvSXssGD/kagSHJFAE3VG5oOM+mbZPn7bs5xJ3VkyNFVbgTqcwHsry+Ajny1DhQ0t4g0YI/U9N7ZdyW6YuDTpvaJDWqv2kS518l6n9DqIeEq2Qjqj+lVXXoCVUcVXWkPDu4S5jbtU4NyzFjKRP4TIpFc2aOC9DXGkstL4z3TBCge6u2SfCIHZxcmHlZfPD6kLgTtKgwvGqE2XACl+hiwrxHb7w5ACFDxPq2DJNL/bvc7EOybfGZO/q9nHZCZRCfeGvH1GsCHKHnkv90VOhuZoMTSHrOT/Kyv5JOt+HygxvbgPH5ij/8YT0bn7A2yamRZOBgAA</values>
+        <values>H4sIAAAAAAAA/9VVy27bMBD8FYNnQZCi1Eh8KxL41MZA0/qSpgQlrmwClMTw4Vgx9FX9hP5YlxKtGG6MNkAv1o27s8uZIbl62BHByYxMU0g+XKfTIkuz7CJJLq4u03ya5ekFzxjAJYlIzSpApGW5BNovIrJh0vnglhrD+JQq9uTAihea0EZzWrLCOs0K0dQI5sIoydplqFloDvWEw2RE/frpYcVaSK6hJrOHx4gopnErC5rMdkepfyUuWQ4SoV898xNCbKvejH06rJ3cDQmU5vkkEYGthZoDEimZNBCRitWc2Ua3ZGa1w4AGxhe1bEfEWtQWGxKP3RrxgtteJR5XAiorYMiNSxpcG8LlLbPsHjt7xwK0WDeiADN4wqFkTtqbw9gAWCjrj6Ev6WWG6ka6qr4bLCFjg/0hYcQZJAHK6/TMg4zyft08f9mznIu6tyQkZVMwOa6YtVrkzno+OwISKmxEK6aUqFdU6WYj+mLkUsUriYu4lM0zbmrEqo7xdiDxGG1l8Rzjt314ybTwKj5jGyzuImJacyOZMa9a0ET65DyTQVnQQAcbfEmhhbIfcYMNBLpdtH8RHJLrkxcrzV8vUv8IzMFrME4p2fYvQPDvLkkyvtt9U6gAOE3jwmk0zXbdD2SLUno7Vrpx6iQ2NqA3eIihZ3xcOPbCItu8s01f03V/vtCz1fHOEfL3k96PkLkAyc0bR7+fH1ChgRbocBWOZkhITpYhGeZI+r/mSDpN+u+Mpskg7uyHycF/48RYefwNn15sgmoHAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=985db9f147d832106c0c59f4f16d4375"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=af1db5f147d832106c0c59f4f16d43fd"/>
@@ -498,7 +498,7 @@
         <description>Creación de orden de facturación cuando el estado de la orden de aprovisionamiento sea Instalado</description>
         <flow_priority/>
         <internal_name>create_billing_order</internal_name>
-        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_ssad6_paquetiz_0_ord_aprovisionamiento","reference_display":"Orden de aprovisionamiento","type":"reference","base_type":"reference","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["supply_ord_id"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.service_ord_id.assignment_group","label":"Trigger - Record Updated➛ Record➛Service order ID➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_ssad6_paquetiz_0_ord_servicio","column_name":"assignment_group","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["assignment_group"]}},{"name":"Updated_1.current.service_ord_id.assigned_to","label":"Trigger - Record Updated➛ Record➛Service order ID➛Assigned_to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ssad6_paquetiz_0_ord_servicio","column_name":"assigned_to","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["assigned_to"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_ssad6_paquetiz_0_ord_aprovisionamiento","reference_display":"Supply order","type":"reference","base_type":"reference","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["supply_ord_id"]},"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Create billing order</name>
         <natlang/>
@@ -515,7 +515,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>915db9f147d832106c0c59f4f16d43d4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -523,7 +523,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-30 22:53:47</sys_updated_on>
+        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -548,7 +548,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -607,14 +607,14 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:53:47</sys_created_on>
         <sys_id>195db9f147d832106c0c59f4f16d43de</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-30 22:53:47</sys_updated_on>
+        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -632,7 +632,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -691,14 +691,14 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:53:47</sys_created_on>
         <sys_id>d15db9f147d832106c0c59f4f16d43d5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-30 22:53:47</sys_updated_on>
+        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -716,7 +716,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -775,14 +775,14 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:53:47</sys_created_on>
         <sys_id>d95db9f147d832106c0c59f4f16d43e3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-30 22:53:47</sys_updated_on>
+        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -836,13 +836,13 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:53:48</sys_created_on>
         <sys_id>5d5db9f147d832106c0c59f4f16d43eb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-30 22:53:48</sys_updated_on>
+        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
         <ui_id>5c16222f-1540-4ce6-95b7-873f31115bc7</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/9VUy27bMBD8FYNnQZCs1Eh8KxL41MZA0/qSBsRKXMUEKIrhw7Fj+Kv6Cf2xLiXZMZIYbYBe4ht3Z5czI45vt0wKNmWTHLNPF/mkKvKiGGfZ+PwsLydFmY9FAYhnLGEaGiSkh1Ih7w4JW4EKsbjmzoGYcAMPAb184hlvreA1VD5YqGSrCSykMwo2i2FmbgXqkcDRAfX7V4RVS6mERc2mt3cJM2DpKo+WTbcvWv9KXEGJiqDfI/MTQvzGvFn7cjw7uu4bJC3yyRKGa49aIBGpQTlMWANagG/thk29DVSwCGKu1eaAWErtaSGL2LWTT3TteRZxNZKyCvve4cgH1/pyfQUebmhzdGyAVstWVuh6TwTWEJS/PK71gLnx8TN0I53MYbpVodHXvSXssGD/kagSHJFAE3VG5oOM+mbZPn7bs5xJ3VkyNFVbgTqcwHsry+Ajny1DhQ0t4g0YI/U9N7ZdyW6YuDTpvaJDWqv2kS518l6n9DqIeEq2Qjqj+lVXXoCVUcVXWkPDu4S5jbtU4NyzFjKRP4TIpFc2aOC9DXGkstL4z3TBCge6u2SfCIHZxcmHlZfPD6kLgTtKgwvGqE2XACl+hiwrxHb7w5ACFDxPq2DJNL/bvc7EOybfGZO/q9nHZCZRCfeGvH1GsCHKHnkv90VOhuZoMTSHrOT/Kyv5JOt+HygxvbgPH5ij/8YT0bn7A2yamRZOBgAA</values>
+        <values>H4sIAAAAAAAA/9VVy27bMBD8FYNnQZCi1Eh8KxL41MZA0/qSpgQlrmwClMTw4Vgx9FX9hP5YlxKtGG6MNkAv1o27s8uZIbl62BHByYxMU0g+XKfTIkuz7CJJLq4u03ya5ekFzxjAJYlIzSpApGW5BNovIrJh0vnglhrD+JQq9uTAihea0EZzWrLCOs0K0dQI5sIoydplqFloDvWEw2RE/frpYcVaSK6hJrOHx4gopnErC5rMdkepfyUuWQ4SoV898xNCbKvejH06rJ3cDQmU5vkkEYGthZoDEimZNBCRitWc2Ua3ZGa1w4AGxhe1bEfEWtQWGxKP3RrxgtteJR5XAiorYMiNSxpcG8LlLbPsHjt7xwK0WDeiADN4wqFkTtqbw9gAWCjrj6Ev6WWG6ka6qr4bLCFjg/0hYcQZJAHK6/TMg4zyft08f9mznIu6tyQkZVMwOa6YtVrkzno+OwISKmxEK6aUqFdU6WYj+mLkUsUriYu4lM0zbmrEqo7xdiDxGG1l8Rzjt314ybTwKj5jGyzuImJacyOZMa9a0ET65DyTQVnQQAcbfEmhhbIfcYMNBLpdtH8RHJLrkxcrzV8vUv8IzMFrME4p2fYvQPDvLkkyvtt9U6gAOE3jwmk0zXbdD2SLUno7Vrpx6iQ2NqA3eIihZ3xcOPbCItu8s01f03V/vtCz1fHOEfL3k96PkLkAyc0bR7+fH1ChgRbocBWOZkhITpYhGeZI+r/mSDpN+u+Mpskg7uyHycF/48RYefwNn15sgmoHAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=5d5db9f147d832106c0c59f4f16d43eb"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=915db9f147d832106c0c59f4f16d43d4"/>
@@ -923,24 +923,24 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>af1db5f147d832106c0c59f4f16d43fd</sys_id>
         <latest_snapshot>915db9f147d832106c0c59f4f16d43d4</latest_snapshot>
-        <compiler_build>glide-yokohama-12-18-2024__patch7-08-14-2025_08-22-2025_1958.zip</compiler_build>
+        <compiler_build>glide-yokohama-12-18-2024__patch7-hotfix2-09-18-2025_09-21-2025_1435.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT IN915db9f147d832106c0c59f4f16d43ee"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"915db9f147d832106c0c59f4f16d43ee","name":"plan","plan_signature":null}}</plan>
         <plan_id>af1db5f147d832106c0c59f4f16d43fd</plan_id>
-        <snapshot>6e81cb922bdcf610d9abf0faf291bf89</snapshot>
+        <snapshot>65eec8d92bb0fe10d9abf0faf291bf8b</snapshot>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:53:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>915db9f147d832106c0c59f4f16d43ee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-30 22:53:48</sys_updated_on>
+        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
         <trigger display_value="">d55db9f147d832106c0c59f4f16d43ed</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=af1db5f147d832106c0c59f4f16d43fd"/>

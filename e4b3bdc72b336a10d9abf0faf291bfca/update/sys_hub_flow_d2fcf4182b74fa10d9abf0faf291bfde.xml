@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=314378000,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>eeeac6897743011031e3b3c64b5a99bd</copied_from>
+        <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
+        <description>Aprobación de control financiero cuando la OF esta en estado documentos de implementación</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>approval_to_implementation_documents</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_ssad6_paquetiz_0_ord_facturacion","reference_display":"Billing order","type":"reference","base_type":"reference","usedInstances":{"abf606d2-1dc1-4fd6-b723-bc3247cda347":["record"],"552e3a1d-d3c0-44dd-9a47-c9bb11dcbac5":["record"],"84e07131-3937-4d58-aafb-3e4f20baa8a5":["record"],"84ea7465-0982-4bb7-a2fd-bb86dd60a90a":["record"],"862b70fa-2e72-4567-b698-ea647bcbe051":["record"]},"attributes":{}},{"name":"{{static.340c859f47a0be106c0c59f4f16d43f9}}","label":"Control financiero","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"552e3a1d-d3c0-44dd-9a47-c9bb11dcbac5":["approval_conditions"]}},{"name":"Updated_1.run_start_date_time","label":"Trigger - Record Updated➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"552e3a1d-d3c0-44dd-9a47-c9bb11dcbac5.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"40f936a2-d0db-4fb8-9fb5-f9518be665e5":["condition"],"84ea7465-0982-4bb7-a2fd-bb86dd60a90a":["approval"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"552e3a1d-d3c0-44dd-9a47-c9bb11dcbac5.__action_status__.message","label":"1 - Ask For Approval➛Action Status➛Message","reference":"","reference_display":"Message","type":"string","base_type":"string","usedInstances":{"abf606d2-1dc1-4fd6-b723-bc3247cda347":["work_notes"]},"attributes":{}}]</label_cache>
+        <master_snapshot>fa2c81582bb4fa10d9abf0faf291bf04</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Approval to implementation documents</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>432c81582bb4fa10d9abf0faf291bf4a</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 22:53:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d2fcf4182b74fa10d9abf0faf291bfde</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Approval to implementation documents</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name>sys_hub_flow_d2fcf4182b74fa10d9abf0faf291bfde</sys_update_name>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-24 14:12:48</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d2fcf4182b74fa10d9abf0faf291bfde"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d2fcf4182b74fa10d9abf0faf291bfde"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_ssad6_paquetiz_0_ord_facturacion">statusCHANGESTO2<item display_value="Implementation documents" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="2"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>432c81582bb4fa10d9abf0faf291bf4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 23:59:31</sys_updated_on>
+        <table>x_ssad6_paquetiz_0_ord_facturacion</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>d2fcf4182b74fa10d9abf0faf291bfde</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-24 14:12:48</sys_created_on>
+        <sys_id>f73c239d2bb03250d9abf0faf291bf35</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-24 14:12:48</sys_updated_on>
+        <trigger display_value="">432c81582bb4fa10d9abf0faf291bf4a</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d2fcf4182b74fa10d9abf0faf291bfde^sys_idNOT INf73c239d2bb03250d9abf0faf291bf35"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d2fcf4182b74fa10d9abf0faf291bfde"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d2fcf4182b74fa10d9abf0faf291bfde^sys_idNOT INdefcf4182b74fa10d9abf0faf291bfde"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d2fcf4182b74fa10d9abf0faf291bfde</id>
+        <name>Approval to implementation documents</name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 22:53:06</sys_created_on>
+        <sys_id>defcf4182b74fa10d9abf0faf291bfde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 22:53:06</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=defcf4182b74fa10d9abf0faf291bfde"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d2fcf4182b74fa10d9abf0faf291bfde^sys_idNOT IN5afcf4182b74fa10d9abf0faf291bff2,5efcf4182b74fa10d9abf0faf291bff4,d2fcf4182b74fa10d9abf0faf291bfe3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Approval to implementation documents">d2fcf4182b74fa10d9abf0faf291bfde</model>
+        <model_id>d2fcf4182b74fa10d9abf0faf291bfde</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d2fcf4182b74fa10d9abf0faf291bfde</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 22:53:06</sys_created_on>
+        <sys_id>5afcf4182b74fa10d9abf0faf291bff2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 23:12:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5afcf4182b74fa10d9abf0faf291bff2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Approval to implementation documents">d2fcf4182b74fa10d9abf0faf291bfde</model>
+        <model_id>d2fcf4182b74fa10d9abf0faf291bfde</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d2fcf4182b74fa10d9abf0faf291bfde</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 22:53:06</sys_created_on>
+        <sys_id>5efcf4182b74fa10d9abf0faf291bff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 22:53:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5efcf4182b74fa10d9abf0faf291bff4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Approval to implementation documents">d2fcf4182b74fa10d9abf0faf291bfde</model>
+        <model_id>d2fcf4182b74fa10d9abf0faf291bfde</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d2fcf4182b74fa10d9abf0faf291bfde</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 22:53:06</sys_created_on>
+        <sys_id>d2fcf4182b74fa10d9abf0faf291bfe3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 23:12:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d2fcf4182b74fa10d9abf0faf291bfe3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d2fcf4182b74fa10d9abf0faf291bfde"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d2fcf4182b74fa10d9abf0faf291bfde"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=d2fcf4182b74fa10d9abf0faf291bfde^sys_idNOT IN9afc38182b74fa10d9abf0faf291bf04"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Approval to implementation documents">d2fcf4182b74fa10d9abf0faf291bfde</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 22:53:07</sys_created_on>
+        <sys_id>9afc38182b74fa10d9abf0faf291bf04</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 23:54:17</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=d2fcf4182b74fa10d9abf0faf291bfde^sys_idNOT INf661cd5c2b74fa10d9abf0faf291bffe,3661cd5c2b74fa10d9abf0faf291bffc,0d759bfc2bbc7e10d9abf0faf291bf24"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval to implementation documents">d2fcf4182b74fa10d9abf0faf291bfde</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>40f936a2-d0db-4fb8-9fb5-f9518be665e5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:12:31</sys_created_on>
+        <sys_id>f661cd5c2b74fa10d9abf0faf291bffe</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-24 14:12:44</sys_updated_on>
+        <ui_id>abf606d2-1dc1-4fd6-b723-bc3247cda347</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTWsbMRD9K2HPi9n1OibxrWAMPTSBtM0lDWJWmrUF2o/ow7Fj9r93tKt1HLdNTTGUQnWbkebNezMPPewiKaJZNEGRpNfplGdplo2TZHw1SfNplqdjkQFiGsVRBSXSS4281oLiNSjnE7vd10aARcHSEXdaY2Xblu6FNI2C7X14Rhm+kkrQfTR7eIyjBjQhWtTRbHd0ZbcNMgU5Kiqc19yVBHrxcU4Yp7Idqu8Gusf0fQ+KRUBn0ifpyvNJkzjCjcVKILUrQBmMoxIqklnrbTSz2lFCI4jbSm33L1aysr3SEjZGvhD+JPHvCiRpPExhH7IwoWE4teR421hZV33GQq6GydXKldVNL8HPFgtwyh7M1hnCw8ZT9iR6hsXnVf18N/RbyKpTF9iqmoPaR2CtlrmzaPw6UGE3lBKaRlZL1uh6LbtiolKOloqCUaHqZ+pp5LIaAfe8RzQgGC0oP+/S96ClF/GJYKi47cSzJ+f79jICYdZp7gSzblH01HAtG/uBgNcYaLZxsGt++Z4B+PXrvg8wXy27YcaAmLIGnhxa+cISRptnBalwGrjfwPn8+8UzuLjpGZzK/k3xL9QEB7/JBQNfns3AV3/JwIHRP+bg3/k2Gb/7cR1surOqOfCssWCd+eaSJBPpj/Y8vv5Dr2JJoBYvetj4ZNYDwEKiEuYnMgazhgZsHRrsf9yzOTadJt35//Ge7+MdkkSxbR+/A+asosg1CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f661cd5c2b74fa10d9abf0faf291bffe"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval to implementation documents">d2fcf4182b74fa10d9abf0faf291bfde</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:12:31</sys_created_on>
+        <sys_id>3661cd5c2b74fa10d9abf0faf291bffc</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-24 14:12:44</sys_updated_on>
+        <ui_id>552e3a1d-d3c0-44dd-9a47-c9bb11dcbac5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y32/bOAz+Vwo/pzk5/hEnbwWKHna4uwFtt5emMBSJbjQosmfJXTMj//tRtpy4aZsFvQzdhr0EICWSH8mPspSb2hPcm3rjJBvBZDIic5+QgJAkYiQJYB6M43FAGfEGnqJLwJ0lsLzkKN9TWVlFXX8oODXAU3/IqrIEZdZrXOdCF5KuPrptqGELITmue9Ob24FX0BI9Gii9ab2zZFYFpJLOQaLhec6qJTo9eXeOPg5F21lfdnB34dsYKHPnPRVWiUsWDxl48GBAccBoGZUaBt6SKswyL1fe1JQVKkqg/L2Sq82OhVCmTXRJH7T4iu6Dkd2XAWbGXBE2YuoK1NUmFwzeF0bkqtUYOpdd4XJZLdW/bQa2tJDRSppeaSuN/qCwkC2IFmF2tci/XHbxLoRqknNoZc6o3EjUmFLMKwPadgMkNDVZ0qIQ6i4tyvxeNMYIZTm8kygMM5l/wZha3KkhZRb3EAtEhxeoP2/UH2kpbBL/oBs0XjfJp58rG7dNwwFOm5zbhHGXZqUozBn6vAeHcD1wRJ2zva1n20637rY8fUi1pjxOC/q5AiO+piTFdqcZYq9Kymzdj0faaxv8pOnY4GDgj4yfJuIY24ipal07wvr7Ces0hzA2IW/DWIfoJ6Pst9gKYRxE+DPOAuKPfJJAnCRsQihL4jgKg22TMR4ipjLFJumGivfbWh2LlVdYMXXXMfIAcJ3hmUN3ctmhexG2Y6nuQjmGjo7GUD/+SSlaieud2rSav3e78324bMN9UAIPv3e2+/FoHk9Iwk95RuanYRJEp5QBOYXYjyDiMYv84H/zn/j7Dj2ePEOkTIDsXy+6hadj0Ft53Thc2FCPDukD8D4ZiQsH+KVE3EA04s6xfbyhSAh5o6n4da8abC8ZoHd4f8qrUu3hbroQumnpixzu7TgWlw+A3xn/1eLfpfJuWnuYHPxm8g/M5DDaSwV45vRiueLC4tM9PrdnHuhL+ATM6DO1+vOmrrWhRrBhEBKWRJMsHFMyB5/EjDArZn7MwyCbrNe3T/l/BI+vm5ftjaaSoLuZOaBQm4els9tbODcx21uSM3JTEx7rnfl2Q/Nr3tvZXh5kk23feYXloKb/0KxnXgty5k1nnsoVzLzBzLO7UkuIRm1fnVRuFhpdXa/XrQYfpM6B3xO31pyudLNTswVwJFWjfaRpme70x/w/5soFODlH3H9ci94X59tV2/ypU7X2zxaye0J0mbSVE/3vTXS07034e3B2Hgnp5mKNnxc8gl49Tbf/AXoY1aVeFAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3661cd5c2b74fa10d9abf0faf291bffc"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval to implementation documents">d2fcf4182b74fa10d9abf0faf291bfde</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>40f936a2-d0db-4fb8-9fb5-f9518be665e5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-22 23:16:16</sys_created_on>
+        <sys_id>0d759bfc2bbc7e10d9abf0faf291bf24</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-24 14:12:44</sys_updated_on>
+        <ui_id>862b70fa-2e72-4567-b698-ea647bcbe051</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/8VV207jMBD9lSrPTRUnbZPythJCQtoFiQVe0MryZQxeORccp1Aq/n3HSVraQgGxLPvoiWfmnDNz4qtloGVwEIxlJuVMkUgRQiISTUhMMsiAi3SaQpwFw6BgOeBNC6K0Es9zZhofWC4vKskcSEpGorEWCvf4iN+lrivDFpf9NYyIG20kfg8Orn4Ng4pZrOjABgfLnU9uUQE1jIPBxMNSNDkWHRwfYo33ol1ln63g7sL3PfAs++pU+yB+8njIMIB7B4UE7KaYqWEY5KxAlqVdrCMWmDwtzFPgRheuY5qz+1o/YP0k9vcUIDXRq7A+0l6hlTilFnBaOV0WXcQxblbKlabJi5OOgtcWFGuM29C2qbEeVB6zB+Fsg4DUz5vy7mzV70gXLbserSkFM+sTc85q3jio/Tgaff6SPF34+4uDAQPtxZxVlS6uaWXLuW77Ifp8dG3wMFKmvEOYtb4uRkx4qiMUlY2OMH7Yhi+Z1Z73DyyDyb7nRaFvGzj2g5ckSpNZJMI0niThOBIs5JnkIeOxmozH02zKSfDYakxvG0+vU6vXhbbStrrSdh/wai2srtw3BDOHXo3HYe+KjLy2Z0n8tFYbNZ+ccU/rmskprRjid/qBRhQXjCpk3lgm/KA/zybnHsHgpEPwXvRbyXvY9EbZivU+iT/NJ1n0f3zSI/p7o2zJs+2Trcl8iU0E51xxmIWECxGOU8jCLGZpCJNIJCpOoihVb9rkLXOMX1+vjSejKJ1WWjDXbfzKHuhYnqXJOOaYAiSSM8ZVpJiKZ4SrTD03x+nRAPmiYswMLPwGga/Ohw2zHvf6VXmb0Cr3ZJvRyzx749iNPr1vktd90/28P/K81Isa5n6CkDNtaLc7e7y0w2G/r/YV3TIbU6odB1UajMQNom3OF7xVW6qjEbHaMwtuzvrfOfD8+cBrcLQXgPoCVJU2Z36MLZdd445nBNIkzsLZNEbjQjIJuUySkKCRARioWH7G+/brD0eyUJH3CQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0d759bfc2bbc7e10d9abf0faf291bf24"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=d2fcf4182b74fa10d9abf0faf291bfde"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=d2fcf4182b74fa10d9abf0faf291bfde^sys_idNOT INba61cd5c2b74fa10d9abf0faf291bffd"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b261cd5c2b74fa10d9abf0faf291bffd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Approval to implementation documents">d2fcf4182b74fa10d9abf0faf291bfde</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:12:31</sys_created_on>
+        <sys_id>ba61cd5c2b74fa10d9abf0faf291bffd</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-24 14:12:44</sys_updated_on>
+        <ui_id>40f936a2-d0db-4fb8-9fb5-f9518be665e5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Uy27bMBD8lUBnWdDDcmvfjBYBCrQN0AS5tIGwIlc2W4pUScqJY/ir+gn9sSz1cIzGQYoix97E2eXuzHJWu0C3rmmdvdJLa8VKBYuvN2EglMfoexcoqDFYBEwrLpzQquiAMNiAbH1g2RhdAhO/f6kzg2wN98CB4lzYRsL2+oU0thaSGxz6NmCoukMTLHZ/hNy2wUJCiZKqXToj1IquC06nKoYqmbOEZeksS+M4fTtNyllWJinPACGjvPHiu1HG2ccOCZ/V5/sRbsdO2nBPK4nDAO8cKo7UugJpMQxqUBycNtsDYhD4hZKPwFooR+UCn3xnxT3VTvPcJ1ZIGhn2wcOxGObXw2ytBcOLxhPsEQelHO4wLdtafe51+MljBa104+QJaS3Vw8aT9iwGStXlWt9+GRueC9UJHIJSM5CHEzgaQ9k6tP5hUGJNhYoamoaGU9DTbkR3mbjU0UrSIaqkvqWm3lMRME88ohlBdE74+w6+BiO8ik9Uhi73NEuwghWd/6icMyRh342l+Nl6Qr3AQUrRT4MSLDOicUvqs8GB9T58at4j3+52eZ5iBgmf8IzFk+mU88kcpm8mbF6WScIZ2TWPiBupA1lYBw73+29tHGfkyu/IHDngic9fq+xr7MUc8ipP4vz0Xkxnp/bixEY8vwzpC8vgn+8vdyGO4//LcLwMwha9qQdtXfN/3oUbb/y+g+19w5EJS0SuPPZh/N/7wJYMINgxdKvNDy/hEds/AIbymp05BgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d2fcf4182b74fa10d9abf0faf291bfde"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d2fcf4182b74fa10d9abf0faf291bfde"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d2fcf4182b74fa10d9abf0faf291bfde</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 22:53:06</sys_created_on>
+        <sys_id>12fcf4182b74fa10d9abf0faf291bff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 22:53:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d2fcf4182b74fa10d9abf0faf291bfde</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 22:53:06</sys_created_on>
+        <sys_id>1efcf4182b74fa10d9abf0faf291bff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 22:53:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d2fcf4182b74fa10d9abf0faf291bfde</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 22:53:06</sys_created_on>
+        <sys_id>9afcf4182b74fa10d9abf0faf291bff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 22:53:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d2fcf4182b74fa10d9abf0faf291bfde"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d2fcf4182b74fa10d9abf0faf291bfde"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>eeeac6897743011031e3b3c64b5a99bd</copied_from>
+        <copied_from_name/>
+        <description>Aprobación de control financiero cuando la OF esta en estado documentos de implementación</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>approval_to_implementation_documents</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_ssad6_paquetiz_0_ord_facturacion","reference_display":"Billing order","type":"reference","base_type":"reference","usedInstances":{"abf606d2-1dc1-4fd6-b723-bc3247cda347":["record"],"552e3a1d-d3c0-44dd-9a47-c9bb11dcbac5":["record"],"84e07131-3937-4d58-aafb-3e4f20baa8a5":["record"],"84ea7465-0982-4bb7-a2fd-bb86dd60a90a":["record"],"862b70fa-2e72-4567-b698-ea647bcbe051":["record"]},"attributes":{}},{"name":"{{static.340c859f47a0be106c0c59f4f16d43f9}}","label":"Control financiero","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"552e3a1d-d3c0-44dd-9a47-c9bb11dcbac5":["approval_conditions"]}},{"name":"Updated_1.run_start_date_time","label":"Trigger - Record Updated➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"552e3a1d-d3c0-44dd-9a47-c9bb11dcbac5.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"40f936a2-d0db-4fb8-9fb5-f9518be665e5":["condition"],"84ea7465-0982-4bb7-a2fd-bb86dd60a90a":["approval"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"552e3a1d-d3c0-44dd-9a47-c9bb11dcbac5.__action_status__.message","label":"1 - Ask For Approval➛Action Status➛Message","reference":"","reference_display":"Message","type":"string","base_type":"string","usedInstances":{"abf606d2-1dc1-4fd6-b723-bc3247cda347":["work_notes"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Approval to implementation documents</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Approval to implementation documents">d2fcf4182b74fa10d9abf0faf291bfde</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa2c81582bb4fa10d9abf0faf291bf04</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-24 14:12:47</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=fa2c81582bb4fa10d9abf0faf291bf04"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fa2c81582bb4fa10d9abf0faf291bf04"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fa2c81582bb4fa10d9abf0faf291bf04"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fa2c81582bb4fa10d9abf0faf291bf04^sys_idNOT IN362c81582bb4fa10d9abf0faf291bf05"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fa2c81582bb4fa10d9abf0faf291bf04</id>
+        <name>Approval to implementation documents</name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:30</sys_created_on>
+        <sys_id>362c81582bb4fa10d9abf0faf291bf05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 23:59:30</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=362c81582bb4fa10d9abf0faf291bf05"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fa2c81582bb4fa10d9abf0faf291bf04^sys_idNOT IN832c81582bb4fa10d9abf0faf291bf3d,ba2c81582bb4fa10d9abf0faf291bf37,be2c81582bb4fa10d9abf0faf291bf05"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Approval to implementation documents">fa2c81582bb4fa10d9abf0faf291bf04</model>
+        <model_id>fa2c81582bb4fa10d9abf0faf291bf04</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fa2c81582bb4fa10d9abf0faf291bf04</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:30</sys_created_on>
+        <sys_id>832c81582bb4fa10d9abf0faf291bf3d</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-24 14:12:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=832c81582bb4fa10d9abf0faf291bf3d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Approval to implementation documents">fa2c81582bb4fa10d9abf0faf291bf04</model>
+        <model_id>fa2c81582bb4fa10d9abf0faf291bf04</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fa2c81582bb4fa10d9abf0faf291bf04</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:30</sys_created_on>
+        <sys_id>ba2c81582bb4fa10d9abf0faf291bf37</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-22 21:19:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ba2c81582bb4fa10d9abf0faf291bf37"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Approval to implementation documents">fa2c81582bb4fa10d9abf0faf291bf04</model>
+        <model_id>fa2c81582bb4fa10d9abf0faf291bf04</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fa2c81582bb4fa10d9abf0faf291bf04</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:30</sys_created_on>
+        <sys_id>be2c81582bb4fa10d9abf0faf291bf05</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-24 14:12:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=be2c81582bb4fa10d9abf0faf291bf05"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=fa2c81582bb4fa10d9abf0faf291bf04"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fa2c81582bb4fa10d9abf0faf291bf04"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=fa2c81582bb4fa10d9abf0faf291bf04^sys_idNOT IN832c81582bb4fa10d9abf0faf291bf47"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Approval to implementation documents">fa2c81582bb4fa10d9abf0faf291bf04</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:31</sys_created_on>
+        <sys_id>832c81582bb4fa10d9abf0faf291bf47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 23:59:31</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fa2c81582bb4fa10d9abf0faf291bf04^sys_idNOT IN832c81582bb4fa10d9abf0faf291bf46,0f2c81582bb4fa10d9abf0faf291bf46,72759bfc2bbc7e10d9abf0faf291bfc0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval to implementation documents">fa2c81582bb4fa10d9abf0faf291bf04</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:30</sys_created_on>
+        <sys_id>832c81582bb4fa10d9abf0faf291bf46</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-22 22:11:14</sys_updated_on>
+        <ui_id>552e3a1d-d3c0-44dd-9a47-c9bb11dcbac5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y32/aPBT9Vyo/U+YQEgJv1VCnTfshtd1eShUZ2ymeTJLFTlcW8b9/17FDMmgZ/cYeuu4Fyff6OueenBPbXFdIMDRBoygZ8PF4gOcexj7GUUBx5PO5PwpHPqEY9VBKlhxmFpxmBYPxHZGlCVTV55wRzVns9WlZFDzV6zXkmVC5JKsvbhpE6EJIBnk0ub7poZwUsKLmBZpUW6lDIUky5xKmXjSYtjHqVW7GLKPlEnDFogm+d5VTlzl5O4UMFBk4uIf4veYp44AjIVLxHlqSFJrMihWa6KKEQMEJ+5TK1WbGQqTa9rkk90r8gAf7AzMv4dAYdRxshrHjx4aTKdHkElamuiw2dGWCcmUpYTwhpdSvuzE74VOuRZbaEk3msqnOZLlMP1pC0GaBzusoFYDguenTILdtJZeL7PtFA/JcpDUjrkWZUSI3I6J1IealNnAqxCWvKV6SPBfpbZwX2Z2oiwHKsn8rYdBPZPYdnqnEbdon1ODuA6ukfw7xaR3+QgphmvgAy0DxuofUSr2WRKm2FeAw/lYaJLYx10Jcs2ApMHW0ELk+g6fccYd53XNyn9O92qKtlOxyrdrvY6UIC+OcfCu5Fj9iHINq4oSYF0eoeRO/L/0D4DXSv3L4tuA64dfDuM79rPu67OSjTTjZe/tl7yKt7q1gHpB9hJ+R7F1bz173v5I8H4Z+AD+jxMfewMMRD6OIjjGhURgGQ7/VECCAHoiM4VWrWs93LXu/K+0DYDTSPnM4Ti4aHI8CdHJX8GLS2y2pXzZBJ/PBE2X++OfdC1+S0EtxtcWyjezw/GccYR73ORXw1X1rdBQO5uEYR+yUJXh+Ooz84JRQjk956AU8YCENPP8PuAh7+77MLHpApIngsnteahK7ZupknmaqA1DtmOrcwXoMrrNUPXxoB6nrt3aQ41krwvg5eeslnZ3oXrHxzkbyNSuLdI8D4oVQtTIedUJnxtMccQDIxhHvLMptQ2yD/z9+8P/54e/3wzDYK7XO4XyjapqlTBjEquMK+2Xm6oJ/5VSrs3T15rqqlCZa0L4/xDQKxslwRPCcezikmJph4oVs6Cfj9fpm10VHWPFprjuAis2VvZRc/Yoa57n2vOeKur5rT4ku6bw3PNYl/plZ76XcZ+herSXjVlusBIKI7t7iqxmysGdoMkNplvIZ6s2QmRUbcdVhc6UncpOoY1W1XtsI3PbdAl5n2FYzslL1TEUXnIE26+hPkbg2g4sf4y+zAzhp/Dct+cnUkrJLU3OdanBaXsTOnnfpJtQrvboS3b0vONreN/xnv2NcnuLN9QI2Nvj6HdGTN/8B3nHpPUcWAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=832c81582bb4fa10d9abf0faf291bf46"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval to implementation documents">fa2c81582bb4fa10d9abf0faf291bf04</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>40f936a2-d0db-4fb8-9fb5-f9518be665e5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:30</sys_created_on>
+        <sys_id>0f2c81582bb4fa10d9abf0faf291bf46</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-22 23:10:49</sys_updated_on>
+        <ui_id>abf606d2-1dc1-4fd6-b723-bc3247cda347</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXWsiMRT9K5JnkRm10vq2VISFbgvtri/dEq7JHQ1kPpoPWyv+972ZyajY0rpsX8r6dr+Sc07OHe83TEk2ZkOUSXqRjsQgHQz6SdI/H6bz0WCe9uUAEFPWZQXkSJ0GRWkkxSvQPiQ2m1+VBIeSpz3hjcHCbbdUl8pWGtaz2EYZsVRaUp2N7x+6rAJDJzo0bLw5Kp0KScMcNbXetpiOMbp1FWJZCp8TLq7a5FWcnMRK5/uEKjQU4KRJl+Gzw0IiAclAW+yyHApiWZo1GzvjKWEQ5E2h17uOpSpcQzSHZ6te6OZhEvoyJGYiirALeRSoSWcTcHBHJwvnzU6vUgm0jSYSM/DaXR7mmoabyqmyaEYczHU7XWqfF9eNImx3wMF7eEsgsAo8A/KGVna3LJ9uW5BTVdSSRIq6FKB3EThn1Ny7AGfDUGOtcQ5VpYoFr0y5UvUwQcl7C01BL9PlE91p1aLogQi4e6Qq9KaUn9TpGRgVSPygY2h422V2bS81WLunQhryRx+QNMQiBV6rUEvAayeEYWFU5b7RVSuMwLfdaPr52XsOExd7Qx2cuTf+M7cW5IhX8OjRqReecDIQzyA8IYjwJv++BSdgbLfgZ/32b2OOi/Aqd3U427luCnENzj5tDc6/0hpEGl9+Dz5yf9J/9/t64KTa8PbA+daB8/a3T5KBTF+b/Lj8d44/AVfr+KlCLe0bQFu7Y064HPIG+JHlY7Ezi8Xd1//TfJ+Okvr3hdz/v/wJtEkCvd0+/AH1DCNhBwkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0f2c81582bb4fa10d9abf0faf291bf46"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval to implementation documents">fa2c81582bb4fa10d9abf0faf291bf04</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>40f936a2-d0db-4fb8-9fb5-f9518be665e5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-22 23:16:23</sys_created_on>
+        <sys_id>72759bfc2bbc7e10d9abf0faf291bfc0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-22 23:16:23</sys_updated_on>
+        <ui_id>862b70fa-2e72-4567-b698-ea647bcbe051</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WVW0/cOhDHvwrK82YVJ7ubLG9VEVKlFiSgfamQNbbH4CPnUseh0BXfveMke4MtvR2OdB49vv3nP/OzP68io6LjaKYKpZaaJZoxlrBkzlJWYIFC5osc0yKaRBWUSCsdytopGt+B7UJgtfrYKPCoOJvKzjms/OMjzSvTNhYePo3LKCJvjVU0Hx1/vp5EDTg60aOLjldPpn5VkgWBlpZerDU91egfmjBWtexK0sXNOvh+3Hkyzhy9O6EZ2hTksEmE9x4rhaRDg21xEpVQUZK1e9hEHII6r+w2cGsqPyRawn1rvtHNWRrWaaTM5GjCZshHg4awPgEPl9510ndu41dtJLaDJwo1dNa/3Y0NC84bb+pq2OJB2PXu2nZldTY4Em0O2KlH15IIbEKiQTldTlnoy9v668Va5KmpekvGFG0twW5G4L0zovNBzirqzNUht4fwYb/RYr+whKYx1Q1vXH1n+vtIfTm9sTSYalt/JZmtuammIEOqU6oETE8pftKHP4EzIe8PdAxtDnd+rMyXDt+FPlIsybNlIuM8nWfxLJEQi0KJGESq57PZolgIFj1OovahfWuhbbeOUan4ly4kPPg3OsV7s3uned9wYbN0pvFvSN4djv48Tka2CvZSI2fptm93ztzydc/bFtSCN0AZefONJ5z6lGsInQIylP7vYfsFjWvYrvoWO6x55O1Z7P3u3qOzYWKkLf1N2oY2PQBbkfyPYBvT+nva9rzeh23P7f+ENSmE0AKXMRNSxrMci7hIIY9xnshMp1mS5PoPWPsZYbOXu3fn96pqb7SR4Ads1ozRQyCKPJulgrYgS9QShE406HTJhC70c8LOT4/IAfIQ7JHDf1DSB/j7X9zPda+pO9sXfjidEb8tBPv0XezER/iyl+EbWPuTn44qjHehgFiCsXxoph8Q+SS3f5nOHynZQxa07kvItUGrqOt4v+dVvk19ieDk7Wm4KdRw4HMf773CEuR0xzO8d8v5enRfPe+pFj0fbeHhAK5rV0LoiD7Dp4/CbMkwz9IiXi5SehQwm8dCZVnM6JFABNSpep0P+Po7swjg2N4KAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=72759bfc2bbc7e10d9abf0faf291bfc0"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=fa2c81582bb4fa10d9abf0faf291bf04"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=fa2c81582bb4fa10d9abf0faf291bf04^sys_idNOT IN8b2c81582bb4fa10d9abf0faf291bf45"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b261cd5c2b74fa10d9abf0faf291bffd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Approval to implementation documents">fa2c81582bb4fa10d9abf0faf291bf04</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:30</sys_created_on>
+        <sys_id>8b2c81582bb4fa10d9abf0faf291bf45</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-24 14:12:47</sys_updated_on>
+        <ui_id>40f936a2-d0db-4fb8-9fb5-f9518be665e5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYBnWdDDcmvfDAcBCqQN0AS5tIGwIimbLUWqJGXHMfxV/YT+WJZ6OEbjIg2aY2/m7GtmtQPviG5c3Th7o+fWiqUisy93ARHKY/h7RxRUnMwI1YoJJ7TKWyAga5CND8xrowug4tdPdWY4XcEDMMA4E7aWsL19IY2uhGSG93NrMNjdcUNmu99CgmGXMoIyntKYpskkTaIoeT+Oi0laxAlLgUOKDSUUXGLqYiB8dtkiwR+VuG3tceuMUMv+fdl3uR5AbZhnFUcB4feOK8aRTwnS8oBUoBg4bbYHxHBgV0o+ASuhHLYjPvneigccmGSZTyw5SqS8Cx6eeb++Di7PwQFSaahrTJ9KV1pQbrvlMF5CI93iGOsSrmovtStxUMihWsumUp+6jZBDg+FrIdJYJMFrr9RT73WU1yu9+TywvBCq3UoflJqCPLzA4e6Kxnk+O8Ilr7BRXkFd40ZzPIe1aIuRSxUuJT7CUuoNDvV3GAL1xENcLIQXiJ+38C0Y4VV8xDZY3NEswAqatzeL7XBNnOwDYrd2IcHaJ5G43fxH4yl2kntxebcfX0KNqN0cJ695r2MfPLfA0fXvdlmW8BRiNmIpjUbjMWOjKYzfjei0KOKYUTz6LES2qBdkbh04vt9/baIoxdv+xqnDQ3rmlrdq+zp3TSErszjKTrtrPDnlrhO+eqWlkhcs5b/nXzoqiqL/lvpnSwmbd0botbXD39BRd94+3czDrqmwSO3GYx+G/x4f2OJxCXoMbbT57kU9YftHeeYbzsUGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fa2c81582bb4fa10d9abf0faf291bf04"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fa2c81582bb4fa10d9abf0faf291bf04"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fa2c81582bb4fa10d9abf0faf291bf04</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:30</sys_created_on>
+        <sys_id>432c81582bb4fa10d9abf0faf291bf40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 23:59:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fa2c81582bb4fa10d9abf0faf291bf04</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:30</sys_created_on>
+        <sys_id>4b2c81582bb4fa10d9abf0faf291bf3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 23:59:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fa2c81582bb4fa10d9abf0faf291bf04</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:30</sys_created_on>
+        <sys_id>722c81582bb4fa10d9abf0faf291bf35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-20 23:59:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fa2c81582bb4fa10d9abf0faf291bf04"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fa2c81582bb4fa10d9abf0faf291bf04"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>d2fcf4182b74fa10d9abf0faf291bfde</sys_id>
+        <latest_snapshot>fa2c81582bb4fa10d9abf0faf291bf04</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch7-hotfix2-09-18-2025_09-21-2025_1435.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d2fcf4182b74fa10d9abf0faf291bfde^sys_idNOT IN432c81582bb4fa10d9abf0faf291bf4b"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"432c81582bb4fa10d9abf0faf291bf4b","name":"plan","plan_signature":null}}</plan>
+        <plan_id>d2fcf4182b74fa10d9abf0faf291bfde</plan_id>
+        <snapshot>fa2c81582bb4fa10d9abf0faf291bf04</snapshot>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-20 23:59:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>432c81582bb4fa10d9abf0faf291bf4b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-24 14:12:48</sys_updated_on>
+        <trigger display_value="">432c81582bb4fa10d9abf0faf291bf4a</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d2fcf4182b74fa10d9abf0faf291bfde"/>
+</record_update>

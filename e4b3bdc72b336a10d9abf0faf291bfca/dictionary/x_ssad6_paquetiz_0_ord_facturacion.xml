@@ -20,8 +20,9 @@
         </element>
         <element label="Deactivation folio" max_length="40" name="deactiv_folio" type="string"/>
         <element label="CRS reception date" max_length="40" name="crs_recep_date" type="glide_date_time"/>
-        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" read_only="true" reference="sys_user_group" reference_qual="active=true^descriptionLIKEpaquetizados^EQ" reference_qual_condition="active=true^descriptionLIKEpaquetizados^EQ" type="reference"/>
         <element label="Billing end" max_length="40" name="billing_end" type="glide_date_time"/>
+        <element label="Approval history" max_length="4000" name="approval_history" type="journal"/>
         <element label="Reconciliation date" max_length="40" name="reconciliation_date" type="glide_date_time"/>
         <element choice="1" dependent="status" dependent_on_field="status" label="Status reason" max_length="40" name="status_reason" type="choice" use_dependent_field="true">
             <choice>
@@ -80,6 +81,22 @@
         <element label="Payment start 84" max_length="40" name="payment_start_84" type="glide_date_time"/>
         <element label="Reception form 84 date" max_length="40" name="recep_form_84_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" default="not requested" label="Approval" max_length="40" name="approval" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Requested" language="es" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Solicitado" language="pt" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Rejected" language="es" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Not Yet Requested" sequence="0" value="not requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Rejeitado" language="pt" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Aprobada" language="es" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="No solicitada todavía" language="es" sequence="0" value="not requested"/>
+                <element inactive_on_update="false" label="Ainda Não Pedido" language="pt" sequence="0" value="not requested"/>
+                <element inactive_on_update="false" label="Aprovado" language="pt" sequence="2" value="approved"/>
+            </choice>
+        </element>
         <element label="Supply order ID" max_length="32" name="supply_ord_id" reference="x_ssad6_paquetiz_0_ord_aprovisionamiento" type="reference"/>
         <element label="Telmex deactivation date" max_length="40" name="telmex_deactiv_date" type="glide_date_time"/>
         <element label="Form 84 code" max_length="40" name="form_84_cod" type="string"/>
@@ -122,11 +139,13 @@
                 <element inactive_on_update="false" label="Facturado" language="es" sequence="10" value="11"/>
             </choice>
         </element>
+        <element attributes="timeDimension=true" label="Approval set" max_length="40" name="approval_set" type="glide_date_time"/>
         <element label="Deactivation date" max_length="40" name="deactiv_date" type="glide_date_time"/>
-        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
         <element label="Installation date" max_length="40" name="installation_date" type="glide_date_time"/>
         <element label="Payment end 84" max_length="40" name="payment_end_84" type="glide_date_time"/>
         <element label="Scitum seller" max_length="32" name="scitum_seller" reference="sys_user" type="reference"/>
+        <element default="proceed" hint="Acción que se debe realizar en las tareas de cambio asociadas si se aprueba este cambio. Por ejemplo, &quot;Continuar con la siguiente tarea&quot;." label="Upon approval" max_length="40" name="upon_approval" type="string"/>
         <index name="index">
             <element name="assigned_to"/>
         </index>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-23 22:46:43</sys_created_on>
+        <sys_id>f94894192bf0fe10d9abf0faf291bff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ssad6_paquetiz_0_ord_aprovisionamiento.snc_internal</sys_name>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_security_acl display_value="x_ssad6_paquetiz_0_ord_aprovisionamiento">7d4894192bf0fe10d9abf0faf291bfef</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f94894192bf0fe10d9abf0faf291bff0</sys_update_name>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-23 22:46:43</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</application>
+        <file_path/>
+        <instance_id>3fdc2910fb226e1089a2f4344eefdc0e</instance_id>
+        <instance_name>scitumdev</instance_name>
+        <name>sys_security_acl_role_f94894192bf0fe10d9abf0faf291bff0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>mario.camargo@vantisoft.com</sys_created_by><sys_created_on>2025-10-23 22:46:43</sys_created_on><sys_id>f94894192bf0fe10d9abf0faf291bff0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_ssad6_paquetiz_0_ord_aprovisionamiento.snc_internal</sys_name><sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package><sys_policy/><sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope><sys_security_acl display_value="x_ssad6_paquetiz_0_ord_aprovisionamiento">7d4894192bf0fe10d9abf0faf291bfef</sys_security_acl><sys_update_name>sys_security_acl_role_f94894192bf0fe10d9abf0faf291bff0</sys_update_name><sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by><sys_updated_on>2025-10-23 22:46:43</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>2133246353</payload_hash>
+        <record_name>x_ssad6_paquetiz_0_ord_aprovisionamiento.snc_internal</record_name>
+        <reverted_from/>
+        <source>1053d2032b103210d9abf0faf291bfaf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-10-04 21:42:15</sys_created_on>
+        <sys_id>8248d4192bf0fe10d9abf0faf291bf14</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>199b12cead80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>4248d41901f0fe10bbff31e6a7f3c914</update_guid>
+        <update_guid_history>4248d41901f0fe10bbff31e6a7f3c914:2133246353</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_ssad6_paquetiz_0_ord_aprovisionamiento.snc_internal">4a48d4192bf0fe10d9abf0faf291bf14</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-23 22:46:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0dfa41f9e7274698809e0de15cfff610</sys_id>
+        <sys_metadata>f94894192bf0fe10d9abf0faf291bff0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ssad6_paquetiz_0_ord_aprovisionamiento.snc_internal</sys_name>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_parent display_value="x_ssad6_paquetiz_0_ord_aprovisionamiento">7d4894192bf0fe10d9abf0faf291bfef</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_scope_delete display_value="">81a0523456ff4280a5966745fbd91900</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_f94894192bf0fe10d9abf0faf291bff0</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_f94894192bf0fe10d9abf0faf291bff0">8248d4192bf0fe10d9abf0faf291bf14</sys_update_version>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-23 22:46:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

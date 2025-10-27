@@ -5,17 +5,17 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Assigned_to</column_label>
+        <column_label>Assigned to</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>cc0cfb132bfbaa10d9abf0faf291bf95</default_value>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>assignment_group</dependent>
+        <dependent_on_field>assignment_group</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -39,25 +39,27 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>active=true^EQ</reference_qual>
+        <reference_qual_condition table="sys_user">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-10 21:11:32</sys_created_on>
-        <sys_name>Assigned_to</sys_name>
+        <sys_name>Assigned to</sys_name>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sys_dictionary_x_ssad6_paquetiz_0_ord_servicio_assigned_to</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-10 21:11:58</sys_updated_on>
+        <sys_updated_on>2025-10-20 15:24:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

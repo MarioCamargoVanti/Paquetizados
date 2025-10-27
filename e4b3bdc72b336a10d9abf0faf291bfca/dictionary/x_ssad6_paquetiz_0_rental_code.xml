@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="1ea918c94724b6106c0c59f4f16d4388" label="Código de renta" max_length="40" name="x_ssad6_paquetiz_0_rental_code" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Service" mandatory="true" max_length="40" name="service" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Service" mandatory="true" max_length="40" name="service" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="TRÁFICO SEGURO" language="es" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="SOC EPDR" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SOC EPDR" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SOC EPDR" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SPAI  Conexión V2" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="SPAI  Conexión V2" language="pt" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="SPA NEGOCIOS" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Servidor Seguro" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="SPA NEGOCIOS" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="SPA SDWAN V1" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="SPA SDWAN V1" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="SPA SDWAN V2" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SPAI  Conexión V1" language="pt" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="FLEXIPORT" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="CPE+Seguridad" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Servidor Seguro" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="TRÁFICO SEGURO" language="pt" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="SPAI  Conexión V1" language="es" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="SPAI  Conexión V1" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="SPAI  Conexión V2" language="es" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="SPA SDWAN V2" language="es" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SPA SDWAN V2" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="TRÁFICO SEGURO" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Servidor Seguro" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CPE+Seguridad" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="SPA SDWAN V1" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="CPE+Seguridad" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="FLEXIPORT" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="FLEXIPORT" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="SPA NEGOCIOS" sequence="4" value="5"/>
+            </choice>
+        </element>
         <element attributes="omit_sys_original=true" label="Price" mandatory="true" max_length="20" name="price" type="currency"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="SKU" mandatory="true" max_length="40" name="sku" type="string"/>
     </element>

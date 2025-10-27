@@ -6,7 +6,8 @@
         <element label="Expect arrival date" max_length="255" name="expect_arrival_date" type="glide_date_time"/>
         <element label="Addicional comments" max_length="40" name="comments" type="journal_input"/>
         <element label="Arrival date" max_length="40" name="arrival_date" type="glide_date_time"/>
-        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Installed location" max_length="32" name="installed_location" reference="cmn_location" type="reference"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" read_only="true" reference="sys_user_group" reference_qual="active=true^descriptionLIKEpaquetizados^EQ" reference_qual_condition="active=true^descriptionLIKEpaquetizados^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Reception date" max_length="40" name="reception_date" type="glide_date_time"/>
         <element label="Technical report" max_length="40" name="technical_report" type="file_attachment"/>
@@ -42,7 +43,7 @@
             </choice>
         </element>
         <element label="Primary DNS" max_length="40" name="primary_dns" type="string"/>
-        <element label="CI name" max_length="32" name="ci_name" reference="cmdb_ci" reference_qual="sys_class_name=cmdb_ci_peripheral^ORsys_class_name=cmdb_ci_ip_router^ORsys_class_name=cmdb_ci_ip_server^ORsys_class_name=cmdb_ci_lb^ORsys_class_name=cmdb_ci_netgear^ORsys_class_name=cmdb_ci_security^ORsys_class_name=cmdb_ci_appl^ORsys_class_name=cmdb_ci_database^ORsys_class_name=cmdb_ci_server^ORsys_class_name=cmdb_ci_storage_device^ORsys_class_name=cmdb_ci_ups^ORsys_class_name=cmdb_ci_wap_network^life_cycle_stage_status=In Stock^EQ" reference_qual_condition="sys_class_name=cmdb_ci_peripheral^ORsys_class_name=cmdb_ci_ip_router^ORsys_class_name=cmdb_ci_ip_server^ORsys_class_name=cmdb_ci_lb^ORsys_class_name=cmdb_ci_netgear^ORsys_class_name=cmdb_ci_security^ORsys_class_name=cmdb_ci_appl^ORsys_class_name=cmdb_ci_database^ORsys_class_name=cmdb_ci_server^ORsys_class_name=cmdb_ci_storage_device^ORsys_class_name=cmdb_ci_ups^ORsys_class_name=cmdb_ci_wap_network^life_cycle_stage_status=In Stock^EQ" type="reference"/>
+        <element label="CI name" max_length="32" name="ci_name" reference="cmdb_ci" reference_qual="sys_class_name=cmdb_ci_peripheral^ORsys_class_name=cmdb_ci_ip_router^ORsys_class_name=cmdb_ci_ip_server^ORsys_class_name=cmdb_ci_lb^ORsys_class_name=cmdb_ci_netgear^ORsys_class_name=cmdb_ci_security^ORsys_class_name=cmdb_ci_appl^ORsys_class_name=cmdb_ci_database^ORsys_class_name=cmdb_ci_server^ORsys_class_name=cmdb_ci_storage_device^ORsys_class_name=cmdb_ci_ups^ORsys_class_name=cmdb_ci_wap_network^life_cycle_stage=Inventory^EQ" reference_qual_condition="sys_class_name=cmdb_ci_peripheral^ORsys_class_name=cmdb_ci_ip_router^ORsys_class_name=cmdb_ci_ip_server^ORsys_class_name=cmdb_ci_lb^ORsys_class_name=cmdb_ci_netgear^ORsys_class_name=cmdb_ci_security^ORsys_class_name=cmdb_ci_appl^ORsys_class_name=cmdb_ci_database^ORsys_class_name=cmdb_ci_server^ORsys_class_name=cmdb_ci_storage_device^ORsys_class_name=cmdb_ci_ups^ORsys_class_name=cmdb_ci_wap_network^life_cycle_stage=Inventory^EQ" type="reference"/>
         <element label="License number" max_length="40" name="lic_number" type="string"/>
         <element label="Check list" max_length="40" name="check_list" type="file_attachment"/>
         <element label="Work order" max_length="40" name="work_order" type="file_attachment"/>
@@ -175,7 +176,7 @@
             </choice>
         </element>
         <element label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
-        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
         <element choice="1" label="SDWAM configuration" max_length="40" name="sdwam_config" type="choice">
             <choice>
                 <element inactive_on_update="false" label="No habilitado" language="es" sequence="1" value="2"/>
@@ -190,9 +191,12 @@
             <element name="assignment_group"/>
         </index>
         <index name="index2">
-            <element name="service_ord_id"/>
+            <element name="installed_location"/>
         </index>
         <index name="index3">
+            <element name="service_ord_id"/>
+        </index>
+        <index name="index4">
             <element name="assigned_to"/>
         </index>
     </element>
