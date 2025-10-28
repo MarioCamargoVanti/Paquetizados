@@ -4,13 +4,13 @@
             <element>supply_ord_id.service_ord_id.customer_name</element>
             <position>0</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>138663f12ba4f210d9abf0faf291bf3a</sys_id>
+            <sys_created_on>2025-10-28 15:59:13</sys_created_on>
+            <sys_id>a9faacfa2b383650d9abf0faf291bf43</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General information" display_value="General information" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">271b317147d832106c0c59f4f16d43b4</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-10-28 15:59:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>supply_ord_id.service_ord_id.site_name</element>
             <position>1</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>578663f12ba4f210d9abf0faf291bf3a</sys_id>
+            <sys_created_on>2025-10-28 15:59:13</sys_created_on>
+            <sys_id>edfaacfa2b383650d9abf0faf291bf43</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General information" display_value="General information" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">271b317147d832106c0c59f4f16d43b4</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-10-28 15:59:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>supply_ord_id.service_ord_id.folio_number</element>
             <position>2</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>5b8663f12ba4f210d9abf0faf291bf3a</sys_id>
+            <sys_created_on>2025-10-28 15:59:13</sys_created_on>
+            <sys_id>25faacfa2b383650d9abf0faf291bf44</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General information" display_value="General information" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">271b317147d832106c0c59f4f16d43b4</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-10-28 15:59:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>supply_ord_id.service_ord_id.rental_code</element>
             <position>3</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>5f8663f12ba4f210d9abf0faf291bf3a</sys_id>
+            <sys_created_on>2025-10-28 15:59:13</sys_created_on>
+            <sys_id>69faacfa2b383650d9abf0faf291bf44</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General information" display_value="General information" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">271b317147d832106c0c59f4f16d43b4</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-10-28 15:59:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,27 +60,27 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>538663f12ba4f210d9abf0faf291bf3b</sys_id>
+            <sys_created_on>2025-10-28 15:59:13</sys_created_on>
+            <sys_id>adfaacfa2b383650d9abf0faf291bf44</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General information" display_value="General information" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">271b317147d832106c0c59f4f16d43b4</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-10-28 15:59:13</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>supply_ord_id.service_ord_id.service_type</element>
+            <element>supply_ord_id.service_ord_id.service_acronym</element>
             <position>5</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>578663f12ba4f210d9abf0faf291bf3b</sys_id>
+            <sys_created_on>2025-10-28 15:59:13</sys_created_on>
+            <sys_id>e1faacfa2b383650d9abf0faf291bf45</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General information" display_value="General information" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">271b317147d832106c0c59f4f16d43b4</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-10-28 15:59:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>supply_ord_id.service_ord_id.site_id</element>
             <position>6</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>5b8663f12ba4f210d9abf0faf291bf3b</sys_id>
+            <sys_created_on>2025-10-28 15:59:13</sys_created_on>
+            <sys_id>29faacfa2b383650d9abf0faf291bf45</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General information" display_value="General information" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">271b317147d832106c0c59f4f16d43b4</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-10-28 15:59:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>supply_ord_id.service_ord_id.component_id</element>
             <position>7</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>5f8663f12ba4f210d9abf0faf291bf3b</sys_id>
+            <sys_created_on>2025-10-28 15:59:13</sys_created_on>
+            <sys_id>6dfaacfa2b383650d9abf0faf291bf45</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General information" display_value="General information" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">271b317147d832106c0c59f4f16d43b4</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-10-28 15:59:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>supply_ord_id.service_ord_id.price</element>
             <position>8</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>538663f12ba4f210d9abf0faf291bf3c</sys_id>
+            <sys_created_on>2025-10-28 15:59:13</sys_created_on>
+            <sys_id>a1faacfa2b383650d9abf0faf291bf46</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General information" display_value="General information" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">271b317147d832106c0c59f4f16d43b4</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-10-28 15:59:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

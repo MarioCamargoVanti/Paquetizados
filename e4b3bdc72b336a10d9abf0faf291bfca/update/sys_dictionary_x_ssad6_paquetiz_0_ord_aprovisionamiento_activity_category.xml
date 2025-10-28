@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="service_type" table="x_ssad6_paquetiz_0_ord_servicio">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="activity_category" table="x_ssad6_paquetiz_0_ord_aprovisionamiento">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -8,7 +8,7 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Service type</column_label>
+        <column_label>Activity category</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>service_type</element>
+        <element>activity_category</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -30,7 +30,7 @@
         <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_ssad6_paquetiz_0_ord_servicio</name>
+        <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-09-10 21:11:31</sys_created_on>
-        <sys_name>Service type</sys_name>
+        <sys_created_on>2025-10-28 17:45:02</sys_created_on>
+        <sys_name>Activity category</sys_name>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
-        <sys_update_name>sys_dictionary_x_ssad6_paquetiz_0_ord_servicio_service_type</sys_update_name>
+        <sys_update_name>sys_dictionary_x_ssad6_paquetiz_0_ord_aprovisionamiento_activity_category</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-10 21:11:39</sys_updated_on>
+        <sys_updated_on>2025-10-28 17:45:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

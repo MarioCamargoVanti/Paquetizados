@@ -10,6 +10,22 @@
         <element label="Assignment group" max_length="32" name="assignment_group" read_only="true" reference="sys_user_group" reference_qual="active=true^descriptionLIKEpaquetizados^EQ" reference_qual_condition="active=true^descriptionLIKEpaquetizados^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Reception date" max_length="40" name="reception_date" type="glide_date_time"/>
+        <element choice="1" label="Activity category" max_length="40" name="activity_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Renovação técnica" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Instalação" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Instalación" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Renovación tec." language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="RMA" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Installation" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="RMA" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="RMA" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Manutenção" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Mantenimiento" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Tech Renewal" sequence="3" value="4"/>
+            </choice>
+        </element>
         <element label="Technical report" max_length="40" name="technical_report" type="file_attachment"/>
         <element label="Contract expiration date" max_length="40" name="contract_expira_date" type="glide_date_time"/>
         <element label="Software" max_length="40" name="software" type="string"/>
@@ -24,22 +40,6 @@
                 <element inactive_on_update="false" label="Direcciones IP" language="es" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="DHCP" sequence="2" value="3"/>
                 <element inactive_on_update="false" label="Endereços IP" language="pt" sequence="0" value="1"/>
-            </choice>
-        </element>
-        <element choice="1" label="Service type" max_length="40" name="service_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="RMA" language="pt" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Instalación" language="es" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Installation" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Maintenance" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Mantenimiento" language="es" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Renovação técnica" language="pt" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="RMA" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Tech Renewal" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="Renovación tec." language="es" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="RMA" language="es" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Manutenção" language="pt" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Instalação" language="pt" sequence="0" value="1"/>
             </choice>
         </element>
         <element label="Primary DNS" max_length="40" name="primary_dns" type="string"/>
@@ -126,55 +126,6 @@
             </choice>
         </element>
         <element label="Configuration questionnaire" max_length="40" name="config_quest" type="file_attachment"/>
-        <element choice="1" label="Package type" max_length="40" name="package_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="CPES" language="es" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="AVN" language="es" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="EPDR" language="es" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="SSEG" language="pt" sequence="11" value="12"/>
-                <element inactive_on_update="false" label="SSE-" language="es" sequence="10" value="11"/>
-                <element inactive_on_update="false" label="SASE" language="es" sequence="6" value="7"/>
-                <element inactive_on_update="false" label="SPAC" sequence="7" value="8"/>
-                <element inactive_on_update="false" label="GIA-" sequence="5" value="6"/>
-                <element inactive_on_update="false" label="TS--" sequence="13" value="14"/>
-                <element inactive_on_update="false" label="FCE-" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="SSEG" sequence="11" value="12"/>
-                <element inactive_on_update="false" label="CPES" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="SPAL" sequence="9" value="10"/>
-                <element inactive_on_update="false" label="GIA-" language="es" sequence="5" value="6"/>
-                <element inactive_on_update="false" label="SPAL" language="es" sequence="9" value="10"/>
-                <element inactive_on_update="false" label="TS--" language="es" sequence="13" value="14"/>
-                <element inactive_on_update="false" label="SPAL" language="pt" sequence="9" value="10"/>
-                <element inactive_on_update="false" label="SPAC" language="pt" sequence="7" value="8"/>
-                <element inactive_on_update="false" label="SUR-" language="pt" sequence="12" value="13"/>
-                <element inactive_on_update="false" label="EPDR" language="pt" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="SASE" language="pt" sequence="6" value="7"/>
-                <element inactive_on_update="false" label="TSL-" language="pt" sequence="14" value="15"/>
-                <element inactive_on_update="false" label="SSEG" language="es" sequence="11" value="12"/>
-                <element inactive_on_update="false" label="GIA-" language="pt" sequence="5" value="6"/>
-                <element inactive_on_update="false" label="TSL-" language="es" sequence="14" value="15"/>
-                <element inactive_on_update="false" label="AVN" language="pt" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="SPAD" language="es" sequence="8" value="9"/>
-                <element inactive_on_update="false" label="SPAD" language="pt" sequence="8" value="9"/>
-                <element inactive_on_update="false" label="FLXP" language="pt" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="AVN" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="EPDR" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="SSE-" sequence="10" value="11"/>
-                <element inactive_on_update="false" label="SPAD" sequence="8" value="9"/>
-                <element inactive_on_update="false" label="FLXP" language="es" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="SASE" sequence="6" value="7"/>
-                <element inactive_on_update="false" label="TSL-" sequence="14" value="15"/>
-                <element inactive_on_update="false" label="FLXP" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="SUR-" sequence="12" value="13"/>
-                <element inactive_on_update="false" label="SSE-" language="pt" sequence="10" value="11"/>
-                <element inactive_on_update="false" label="TS--" language="pt" sequence="13" value="14"/>
-                <element inactive_on_update="false" label="SUR-" language="es" sequence="12" value="13"/>
-                <element inactive_on_update="false" label="FCE-" language="es" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="CPES" language="pt" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="FCE-" language="pt" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="SPAC" language="es" sequence="7" value="8"/>
-            </choice>
-        </element>
         <element label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
         <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
         <element choice="1" label="SDWAM configuration" max_length="40" name="sdwam_config" type="choice">

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="package_type" table="x_ssad6_paquetiz_0_ord_aprovisionamiento">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="special_packaged" table="x_ssad6_paquetiz_0_ord_servicio">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>1</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Package type</column_label>
+        <column_label>Special packaged</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,19 +23,19 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>package_type</element>
+        <element>special_packaged</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+        <name>x_ssad6_paquetiz_0_ord_servicio</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -46,14 +48,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-09-26 23:12:12</sys_created_on>
-        <sys_name>Package type</sys_name>
+        <sys_created_on>2025-10-28 16:27:41</sys_created_on>
+        <sys_name>Special packaged</sys_name>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
-        <sys_update_name>sys_dictionary_x_ssad6_paquetiz_0_ord_aprovisionamiento_package_type</sys_update_name>
+        <sys_update_name>sys_dictionary_x_ssad6_paquetiz_0_ord_servicio_special_packaged</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+        <sys_updated_on>2025-10-28 16:56:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

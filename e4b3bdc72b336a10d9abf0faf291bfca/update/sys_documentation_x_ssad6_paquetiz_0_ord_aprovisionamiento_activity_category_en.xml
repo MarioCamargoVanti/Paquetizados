@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="service" label="Servicio" language="es" table="x_ssad6_paquetiz_0_ord_servicio">
+    <sys_documentation element="activity_category" label="Activity category" language="en" table="x_ssad6_paquetiz_0_ord_aprovisionamiento">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>service</element>
+            <element>activity_category</element>
             <help/>
             <hint/>
-            <label>Servicio</label>
-            <language>es</language>
-            <name>x_ssad6_paquetiz_0_ord_servicio</name>
+            <label>Activity category</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-10 22:34:05</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Servicio</sys_name>
+            <sys_created_on>2025-10-28 17:45:02</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Activity category</sys_name>
             <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
             <sys_policy/>
             <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
-            <sys_update_name>sys_documentation_x_ssad6_paquetiz_0_ord_servicio_service_es</sys_update_name>
+            <sys_update_name>sys_documentation_x_ssad6_paquetiz_0_ord_aprovisionamiento_activity_category_en</sys_update_name>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-10 22:34:05</sys_updated_on>
+            <sys_updated_on>2025-10-28 17:45:03</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

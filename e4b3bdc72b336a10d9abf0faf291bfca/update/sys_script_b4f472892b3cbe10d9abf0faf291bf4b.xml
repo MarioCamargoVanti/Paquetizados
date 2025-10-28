@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
     <sys_script action="INSERT_OR_UPDATE">
-        <abort_action>true</abort_action>
+        <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
         <active>true</active>
-        <add_message>true</add_message>
+        <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
@@ -15,14 +15,11 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_ssad6_paquetiz_0_ord_servicio">customer_nameISEMPTY^ORsite_nameISEMPTY^EQ<item endquery="false" field="customer_name" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
-            <item endquery="false" field="site_name" goto="false" newquery="false" operator="ISEMPTY" or="true" value=""/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter_condition>
+        <filter_condition/>
         <is_rest>false</is_rest>
-        <message><![CDATA[<p>El valor ingresado en customer name o site name no es valido</p>]]></message>
-        <name>Reference fields validate</name>
-        <order>100</order>
+        <message/>
+        <name>Fields validate before insert</name>
+        <order>1</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -30,9 +27,46 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-	// Add your code here
+    try {
+        current.assignment_group = "14c889db47a0be106c0c59f4f16d43f7"; //Logística paquetizados
+        current.assigned_to = "cc0cfb132bfbaa10d9abf0faf291bf95"; //Gustavo Torres Castillo
+        if (current.service_acronym == 7) { //Si es servicio especial(SSE-) se marca true
+            current.special_packaged = true;
+        } else {
+            current.special_packaged = false;
+        }
+        var sysIdRegex = /^[0-9a-f]{32}$/; // patrón sys_id para validar si ya esta referenciado
+        if (!gs.nil(current.customer_name) && !sysIdRegex.test(current.customer_name)) {
+            var cn = new GlideRecord('customer_account');
+            cn.addQuery('name', 'CONTAINS', current.customer_name);
+            cn.query();
+            if (cn.next()) {
+                current.customer_name = cn.getUniqueValue();
+            } else {
+                gs.addErrorMessage('No se encontró registro para el cliente ' + current.customer_name);
+                gs.error('No se encontró registro para el cliente ' + current.customer_name);
+                current.customer_name = null;
+                current.setAbortAction(true);
+            }
+        }
+        if (!gs.nil(current.site_name) && !sysIdRegex.test(current.site_name)) {
+            var sn = new GlideRecord('cmn_location');
+            sn.addQuery('name', 'CONTAINS', current.site_name);
+            sn.query();
+            if (sn.next()) {
+                current.site_name = sn.getUniqueValue();
+            } else {
+                gs.addErrorMessage('No se encontró registro para sitio ' + current.site_name);
+                gs.error('No se encontró registro para sitio ' + current.site_name);
+                current.site_name = null;
+                current.setAbortAction(true);
+            }
+        }
+    } catch (error) {
+        gs.error('Error al validar campos de OS ' + current.number + ", error: " + error);
+    }
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -41,15 +75,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4f472892b3cbe10d9abf0faf291bf4b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Reference fields validate</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Fields validate before insert</sys_name>
         <sys_overrides/>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sys_script_b4f472892b3cbe10d9abf0faf291bf4b</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-23 15:34:10</sys_updated_on>
+        <sys_updated_on>2025-10-28 18:18:11</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
