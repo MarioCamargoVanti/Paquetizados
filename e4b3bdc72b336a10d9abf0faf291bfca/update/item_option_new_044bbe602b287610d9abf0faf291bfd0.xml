@@ -5,7 +5,7 @@
         <cat_item display_value="Packaged supply">8b85322c2be47610d9abf0faf291bf45</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field>service_type</choice_field>
+        <choice_field>service_acronym</choice_field>
         <choice_table>x_ssad6_paquetiz_0_ord_servicio</choice_table>
         <conversational_label/>
         <create_roles/>
@@ -23,7 +23,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>service_type</field>
+        <field>service_acronym</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -38,21 +38,21 @@
         <lookup_source/>
         <lookup_table>x_ssad6_paquetiz_0_ord_servicio</lookup_table>
         <lookup_unique>false</lookup_unique>
-        <lookup_value>service_type</lookup_value>
+        <lookup_value/>
         <macro/>
         <macroponent/>
         <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>true</mask_use_encryption>
-        <name>service_type</name>
+        <name>service_acronym</name>
         <not_available_conversation>false</not_available_conversation>
         <order>900</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Service type</question_text>
+        <question_text>Service acronym</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -82,14 +82,14 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-10-09 16:29:46</sys_created_on>
         <sys_id>044bbe602b287610d9abf0faf291bfd0</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Service type</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Service acronym</sys_name>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>item_option_new_044bbe602b287610d9abf0faf291bfd0</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-15 15:10:21</sys_updated_on>
+        <sys_updated_on>2025-10-28 22:07:15</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
