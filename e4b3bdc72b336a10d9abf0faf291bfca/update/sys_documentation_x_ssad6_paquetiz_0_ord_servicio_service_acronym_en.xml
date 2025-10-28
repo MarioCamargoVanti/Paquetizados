@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="service_type" label="Service type" language="en" table="x_ssad6_paquetiz_0_ord_servicio">
+    <sys_documentation element="service_acronym" label="Service acronym" language="en" table="x_ssad6_paquetiz_0_ord_servicio">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>service_type</element>
+            <element>service_acronym</element>
             <help/>
             <hint/>
-            <label>Service type</label>
+            <label>Service acronym</label>
             <language>en</language>
             <name>x_ssad6_paquetiz_0_ord_servicio</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-09-10 21:11:31</sys_created_on>
+            <sys_created_on>2025-10-28 15:42:39</sys_created_on>
             <sys_mod_count>3</sys_mod_count>
-            <sys_name>Service type</sys_name>
+            <sys_name>Service acronym</sys_name>
             <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
             <sys_policy/>
             <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
-            <sys_update_name>sys_documentation_x_ssad6_paquetiz_0_ord_servicio_service_type_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_ssad6_paquetiz_0_ord_servicio_service_acronym_en</sys_update_name>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-09-10 21:11:40</sys_updated_on>
+            <sys_updated_on>2025-10-28 15:42:40</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

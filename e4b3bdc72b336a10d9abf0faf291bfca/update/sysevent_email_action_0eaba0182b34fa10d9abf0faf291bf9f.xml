@@ -7,8 +7,8 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_ssad6_paquetiz_0_ord_servicio</collection>
-        <condition table="x_ssad6_paquetiz_0_ord_servicio">statusCHANGESTO6^service_typeIN7,14^EQ<item display_value="Terminated" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="6"/>
-            <item display_value="7,14" endquery="false" field="service_type" goto="false" newquery="false" operator="IN" or="false" value="7,14"/>
+        <condition table="x_ssad6_paquetiz_0_ord_servicio">statusCHANGESTO6^service_acronymIN4,5,10^EQ<item display_value="Terminated" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="6"/>
+            <item display_value="4,5,10" endquery="false" field="service_acronym" goto="false" newquery="false" operator="IN" or="false" value="4,5,10"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -146,7 +146,7 @@
 </div>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>OS terminated SPA SDWAN, SPAC, TS</name>
+        <name>OS terminated SPAD, SPAC, TS--</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -157,7 +157,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>La OS número {number} ha sido dada de baja (SPA SDWAN, SPAC, TS)</subject>
+        <subject>La OS número {number} ha sido dada de baja (SPAD, SPAC, TS--)</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
@@ -165,15 +165,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0eaba0182b34fa10d9abf0faf291bf9f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>OS terminated SPA SDWAN, SPAC, TS</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>OS terminated SPAD, SPAC, TS--</sys_name>
         <sys_overrides/>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sysevent_email_action_0eaba0182b34fa10d9abf0faf291bf9f</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-23 22:30:29</sys_updated_on>
+        <sys_updated_on>2025-10-28 16:08:33</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Scitum Base Template">acba29012be83210d9abf0faf291bf0c</template>
         <type>email</type>

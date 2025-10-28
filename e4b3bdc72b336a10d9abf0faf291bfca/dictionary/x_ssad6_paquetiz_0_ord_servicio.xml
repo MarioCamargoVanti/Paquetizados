@@ -34,26 +34,10 @@
         <element label="CAP name" max_length="40" name="cap_name" type="string"/>
         <element label="Rental code" max_length="32" name="rental_code" reference="x_ssad6_paquetiz_0_rental_code" type="reference"/>
         <element label="OC placement" max_length="40" name="oc_placement" type="glide_date"/>
-        <element choice="1" label="Service" mandatory="true" max_length="32" name="service" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="SPAD" language="pt" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="SPAD" language="es" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="SSE" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="SPAC" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="SSE" language="es" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="SPAC" language="es" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="SPAD" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="SPAC" language="pt" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="SPAL" language="pt" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="SSE" language="pt" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="SPAL" language="es" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="SPAL" sequence="2" value="3"/>
-            </choice>
-        </element>
         <element label="QO" max_length="40" name="qo" type="string"/>
         <element label="Link delivery" max_length="40" name="link_delivery" type="glide_date_time"/>
         <element label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
-        <element default="cc0cfb132bfbaa10d9abf0faf291bf95" dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
         <element choice="1" label="IOM movement type" max_length="40" name="iom_move_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Incremento" language="es" sequence="3" value="4"/>
@@ -181,60 +165,49 @@
                 <element inactive_on_update="false" label="VITECSA" language="es" sequence="10" value="11"/>
             </choice>
         </element>
-        <element choice="1" label="Service type" max_length="40" name="service_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="EPDR" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="SPAC" sequence="6" value="7"/>
-                <element inactive_on_update="false" label="SPAL" sequence="10" value="11"/>
-                <element inactive_on_update="false" label="AVN" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="CPES" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="SASE" sequence="5" value="6"/>
-                <element inactive_on_update="false" label="SPAD2" sequence="9" value="10"/>
-                <element inactive_on_update="false" label="SPAL" language="pt" sequence="10" value="11"/>
-                <element inactive_on_update="false" label="FLEXIPORT" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="SPAD" sequence="8" value="9"/>
-                <element inactive_on_update="false" label="FCE" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="SPAC2" sequence="7" value="8"/>
-                <element inactive_on_update="false" label="TSI" sequence="14" value="15"/>
-                <element inactive_on_update="false" label="TS" sequence="13" value="14"/>
-                <element inactive_on_update="false" label="SUR" sequence="12" value="13"/>
-                <element inactive_on_update="false" label="FCE" language="pt" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="SSEG" sequence="11" value="12"/>
-                <element inactive_on_update="false" label="SPAD" language="es" sequence="8" value="9"/>
-                <element inactive_on_update="false" label="SPAD2" language="pt" sequence="9" value="10"/>
-                <element inactive_on_update="false" label="FLEXIPORT" language="pt" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="TSI" language="es" sequence="14" value="15"/>
-                <element inactive_on_update="false" label="SSEG" language="es" sequence="11" value="12"/>
-                <element inactive_on_update="false" label="TSI" language="pt" sequence="14" value="15"/>
-                <element inactive_on_update="false" label="FCE" language="es" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="EPDR" language="es" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="SPAC2" language="es" sequence="7" value="8"/>
-                <element inactive_on_update="false" label="SSEG" language="pt" sequence="11" value="12"/>
-                <element inactive_on_update="false" label="EPDR" language="pt" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="SPAC2" language="pt" sequence="7" value="8"/>
-                <element inactive_on_update="false" label="SUR" language="es" sequence="12" value="13"/>
-                <element inactive_on_update="false" label="CPES" language="es" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="SPAC" language="es" sequence="6" value="7"/>
-                <element inactive_on_update="false" label="SPAL" language="es" sequence="10" value="11"/>
-                <element inactive_on_update="false" label="SASE" language="es" sequence="5" value="6"/>
-                <element inactive_on_update="false" label="SASE" language="pt" sequence="5" value="6"/>
-                <element inactive_on_update="false" label="SPAD2" language="es" sequence="9" value="10"/>
-                <element inactive_on_update="false" label="FLEXIPORT" language="es" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="SPAD" language="pt" sequence="8" value="9"/>
-                <element inactive_on_update="false" label="TS" language="es" sequence="13" value="14"/>
-                <element inactive_on_update="false" label="AVN" language="es" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="CPES" language="pt" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="TS" language="pt" sequence="13" value="14"/>
-                <element inactive_on_update="false" label="AVN" language="pt" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="SUR" language="pt" sequence="12" value="13"/>
-                <element inactive_on_update="false" label="SPAC" language="pt" sequence="6" value="7"/>
-            </choice>
-        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;})(current);" label="Special packaged" max_length="40" name="special_packaged" read_only="true" type="boolean"/>
         <element label="Corporate code" max_length="40" name="corporate_cod" type="string"/>
         <element label="Component ID" max_length="40" name="component_id" type="string"/>
         <element label="Previous project" max_length="40" name="previous_project" type="string"/>
         <element label="Cancellation folio" max_length="40" name="cancel_folio" type="string"/>
         <element label="Estimated link delivery" max_length="40" name="estim_link_delivery" type="glide_date"/>
+        <element choice="1" label="Service acronym" max_length="40" name="service_acronym" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="FLXP" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="SSE-" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="FLXP" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="SPAD" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="AVN" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="FLXP" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="TSL-" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="SUR-" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="SSEG" language="pt" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="SPAD" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="SPAC" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="AVN" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="TSL-" language="pt" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="SSE-" language="es" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SPAD" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="SPAC" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SUR-" language="pt" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="TS--" language="es" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="TS--" language="pt" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="SPAL" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="SPAC" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="EPDR" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="TS--" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="SSEG" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="SSE-" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SSEG" language="es" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="SUR-" language="es" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="AVN" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="TSL-" language="es" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="SPAL" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="SPAL" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="EPDR" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="EPDR" language="es" sequence="1" value="2"/>
+            </choice>
+        </element>
         <element choice="1" label="Div name" max_length="40" name="div_name" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Metrô" language="pt" sequence="1" value="2"/>
@@ -450,7 +423,44 @@
         <element attributes="email=true" label="CAP email" max_length="40" name="cap_email" type="string"/>
         <element label="Contracted C licence" max_length="40" name="contracted_c_lic" type="string"/>
         <element label="Information received from CAP" max_length="40" name="info_received_cap" type="glide_date_time"/>
-        <element default="14c889db47a0be106c0c59f4f16d43f7" label="Assignment group" max_length="32" name="assignment_group" read_only="true" reference="sys_user_group" reference_qual="active=true^descriptionLIKEpaquetizados^EQ" reference_qual_condition="active=true^descriptionLIKEpaquetizados^EQ" type="reference"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" read_only="true" reference="sys_user_group" reference_qual="active=true^descriptionLIKEpaquetizados^EQ" reference_qual_condition="active=true^descriptionLIKEpaquetizados^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;return current.service_acronym;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Service name" max_length="40" name="service_name" read_only="true" type="choice" virtual="true">
+            <choice>
+                <element inactive_on_update="false" label="Special services" language="es" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Vulnerability analysis" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Análise de vulnerabilidades" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Serviços especiais" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Secure traffic" language="es" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Managed perimeter security (SPA SDWAN)" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="SPA business" language="es" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="SPA negócios" language="pt" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="SOC EPDR" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Secure traffic Latam" language="es" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Segurança perimetral gerenciada (SPA SDWAN)" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Managed perimeter security (SPAI Connection)" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Tráfego seguro" language="pt" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Secure server" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="SOC EPDR" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Secure traffic" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Managed perimeter security (SPAI Connection)" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Servidor seguro" language="pt" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Managed perimeter security (SPA LATAM)" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Flexiport" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Segurança perimetral gerenciada (SPAI conexão)" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Segurança perimetral gerenciada (SPA LATAM)" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Vulnerability analysis" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Flexiport" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="SOC EPDR" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Tráfego seguro Latam" language="pt" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Managed perimeter security (SPA SDWAN)" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Seguridad perimetral administrada (SPA LATAM)" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Special services" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SPA business" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Servidor seguro" language="es" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Flexiport" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Secure traffic Latam" sequence="10" value="11"/>
+            </choice>
+        </element>
         <element label="Telmex supply order" max_length="40" name="telmex_supply_order" type="string"/>
         <element choice="3" default="1" label="OS status" max_length="40" name="status" type="choice">
             <choice>
@@ -486,9 +496,6 @@
             <element name="assignment_group"/>
         </index>
         <index name="index3">
-            <element name="service"/>
-        </index>
-        <index name="index4">
             <element name="customer_name"/>
         </index>
     </element>

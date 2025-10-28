@@ -24,14 +24,14 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-10-10 17:58:34</sys_created_on>
         <sys_id>1ea918c94724b6106c0c59f4f16d4388</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Paquetiz 0 Rental Code</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Rental code</sys_name>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sys_db_object_1ea918c94724b6106c0c59f4f16d4388</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-10 17:58:34</sys_updated_on>
+        <sys_updated_on>2025-10-27 22:08:31</sys_updated_on>
         <update_access>true</update_access>
         <user_role/>
         <ws_access>true</ws_access>
