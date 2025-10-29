@@ -426,18 +426,18 @@
         <element label="Assignment group" max_length="32" name="assignment_group" read_only="true" reference="sys_user_group" reference_qual="active=true^descriptionLIKEpaquetizados^EQ" reference_qual_condition="active=true^descriptionLIKEpaquetizados^EQ" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;return current.service_acronym;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Service name" max_length="40" name="service_name" read_only="true" type="choice" virtual="true">
             <choice>
-                <element inactive_on_update="false" label="Special services" language="es" sequence="6" value="7"/>
-                <element inactive_on_update="false" label="Vulnerability analysis" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Servicios especiales" language="es" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Análisis de vulnerabilidades" language="es" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Análise de vulnerabilidades" language="pt" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Serviços especiais" language="pt" sequence="6" value="7"/>
-                <element inactive_on_update="false" label="Secure traffic" language="es" sequence="9" value="10"/>
-                <element inactive_on_update="false" label="Managed perimeter security (SPA SDWAN)" language="es" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="SPA business" language="es" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Tráfico seguro" language="es" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Seguridad perimetral administrada (SPA SDWAN)" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="SPA negocios" language="es" sequence="8" value="9"/>
                 <element inactive_on_update="false" label="SPA negócios" language="pt" sequence="8" value="9"/>
                 <element inactive_on_update="false" label="SOC EPDR" language="pt" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Secure traffic Latam" language="es" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Tráfico seguro Latam" language="es" sequence="10" value="11"/>
                 <element inactive_on_update="false" label="Segurança perimetral gerenciada (SPA SDWAN)" language="pt" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="Managed perimeter security (SPAI Connection)" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Seguridad perimetral administrada (SPAI Connection)" language="es" sequence="3" value="4"/>
                 <element inactive_on_update="false" label="Tráfego seguro" language="pt" sequence="9" value="10"/>
                 <element inactive_on_update="false" label="Secure server" sequence="7" value="8"/>
                 <element inactive_on_update="false" label="SOC EPDR" sequence="1" value="2"/>
