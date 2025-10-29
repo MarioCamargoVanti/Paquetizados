@@ -5,7 +5,7 @@
         <action_delete>false</action_delete>
         <action_insert>false</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>false</advanced>
@@ -15,8 +15,8 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_ssad6_paquetiz_0_ord_servicio">rental_codeVALCHANGES^priceISEMPTYjavascript:global.getCurrencyFilter('x_ssad6_paquetiz_0_ord_servicio','price', 'MXN;MXN')^EQ<item endquery="false" field="rental_code" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
-            <item endquery="false" field="price" goto="false" newquery="false" operator="ISEMPTY" or="false" value="javascript:global.getCurrencyFilter('x_ssad6_paquetiz_0_ord_servicio','price', 'MXN;MXN')"/>
+        <filter_condition table="x_ssad6_paquetiz_0_ord_servicio">rental_codeVALCHANGES^price&lt;=javascript:global.getCurrencyFilter('x_ssad6_paquetiz_0_ord_servicio','price', 'MXN;0')^EQ<item endquery="false" field="rental_code" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="price" goto="false" newquery="false" operator="&lt;=" or="false" value="javascript:global.getCurrencyFilter('x_ssad6_paquetiz_0_ord_servicio','price', 'MXN;0')"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
@@ -41,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2333a4454764b6106c0c59f4f16d431f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Set price when rental code change</sys_name>
         <sys_overrides/>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
@@ -49,7 +49,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sys_script_2333a4454764b6106c0c59f4f16d431f</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-28 15:56:57</sys_updated_on>
+        <sys_updated_on>2025-10-29 16:27:03</sys_updated_on>
         <template>priceSAMEASrental_code.price^EQ</template>
         <when>before</when>
     </sys_script>
