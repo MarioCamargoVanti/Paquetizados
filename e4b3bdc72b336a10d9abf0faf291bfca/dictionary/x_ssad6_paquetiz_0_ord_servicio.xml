@@ -124,7 +124,7 @@
         <element label="Customer name" max_length="32" name="customer_name" reference="customer_account" type="reference"/>
         <element label="CAP phone" max_length="40" name="cap_phone" type="phone_number_e164"/>
         <element label="Telmex installation case" max_length="40" name="telmex_insta_case" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element choice="1" label="Support company" max_length="40" name="support_company" type="choice">
             <choice>
                 <element inactive_on_update="false" label="SCITUM" language="es" sequence="8" value="9"/>
