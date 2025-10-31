@@ -4,13 +4,13 @@
             <element>estim_equip_delivery</element>
             <position>0</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:15:05</sys_created_on>
-            <sys_id>3bbe1bf92b64f210d9abf0faf291bf24</sys_id>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9c55ee032bbc7650d9abf0faf291bf52</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-installation data" display_value="Pre-installation data" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:15:05</sys_updated_on>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>equip_delivery</element>
             <position>1</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:15:05</sys_created_on>
-            <sys_id>3fbe1bf92b64f210d9abf0faf291bf24</sys_id>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9055ee032bbc7650d9abf0faf291bf53</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-installation data" display_value="Pre-installation data" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:15:05</sys_updated_on>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>oc_placement</element>
             <position>2</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:15:05</sys_created_on>
-            <sys_id>33be1bf92b64f210d9abf0faf291bf25</sys_id>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9455ee032bbc7650d9abf0faf291bf53</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-installation data" display_value="Pre-installation data" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:15:05</sys_updated_on>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>project_id</element>
             <position>3</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:15:05</sys_created_on>
-            <sys_id>37be1bf92b64f210d9abf0faf291bf25</sys_id>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9855ee032bbc7650d9abf0faf291bf53</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-installation data" display_value="Pre-installation data" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:15:05</sys_updated_on>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:15:05</sys_created_on>
-            <sys_id>3bbe1bf92b64f210d9abf0faf291bf25</sys_id>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9c55ee032bbc7650d9abf0faf291bf53</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-installation data" display_value="Pre-installation data" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:15:05</sys_updated_on>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>estim_link_delivery</element>
             <position>5</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:15:05</sys_created_on>
-            <sys_id>3fbe1bf92b64f210d9abf0faf291bf25</sys_id>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9055ee032bbc7650d9abf0faf291bf54</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-installation data" display_value="Pre-installation data" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:15:05</sys_updated_on>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>link_delivery</element>
             <position>6</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:15:05</sys_created_on>
-            <sys_id>33be1bf92b64f210d9abf0faf291bf26</sys_id>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9455ee032bbc7650d9abf0faf291bf54</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-installation data" display_value="Pre-installation data" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:15:05</sys_updated_on>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>equip_model</element>
             <position>7</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:15:05</sys_created_on>
-            <sys_id>37be1bf92b64f210d9abf0faf291bf26</sys_id>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9855ee032bbc7650d9abf0faf291bf54</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-installation data" display_value="Pre-installation data" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:15:05</sys_updated_on>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>previous_project</element>
             <position>8</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:15:05</sys_created_on>
-            <sys_id>3bbe1bf92b64f210d9abf0faf291bf26</sys_id>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9c55ee032bbc7650d9abf0faf291bf54</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pre-installation data" display_value="Pre-installation data" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:15:05</sys_updated_on>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -137,7 +137,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>67bed7f92b64f210d9abf0faf291bfcd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_name>x_ssad6_paquetiz_0_ord_servicio</sys_name>
             <sys_overrides/>
             <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
@@ -145,7 +145,7 @@
             <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
             <sys_update_name>sys_ui_section_67bed7f92b64f210d9abf0faf291bfcd</sys_update_name>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:15:04</sys_updated_on>
+            <sys_updated_on>2025-10-31 15:20:57</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

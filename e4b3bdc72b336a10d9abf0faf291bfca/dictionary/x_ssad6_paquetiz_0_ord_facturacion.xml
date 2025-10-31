@@ -80,7 +80,7 @@
         <element label="Telmex activation date" max_length="40" name="telmex_activ_date" type="glide_date_time"/>
         <element label="Payment start 84" max_length="40" name="payment_start_84" type="glide_date_time"/>
         <element label="Reception form 84 date" max_length="40" name="recep_form_84_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element choice="1" default="not requested" label="Approval" max_length="40" name="approval" type="string">
             <choice>
                 <element inactive_on_update="false" label="Requested" language="es" sequence="1" value="requested"/>
