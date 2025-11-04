@@ -70,6 +70,20 @@
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
             <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-11-04 16:22:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb633c052bc93e50d9abf0faf291bf74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ssad6_paquetiz_0_ord_facturacion" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">e71b317147d832106c0c59f4f16d43b6</sys_ui_form>
+            <sys_ui_section caption="Attachments" display_value="Attachments" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">2f633c052bc93e50d9abf0faf291bf71</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-11-04 16:22:34</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_ssad6_paquetiz_0_ord_facturacion</name>
             <roles/>

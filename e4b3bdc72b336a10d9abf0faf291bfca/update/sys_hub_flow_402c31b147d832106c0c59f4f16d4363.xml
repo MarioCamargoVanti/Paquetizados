@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=1463978000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=3003610000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>402c31b147d832106c0c59f4f16d4363</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Create suppy order</sys_name>
         <sys_overrides/>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sys_hub_flow_402c31b147d832106c0c59f4f16d4363</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:28:12</sys_updated_on>
+        <sys_updated_on>2025-11-04 16:08:44</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -85,14 +85,14 @@
         <identifier>402c31b147d832106c0c59f4f16d4363</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-10-17 21:28:12</sys_created_on>
-        <sys_id>95cc89df47a0be106c0c59f4f16d4361</sys_id>
+        <sys_created_on>2025-11-04 16:08:44</sys_created_on>
+        <sys_id>5d40f88d2b893e50d9abf0faf291bfcc</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:28:12</sys_updated_on>
+        <sys_updated_on>2025-11-04 16:08:44</sys_updated_on>
         <trigger display_value="">0fbcfdb147d832106c0c59f4f16d4372</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=402c31b147d832106c0c59f4f16d4363^sys_idNOT IN95cc89df47a0be106c0c59f4f16d4361"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=402c31b147d832106c0c59f4f16d4363^sys_idNOT IN5d40f88d2b893e50d9abf0faf291bfcc"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=402c31b147d832106c0c59f4f16d4363"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=402c31b147d832106c0c59f4f16d4363^sys_idNOT IN4c2c31b147d832106c0c59f4f16d4363"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -400,13 +400,13 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:51:04</sys_created_on>
         <sys_id>15bc3db147d832106c0c59f4f16d43fd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-23 21:23:54</sys_updated_on>
+        <sys_updated_on>2025-11-04 16:08:38</sys_updated_on>
         <ui_id>2c0644f0-c31d-44eb-86bb-1d06ebee517b</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VUU/bMBD+K5GfoyppSqB9QzCkSQOmsfFCIbrYl9aSmwTbKZSq/31nJykVFMGkSRPS8ua77+zv++y73KyZFGzC0hijg3Gc8iROkmEUDY9GcZ4meTwUCSCOWMhKWCAhLeQKM78I2RJU44KPmTEg0qyG+watfMqirNIig1pXS2lkRXCJpa2oREhTK1hdd5WXWmAZCAz2YflcKqGxZJOb25DVoOlUi5pN1i9SH9WgIEdF0J9OxBua7KreG/u2WxtctAlS6fhEIcNHi6VAIlKAMhiyBZQCbKVXbGJ1QwGNIC5Ltdoi5rK0tCFz2Ecjn+jYo8jhCiRlHNvcdpl11rXh4hQsXNHO3Da6g/J5JTma1hOBBTTKnuzGWsBlbcnmtsTL7Kor1SzKi9YStt2gvymKNIZIYO10OuadjOJqXj386FmeydJb0iVVxUFtV2CtlnljHZ81Q4UL2ihbQF3Lcpb5F+CLictiMFO0GBSqeqBDjZyVA+CO+IBshcEZxU99+Bq0dCrOaRsq3oTMrMyJAmOetZCJ2X3jmLTKOg1Za4Mr4VrW9pgOWGJHdxP2zSEwGr/5sOL8+SH5fjA7jWFQL8lx3w1STJsoSsR6/asmCSiyeMAbTa7ZzeaO6JIW78dMV03dYad9w0zZZMq+LurWM+BkBJrg6vvxlIXT9jwPQX4IIxEXo0OIcoyjlEf8YFyMijgVo0SMPJwMcnQ+hu+5EWFb7ae1hDL4IhrQogrOpXYvPzimfpVE8yW/fDwsMB0W+TBK6Dw44MPiKKXmwkLwQ+7h/lV6uGNKz06/ov3uNpvXw+b/bfzT2/jDcf5+1/Xj/EyiEmZPG/azHOmm6I6zti1fzPMuGVx3yW6mx39rpsdp5L9PNNlbcZ9+sO/8w98Y8be/AUaNAi0BCQAA</values>
+        <values>H4sIAAAAAAAA/91UUU/bMBD+K5Wfo8ohIUDfkCakPYxOY+OFguXYl9aSkxjbKS1V//vOTtIxRiU0TZq2vPn83X3fd77c3Y4oSWakSIGeXqSFyNIsO6H05DxPyyIr0xOZcYCcJKThNSDS81IDi4eErLnuQnDDnOOyYIY/duDVM6OstZJxY9u1cqpFuILGt5gilTOab2+HzLmV0EwkTN7CipXS0kJDZnf3CTHcIqsHS2a7V1d+a4BpXoLGkl+Dwsl1r/C97n5KPuI2sLyOoc0giCYENh4aCchXce0gITVvJPet3ZKZtx0GLHA5b/T2gFipxmNBErAbp56x+jkNuArQmoD+7nBkQ+/6sFi1SsDceGxZH4nChstWd3Vz3ZsIXYeKd9qPXcdI57AemCA5iBgUVTer9unLSHilmuhuuNSt4Ppw4t5bVXYeXHgP0FBjIVZzY1SzZPE1YzJqqadLjYdppdsnJHVq2Uy5CMKn2CE+vcL4hxi+5VYFF5+wDCbvo3v22AXe3segmPWmEeCEVcZfYrk1DOL2yTjWEujF0YdPyx8PHSfZvRhpB3aN/Y1zrOSiozSTu903g4JBsnQqOos98vv9A3dBeXS/tG1nBuxiHPUFmS3Ix9r0HeICbYOb3Hy+XJBk0fNFCIgznsu0ys84LSGlhaDi9KLKq7SQeSbzCHdbF+S8D7//9X/7X2z95moA1ItOJ307kndPyVjgSoGW7o2xGXfDQMDWA8GwH9I/tR/Sgsbv72yJXuc/tiRe7Osj6+L+O9yIuxsHBwAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=15bc3db147d832106c0c59f4f16d43fd"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=402c31b147d832106c0c59f4f16d4363"/>
@@ -515,7 +515,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>87bcfdb147d832106c0c59f4f16d4331</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -523,7 +523,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:28:12</sys_updated_on>
+        <sys_updated_on>2025-11-04 16:08:44</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -607,14 +607,14 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:51:11</sys_created_on>
         <sys_id>0fbcfdb147d832106c0c59f4f16d4332</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:28:11</sys_updated_on>
+        <sys_updated_on>2025-11-04 16:08:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -691,14 +691,14 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:51:11</sys_created_on>
         <sys_id>0fbcfdb147d832106c0c59f4f16d4367</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:28:11</sys_updated_on>
+        <sys_updated_on>2025-11-04 16:08:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -836,13 +836,13 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:51:11</sys_created_on>
         <sys_id>c7bcfdb147d832106c0c59f4f16d4370</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:28:12</sys_updated_on>
+        <sys_updated_on>2025-11-04 16:08:44</sys_updated_on>
         <ui_id>2c0644f0-c31d-44eb-86bb-1d06ebee517b</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VUU/bMBD+K5GfoyppSqB9QzCkSQOmsfFCIbrYl9aSmwTbKZSq/31nJykVFMGkSRPS8ua77+zv++y73KyZFGzC0hijg3Gc8iROkmEUDY9GcZ4meTwUCSCOWMhKWCAhLeQKM78I2RJU44KPmTEg0qyG+watfMqirNIig1pXS2lkRXCJpa2oREhTK1hdd5WXWmAZCAz2YflcKqGxZJOb25DVoOlUi5pN1i9SH9WgIEdF0J9OxBua7KreG/u2WxtctAlS6fhEIcNHi6VAIlKAMhiyBZQCbKVXbGJ1QwGNIC5Ltdoi5rK0tCFz2Ecjn+jYo8jhCiRlHNvcdpl11rXh4hQsXNHO3Da6g/J5JTma1hOBBTTKnuzGWsBlbcnmtsTL7Kor1SzKi9YStt2gvymKNIZIYO10OuadjOJqXj386FmeydJb0iVVxUFtV2CtlnljHZ81Q4UL2ihbQF3Lcpb5F+CLictiMFO0GBSqeqBDjZyVA+CO+IBshcEZxU99+Bq0dCrOaRsq3oTMrMyJAmOetZCJ2X3jmLTKOg1Za4Mr4VrW9pgOWGJHdxP2zSEwGr/5sOL8+SH5fjA7jWFQL8lx3w1STJsoSsR6/asmCSiyeMAbTa7ZzeaO6JIW78dMV03dYad9w0zZZMq+LurWM+BkBJrg6vvxlIXT9jwPQX4IIxEXo0OIcoyjlEf8YFyMijgVo0SMPJwMcnQ+hu+5EWFb7ae1hDL4IhrQogrOpXYvPzimfpVE8yW/fDwsMB0W+TBK6Dw44MPiKKXmwkLwQ+7h/lV6uGNKz06/ov3uNpvXw+b/bfzT2/jDcf5+1/Xj/EyiEmZPG/azHOmm6I6zti1fzPMuGVx3yW6mx39rpsdp5L9PNNlbcZ9+sO/8w98Y8be/AUaNAi0BCQAA</values>
+        <values>H4sIAAAAAAAA/91VUU/bMBD+K5Wfo8ohIUDfEAhp0kandeOFsuhiX1pLTmJsp1Cq/vdd4rRUDDQm7YX1zXff2d/39e5yu2FKsgnLYuTHZ3EmkjhJjjg/Ok3jIkuK+EgmgJiyiNVQISE9FBrz/hCxFei2Cz7mzoHMcgP3LXr1lPO8sTIHY5uVcqohuMLaN1QilTMa1jdD5dRKrEcSR69hxVJpabFmk9u7iBmw9KpHyyabF6n3atBQoCbo907EG5r82rwa+3xYO7oOCVLZ8eERw0ePtUQiUoJ2GLEKagm+sWs28balgEWQ01qv94ilqj1dyDrso1NP9Owp73AlkjKBIbc/5oN1IVxegocZ3Sx8aweoWDZKoAueSCyh1f7iMBYAU+PJ5lDSyxyqG91W9XWwhO0v2P1TFGkdkUDT6eyYDzLK2bJ5+LZjeaXq3pIhqRsBen8C760qWt/x2TDUWNFFeQXGqHqR9x3QFxOXarzQdBiXunmgR51a1GMQHfEx2QrjK4pf9uEbsKpT8YWuoeJtxNzaXWhw7lkLmZjftx2ToGzQkAcbuhJhlfHn9MAKB7rbaDccEvnZm40VF8+N1M+DOxgMh3ZFjvfToOS85TyRm80PQxJQ5vFYtJZc89vtT6JLWno/FrZpzYCd7wZmziZz9qkywTMQZAS60ezr+ZxF8/BeD0FxAqmMy/QEeIExzwQXx2dlWsaZTBOZ9nAyqKPzPvz296n9X2T95YL5cx/sFsyVQi3dK42x2y5IksmsPDTKiw0zJEc3Q3LYMvG/2jJxxvvfB9o1QdyHXzUHX5U3ls7dL82wytWTBwAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c7bcfdb147d832106c0c59f4f16d4370"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=87bcfdb147d832106c0c59f4f16d4331"/>
@@ -930,17 +930,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"8fbcfdb147d832106c0c59f4f16d4373","name":"plan","plan_signature":null}}</plan>
         <plan_id>402c31b147d832106c0c59f4f16d4363</plan_id>
-        <snapshot>f855081d2b70fe10d9abf0faf291bfcc</snapshot>
+        <snapshot>87bcfdb147d832106c0c59f4f16d4331</snapshot>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:51:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8fbcfdb147d832106c0c59f4f16d4373</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:28:12</sys_updated_on>
+        <sys_updated_on>2025-11-04 16:08:44</sys_updated_on>
         <trigger display_value="">0fbcfdb147d832106c0c59f4f16d4372</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=402c31b147d832106c0c59f4f16d4363"/>
