@@ -130,15 +130,15 @@
 <h1>Hola gesti&oacute;n paquetizados,</h1>
 <p>Orden de aprovisionamiento en curso. A continuaci&oacute;n, se muestran los detalles:</p>
 <div class="case-details">
-<p><strong>Nombre cliente:&nbsp;</strong>${service_ord_id.customer_name}</p>
+<p><strong>Nombre cliente:&nbsp;</strong>${service_ord_id.company_name}</p>
 <p><strong>N&uacute;mero de OA:</strong> ${number}</p>
 <p><strong>Modelo equipo:</strong> ${service_ord_id.equip_model}</p>
-<p><strong>Sitio:</strong> ${service_ord_id.site_name.name}</p>
+<p><strong>Sitio:</strong> ${service_ord_id.site_name}</p>
 <p><strong>N&uacute;mero de sitio:</strong> ${service_ord_id.site_id}</p>
 <p><strong>Orden aprovisionamiento Telmex</strong>: ${service_ord_id.telmex_supply_order}</p>
 <p><strong>CI:</strong> ${ci_name.name}</p>
 <p><strong>C&oacute;digo &uacute;nico de cliente:</strong> ${service_ord_id.unique_customer_cod}</p>
-<p><strong>Direcci&oacute;n:</strong> ${site_name.street}</p>
+<p><strong>Direcci&oacute;n:</strong> ${service_ord_id.street}</p>
 </div>
 <p>Por favor revisa la OA lo antes posible para iniciar el proceso de atenci&oacute;n.</p>
 <p style="text-align: center;">${mail_script:get_record_link}</p>
@@ -166,7 +166,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fff7f0d02b74fa10d9abf0faf291bf87</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>OA in progress SPAL</sys_name>
         <sys_overrides/>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
@@ -174,7 +174,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sysevent_email_action_fff7f0d02b74fa10d9abf0faf291bf87</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-11-03 17:41:45</sys_updated_on>
+        <sys_updated_on>2025-11-06 19:13:41</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Scitum Base Template">acba29012be83210d9abf0faf291bf0c</template>
         <type>email</type>

@@ -23,7 +23,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>company_name</field>
+        <field>district</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -41,18 +41,18 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>true</mask_use_encryption>
-        <name>company_name</name>
+        <name>district</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>490</order>
+        <order>2120</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Customer name</question_text>
+        <question_text>District</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -60,7 +60,7 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_ssad6_paquetiz_0_ord_servicio</record_producer_table>
-        <reference>customer_account</reference>
+        <reference/>
         <reference_qual/>
         <reference_qual_condition/>
         <rich_text/>
@@ -80,16 +80,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-10-09 16:44:02</sys_created_on>
-        <sys_id>dfbe36642b287610d9abf0faf291bf35</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Customer name</sys_name>
+        <sys_created_on>2025-11-06 20:17:14</sys_created_on>
+        <sys_id>5c4c7b212b81fe50d9abf0faf291bf2e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>District</sys_name>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
-        <sys_update_name>item_option_new_dfbe36642b287610d9abf0faf291bf35</sys_update_name>
+        <sys_update_name>item_option_new_5c4c7b212b81fe50d9abf0faf291bf2e</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-11-10 21:41:35</sys_updated_on>
+        <sys_updated_on>2025-11-06 20:24:39</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -109,143 +109,143 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=dfbe36642b287610d9abf0faf291bf35"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=5c4c7b212b81fe50d9abf0faf291bf2e"/>
     <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>dfbe36642b287610d9abf0faf291bf35</documentkey>
+        <documentkey>5c4c7b212b81fe50d9abf0faf291bf2e</documentkey>
         <fieldname>conversational_label</fieldname>
         <language>es</language>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-10-13 17:17:27</sys_created_on>
-        <sys_id>590d633d2ba4f210d9abf0faf291bf60</sys_id>
+        <sys_created_on>2025-11-06 20:22:42</sys_created_on>
+        <sys_id>349dbba12b81fe50d9abf0faf291bf8e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-13 17:17:27</sys_updated_on>
+        <sys_updated_on>2025-11-06 20:22:42</sys_updated_on>
         <tablename>item_option_new</tablename>
         <value/>
     </sys_translated_text>
     <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>dfbe36642b287610d9abf0faf291bf35</documentkey>
+        <documentkey>5c4c7b212b81fe50d9abf0faf291bf2e</documentkey>
         <fieldname>conversational_label</fieldname>
         <language>pt</language>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-10-13 17:09:34</sys_created_on>
-        <sys_id>753b2f392ba4f210d9abf0faf291bfa7</sys_id>
+        <sys_created_on>2025-11-06 20:24:40</sys_created_on>
+        <sys_id>ed0ef3e12b81fe50d9abf0faf291bfc1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-13 17:09:34</sys_updated_on>
+        <sys_updated_on>2025-11-06 20:24:40</sys_updated_on>
         <tablename>item_option_new</tablename>
         <value/>
     </sys_translated_text>
     <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>dfbe36642b287610d9abf0faf291bf35</documentkey>
+        <documentkey>5c4c7b212b81fe50d9abf0faf291bf2e</documentkey>
         <fieldname>help_text</fieldname>
         <language>es</language>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-10-13 17:17:27</sys_created_on>
-        <sys_id>110d633d2ba4f210d9abf0faf291bf60</sys_id>
+        <sys_created_on>2025-11-06 20:22:42</sys_created_on>
+        <sys_id>b89dbba12b81fe50d9abf0faf291bf8d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-13 17:17:27</sys_updated_on>
+        <sys_updated_on>2025-11-06 20:22:42</sys_updated_on>
         <tablename>item_option_new</tablename>
         <value/>
     </sys_translated_text>
     <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>dfbe36642b287610d9abf0faf291bf35</documentkey>
+        <documentkey>5c4c7b212b81fe50d9abf0faf291bf2e</documentkey>
         <fieldname>help_text</fieldname>
         <language>pt</language>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-10-13 17:09:34</sys_created_on>
-        <sys_id>3d3b2f392ba4f210d9abf0faf291bfa6</sys_id>
+        <sys_created_on>2025-11-06 20:24:40</sys_created_on>
+        <sys_id>a50ef3e12b81fe50d9abf0faf291bfc1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-13 17:09:34</sys_updated_on>
+        <sys_updated_on>2025-11-06 20:24:40</sys_updated_on>
         <tablename>item_option_new</tablename>
         <value/>
     </sys_translated_text>
     <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>dfbe36642b287610d9abf0faf291bf35</documentkey>
+        <documentkey>5c4c7b212b81fe50d9abf0faf291bf2e</documentkey>
         <fieldname>instructions</fieldname>
         <language>es</language>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-10-13 17:17:27</sys_created_on>
-        <sys_id>d10d633d2ba4f210d9abf0faf291bf63</sys_id>
+        <sys_created_on>2025-11-06 20:22:42</sys_created_on>
+        <sys_id>bc9dbba12b81fe50d9abf0faf291bf90</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-13 17:17:27</sys_updated_on>
+        <sys_updated_on>2025-11-06 20:22:42</sys_updated_on>
         <tablename>item_option_new</tablename>
         <value/>
     </sys_translated_text>
     <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>dfbe36642b287610d9abf0faf291bf35</documentkey>
+        <documentkey>5c4c7b212b81fe50d9abf0faf291bf2e</documentkey>
         <fieldname>instructions</fieldname>
         <language>pt</language>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-10-13 17:09:34</sys_created_on>
-        <sys_id>fd3b2f392ba4f210d9abf0faf291bfa9</sys_id>
+        <sys_created_on>2025-11-06 20:24:40</sys_created_on>
+        <sys_id>210eb7e12b81fe50d9abf0faf291bf0d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-13 17:09:34</sys_updated_on>
+        <sys_updated_on>2025-11-06 20:24:40</sys_updated_on>
         <tablename>item_option_new</tablename>
         <value/>
     </sys_translated_text>
     <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>dfbe36642b287610d9abf0faf291bf35</documentkey>
+        <documentkey>5c4c7b212b81fe50d9abf0faf291bf2e</documentkey>
         <fieldname>rich_text</fieldname>
         <language>es</language>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-10-13 17:17:27</sys_created_on>
-        <sys_id>990d633d2ba4f210d9abf0faf291bf62</sys_id>
+        <sys_created_on>2025-11-06 20:22:42</sys_created_on>
+        <sys_id>749dbba12b81fe50d9abf0faf291bf90</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-13 17:17:27</sys_updated_on>
+        <sys_updated_on>2025-11-06 20:22:42</sys_updated_on>
         <tablename>item_option_new</tablename>
         <value/>
     </sys_translated_text>
     <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>dfbe36642b287610d9abf0faf291bf35</documentkey>
+        <documentkey>5c4c7b212b81fe50d9abf0faf291bf2e</documentkey>
         <fieldname>rich_text</fieldname>
         <language>pt</language>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-10-13 17:09:34</sys_created_on>
-        <sys_id>b53b2f392ba4f210d9abf0faf291bfa9</sys_id>
+        <sys_created_on>2025-11-06 20:24:40</sys_created_on>
+        <sys_id>e50eb7e12b81fe50d9abf0faf291bf0c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-13 17:09:34</sys_updated_on>
+        <sys_updated_on>2025-11-06 20:24:40</sys_updated_on>
         <tablename>item_option_new</tablename>
         <value/>
     </sys_translated_text>
-    <fx_price action="delete_multiple" query="id=dfbe36642b287610d9abf0faf291bf35"/>
+    <fx_price action="delete_multiple" query="id=5c4c7b212b81fe50d9abf0faf291bf2e"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="USD">USD</currency>
+        <currency display_value="MXN">MXN</currency>
         <field>price_if_checked</field>
-        <id>dfbe36642b287610d9abf0faf291bf35</id>
+        <id>5c4c7b212b81fe50d9abf0faf291bf2e</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-10-09 16:44:02</sys_created_on>
-        <sys_id>600f3a642b287610d9abf0faf291bf7f</sys_id>
+        <sys_created_on>2025-11-06 20:17:15</sys_created_on>
+        <sys_id>455c7f212b81fe50d9abf0faf291bf58</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-09 16:44:02</sys_updated_on>
+        <sys_updated_on>2025-11-06 20:17:15</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="USD">USD</currency>
+        <currency display_value="MXN">MXN</currency>
         <field>rec_price_if_checked</field>
-        <id>dfbe36642b287610d9abf0faf291bf35</id>
+        <id>5c4c7b212b81fe50d9abf0faf291bf2e</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-10-09 16:44:02</sys_created_on>
-        <sys_id>280f3a642b287610d9abf0faf291bf7e</sys_id>
+        <sys_created_on>2025-11-06 20:17:15</sys_created_on>
+        <sys_id>cd5c7f212b81fe50d9abf0faf291bf57</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-09 16:44:02</sys_updated_on>
+        <sys_updated_on>2025-11-06 20:17:15</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

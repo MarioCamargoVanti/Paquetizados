@@ -129,14 +129,14 @@
 <h1>Hola control financiero,</h1>
 <p>Se ha cerrado la orden de servicio. A continuaci&oacute;n, se muestran los detalles:</p>
 <div class="case-details">
-<p><strong>Nombre cliente: </strong>${customer_name}</p>
+<p><strong>Nombre cliente: </strong>${company_name}</p>
 <p><strong>N&uacute;mero de OS:</strong> ${number}</p>
 <p><strong>Modelo equipo:</strong> ${equip_model}</p>
-<p><strong>Sitio:</strong> ${site_name.name}</p>
+<p><strong>Sitio:</strong> ${site_name}</p>
 <p><strong>N&uacute;mero de sitio:</strong> ${site_id}</p>
 <p><strong>Orden aprovisionamiento Telmex</strong>: ${telmex_supply_order}</p>
 <p><strong>C&oacute;digo &uacute;nico de cliente:</strong> ${unique_customer_cod}</p>
-<p><strong>Direcci&oacute;n:</strong> ${site_name.street}</p>
+<p><strong>Direcci&oacute;n:</strong> ${street}</p>
 </div>
 <p>Ha finalizado el proceso de atenci&oacute;n.</p>
 <p style="text-align: center;">${mail_script:get_record_link}</p>
@@ -164,7 +164,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8cbefaea47203e106c0c59f4f16d4309</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>OS closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
@@ -172,7 +172,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sysevent_email_action_8cbefaea47203e106c0c59f4f16d4309</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-11-03 17:43:18</sys_updated_on>
+        <sys_updated_on>2025-11-06 19:17:55</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Scitum Base Template">acba29012be83210d9abf0faf291bf0c</template>
         <type>email</type>
