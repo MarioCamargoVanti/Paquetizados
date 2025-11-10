@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Packaged supply">8b85322c2be47610d9abf0faf291bf45</cat_item>
+        <cat_item display_value="Service Supply">8b85322c2be47610d9abf0faf291bf45</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -23,7 +23,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>customer_name</field>
+        <field>company_name</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -45,7 +45,7 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>true</mask_use_encryption>
-        <name>customer_name</name>
+        <name>company_name</name>
         <not_available_conversation>false</not_available_conversation>
         <order>490</order>
         <post_insert_script/>
@@ -82,14 +82,14 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-10-09 16:44:02</sys_created_on>
         <sys_id>dfbe36642b287610d9abf0faf291bf35</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Customer name</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>company_name</sys_name>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>item_option_new_dfbe36642b287610d9abf0faf291bf35</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-13 17:17:27</sys_updated_on>
+        <sys_updated_on>2025-11-07 16:45:32</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
