@@ -4,13 +4,13 @@
             <element>supply_ord_id.service_ord_id.telmex_insta_case</element>
             <position>0</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>1b8663f12ba4f210d9abf0faf291bf42</sys_id>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>d67c27a12b41fe50d9abf0faf291bf94</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>installation_date</element>
             <position>1</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>1f8663f12ba4f210d9abf0faf291bf42</sys_id>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>1e7c27a12b41fe50d9abf0faf291bf94</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,83 +32,209 @@
             <element>telmex_activ_date</element>
             <position>2</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>138663f12ba4f210d9abf0faf291bf43</sys_id>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>127c27a12b41fe50d9abf0faf291bf95</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>validation_frequency</element>
+            <element>supply_ord_id.service_ord_id.street</element>
             <position>3</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>178663f12ba4f210d9abf0faf291bf43</sys_id>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>167c27a12b41fe50d9abf0faf291bf95</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supply_ord_id.service_ord_id.cross_streets</element>
+            <position>4</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>1a7c27a12b41fe50d9abf0faf291bf95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supply_ord_id.service_ord_id.floor</element>
+            <position>5</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>1e7c27a12b41fe50d9abf0faf291bf95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supply_ord_id.service_ord_id.district</element>
+            <position>6</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>127c27a12b41fe50d9abf0faf291bf96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supply_ord_id.service_ord_id.state</element>
+            <position>7</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>167c27a12b41fe50d9abf0faf291bf96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>8</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>1b8663f12ba4f210d9abf0faf291bf43</sys_id>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>1a7c27a12b41fe50d9abf0faf291bf96</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>elapsed_months</element>
-            <position>5</position>
+            <position>9</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>1f8663f12ba4f210d9abf0faf291bf43</sys_id>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>1e7c27a12b41fe50d9abf0faf291bf96</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>scitum_seller</element>
-            <position>6</position>
+            <position>10</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>138663f12ba4f210d9abf0faf291bf44</sys_id>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>127c27a12b41fe50d9abf0faf291bf97</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>telmex_deactiv_date</element>
-            <position>7</position>
+            <position>11</position>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:49:11</sys_created_on>
-            <sys_id>178663f12ba4f210d9abf0faf291bf44</sys_id>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>167c27a12b41fe50d9abf0faf291bf97</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:49:11</sys_updated_on>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>validation_frequency</element>
+            <position>12</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>1a7c27a12b41fe50d9abf0faf291bf97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supply_ord_id.service_ord_id.zip_code</element>
+            <position>13</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>1e7c27a12b41fe50d9abf0faf291bf97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supply_ord_id.service_ord_id.municipality</element>
+            <position>14</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>127c27a12b41fe50d9abf0faf291bf98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supply_ord_id.service_ord_id.city</element>
+            <position>15</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>167c27a12b41fe50d9abf0faf291bf98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supply_ord_id.service_ord_id.country</element>
+            <position>16</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-11-06 19:07:58</sys_created_on>
+            <sys_id>1a7c27a12b41fe50d9abf0faf291bf98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_facturacion" sys_domain="global" view="Default view">4b8623f12ba4f210d9abf0faf291bf92</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-11-06 19:07:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

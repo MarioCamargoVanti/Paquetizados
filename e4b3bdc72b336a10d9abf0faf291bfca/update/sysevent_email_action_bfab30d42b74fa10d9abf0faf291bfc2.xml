@@ -129,7 +129,7 @@
 <h1>Hola control financiero,</h1>
 <p>Se ha dado de baja la orden de facturaci&oacute;n. A continuaci&oacute;n, se muestran los detalles:</p>
 <div class="case-details">
-<p><strong>Nombre cliente:&nbsp;</strong>${supply_ord_id.service_ord_id.customer_name}</p>
+<p><strong>Nombre cliente:&nbsp;</strong>${supply_ord_id.service_ord_id.company_name}</p>
 <p><strong>N&uacute;mero de OF:</strong> ${number}</p>
 <p><strong>N&uacute;mero de OS:&nbsp;</strong>${supply_ord_id.service_ord_id.number}</p>
 <p><strong>Fecha de baja:</strong> ${deactiv_date}</p>
@@ -160,7 +160,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bfab30d42b74fa10d9abf0faf291bfc2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>OF terminated</sys_name>
         <sys_overrides/>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
@@ -168,7 +168,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sysevent_email_action_bfab30d42b74fa10d9abf0faf291bfc2</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-11-03 17:41:26</sys_updated_on>
+        <sys_updated_on>2025-11-06 19:11:25</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Scitum Base Template">acba29012be83210d9abf0faf291bf0c</template>
         <type>email</type>

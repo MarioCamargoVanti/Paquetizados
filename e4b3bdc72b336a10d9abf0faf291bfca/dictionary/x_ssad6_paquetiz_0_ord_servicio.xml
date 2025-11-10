@@ -7,6 +7,7 @@
         <element label="Implementations IO" max_length="40" name="implementation_io" type="string"/>
         <element label="Project ID" max_length="40" name="project_id" type="string"/>
         <element label="Assignment date" max_length="40" name="assignment_date" type="glide_date_time"/>
+        <element label="Floor" max_length="40" name="floor" type="string"/>
         <element choice="1" label="Link type" max_length="40" name="link_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="INFINITUM" language="pt" sequence="2" value="3"/>
@@ -26,11 +27,14 @@
                 <element inactive_on_update="false" label="NUBE" language="es" sequence="4" value="5"/>
             </choice>
         </element>
-        <element label="Site name" max_length="40" name="site_name" reference="cmn_location" type="reference"/>
+        <element label="Street" max_length="40" name="street" type="string"/>
+        <element label="District" max_length="40" name="district" type="string"/>
+        <element label="Site name" max_length="40" name="site_name" type="string"/>
         <element label="Site ID" max_length="40" name="site_id" type="string"/>
         <element label="Unique customer code" max_length="40" name="unique_customer_cod" type="string"/>
         <element label="Link folio" max_length="40" name="link_folio" type="string"/>
         <element label="Onsite contact" max_length="40" name="onsite_contact" type="string"/>
+        <element label="ZIP code" max_length="40" name="zip_code" type="string"/>
         <element label="CAP name" max_length="40" name="cap_name" type="string"/>
         <element label="Rental code" max_length="32" name="rental_code" reference="x_ssad6_paquetiz_0_rental_code" type="reference"/>
         <element label="OC placement" max_length="40" name="oc_placement" type="glide_date"/>
@@ -87,6 +91,7 @@
                 <element inactive_on_update="false" label="TIENDAS TMX" language="es" sequence="6" value="7"/>
             </choice>
         </element>
+        <element label="Country" max_length="40" name="country" type="string"/>
         <element choice="1" label="Market" max_length="40" name="market" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Corporate" sequence="0" value="1"/>
@@ -166,7 +171,9 @@
             </choice>
         </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;})(current);" label="Special packaged" max_length="40" name="special_packaged" read_only="true" type="boolean"/>
+        <element label="State" max_length="40" name="state" type="string"/>
         <element label="Corporate code" max_length="40" name="corporate_cod" type="string"/>
+        <element label="Cross streets" max_length="40" name="cross_streets" type="string"/>
         <element label="Component ID" max_length="40" name="component_id" type="string"/>
         <element label="Previous project" max_length="40" name="previous_project" type="string"/>
         <element label="Cancellation folio" max_length="40" name="cancel_folio" type="string"/>
@@ -488,6 +495,8 @@
             </choice>
         </element>
         <element label="Quote" mandatory="true" max_length="40" name="quote" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Municipality" max_length="40" name="municipality" type="string"/>
         <element label="Contract period" max_length="40" name="contract_period" type="integer"/>
         <index name="index">
             <element name="assigned_to"/>
