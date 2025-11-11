@@ -25,11 +25,13 @@
 			break;
 		case '3': //Documentation
 			g_form.removeOption('status','1');
+			g_form.removeOption('status','5'); //No debe permitir cierre manual
 			g_form.removeOption('status','6');
 			break;
 		case '4': //Pending
 			g_form.removeOption('status','1');
 			g_form.removeOption('status','2');
+			g_form.removeOption('status','5'); //No debe permitir cierre manual
 			g_form.removeOption('status','6');
 			break;
 		case '5': //closed
@@ -53,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>301afca8479c76106c0c59f4f16d4346</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Filter choices OS status</sys_name>
         <sys_overrides/>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
@@ -61,7 +63,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sys_script_client_301afca8479c76106c0c59f4f16d4346</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-26 22:22:29</sys_updated_on>
+        <sys_updated_on>2025-11-11 17:31:44</sys_updated_on>
         <table>x_ssad6_paquetiz_0_ord_servicio</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
