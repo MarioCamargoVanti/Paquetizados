@@ -50,8 +50,8 @@
 			g_form.removeOption('status','2');
 			g_form.removeOption('status','3');
 			g_form.removeOption('status','4');
-			g_form.removeOption('status','6');
 			g_form.removeOption('status','7');
+			g_form.removeOption('status','8');
 			g_form.removeOption('status','9');
 			g_form.removeOption('status','10');
 			g_form.removeOption('status','11');
@@ -114,7 +114,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a72129244750b6106c0c59f4f16d4312</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Filter choices OF status</sys_name>
         <sys_overrides/>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
@@ -122,7 +122,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sys_script_client_a72129244750b6106c0c59f4f16d4312</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-26 23:52:05</sys_updated_on>
+        <sys_updated_on>2025-11-11 17:21:18</sys_updated_on>
         <table>x_ssad6_paquetiz_0_ord_facturacion</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
