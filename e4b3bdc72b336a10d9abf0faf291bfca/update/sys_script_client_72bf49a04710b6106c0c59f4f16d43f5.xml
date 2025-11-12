@@ -51,8 +51,8 @@
 		case '6': //Assigned
 			g_form.removeOption('status','1');
 			g_form.removeOption('status','2');
+			g_form.removeOption('status','3');
 			g_form.removeOption('status','4');
-			g_form.removeOption('status','5');
 			g_form.removeOption('status','7');
 			g_form.removeOption('status','8');
 			break;
@@ -72,7 +72,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>72bf49a04710b6106c0c59f4f16d43f5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Filter choices OA status</sys_name>
         <sys_overrides/>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
@@ -80,7 +80,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sys_script_client_72bf49a04710b6106c0c59f4f16d43f5</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-11-11 20:50:03</sys_updated_on>
+        <sys_updated_on>2025-11-12 16:59:02</sys_updated_on>
         <table>x_ssad6_paquetiz_0_ord_aprovisionamiento</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
