@@ -29,26 +29,37 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
     try {
-        current.assignment_group = "14c889db47a0be106c0c59f4f16d43f7"; //Logística paquetizados
-        if (current.service_acronym == 7) { //Si es servicio especial(SSE-) se marca true
-            current.special_packaged = true;
-        } else {
-            current.special_packaged = false;
-        }
-		var emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
-		if (!gs.nil(current.cap_email) && !emailRegex.test(current.cap_email)) {
-			current.cap_email = null;
-			current.setAbortAction(true);
-		}
-        //var sysIdRegex = /^[0-9a-f]{32}$/; // patrón sys_id para validar si ya esta referenciado
-        if (!gs.nil(current.company_name)) { // && !sysIdRegex.test(current.customer_name)) {
-            var cn = new GlideRecord('customer_account');
-            cn.addQuery('name', 'CONTAINS', current.company_name);
+
+        if (!gs.nil(current.folio_number)) { // && !sysIdRegex.test(current.customer_name)) {
+            var cn = new GlideRecord('x_ssad6_paquetiz_0_ord_servicio');
+            cn.addQuery('folio_number', current.folio_number);
             cn.query();
             if (cn.next()) {
-                current.customer_name = cn.getUniqueValue();
+                current.folio_number = null;
+            } else {
+                current.assignment_group = "14c889db47a0be106c0c59f4f16d43f7"; //Logística paquetizados
+                if (current.service_acronym == 7) { //Si es servicio especial(SSE-) se marca true
+                    current.special_packaged = true;
+                } else {
+                    current.special_packaged = false;
+                }
+                var emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+                if (!gs.nil(current.cap_email) && !emailRegex.test(current.cap_email)) {
+                    current.cap_email = null;
+                    current.setAbortAction(true);
+                }
+                //var sysIdRegex = /^[0-9a-f]{32}$/; // patrón sys_id para validar si ya esta referenciado
+                if (!gs.nil(current.company_name)) { // && !sysIdRegex.test(current.customer_name)) {
+                    var cn = new GlideRecord('customer_account');
+                    cn.addQuery('name', 'CONTAINS', current.company_name);
+                    cn.query();
+                    if (cn.next()) {
+                        current.customer_name = cn.getUniqueValue();
+                    }
+                }
             }
         }
+
     } catch (error) {
         gs.error('Error al validar campos de OS ' + current.number + ", error: " + error);
     }
@@ -59,7 +70,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4f472892b3cbe10d9abf0faf291bf4b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Fields validate before insert</sys_name>
         <sys_overrides/>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
@@ -67,7 +78,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sys_script_b4f472892b3cbe10d9abf0faf291bf4b</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-11-11 16:05:14</sys_updated_on>
+        <sys_updated_on>2025-11-18 14:26:53</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
