@@ -3,197 +3,197 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04c1b0b22b783650d9abf0faf291bfcd</list_id>
+            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cb4e14e92b1dfa10d9abf0faf291bf5b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
-            <sys_id>8cc1b0b22b783650d9abf0faf291bfcd</sys_id>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
+            <sys_id>cb4e14e92b1dfa10d9abf0faf291bf5c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>status</element>
-            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04c1b0b22b783650d9abf0faf291bfcd</list_id>
+            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cb4e14e92b1dfa10d9abf0faf291bf5b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
-            <sys_id>80c1b0b22b783650d9abf0faf291bfce</sys_id>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
+            <sys_id>074e14e92b1dfa10d9abf0faf291bf5d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>customer_name</element>
-            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04c1b0b22b783650d9abf0faf291bfcd</list_id>
+            <element>company_name</element>
+            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cb4e14e92b1dfa10d9abf0faf291bf5b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
-            <sys_id>84c1b0b22b783650d9abf0faf291bfce</sys_id>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
+            <sys_id>0b4e14e92b1dfa10d9abf0faf291bf5d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>service_acronym</element>
-            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04c1b0b22b783650d9abf0faf291bfcd</list_id>
+            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cb4e14e92b1dfa10d9abf0faf291bf5b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
-            <sys_id>88c1b0b22b783650d9abf0faf291bfce</sys_id>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
+            <sys_id>0f4e14e92b1dfa10d9abf0faf291bf5d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>service_name</element>
-            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04c1b0b22b783650d9abf0faf291bfcd</list_id>
+            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cb4e14e92b1dfa10d9abf0faf291bf5b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
-            <sys_id>8cc1b0b22b783650d9abf0faf291bfce</sys_id>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
+            <sys_id>034e14e92b1dfa10d9abf0faf291bf5e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04c1b0b22b783650d9abf0faf291bfcd</list_id>
+            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cb4e14e92b1dfa10d9abf0faf291bf5b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
-            <sys_id>80c1b0b22b783650d9abf0faf291bfcf</sys_id>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
+            <sys_id>074e58e92b1dfa10d9abf0faf291bf08</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assignment_group</element>
-            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04c1b0b22b783650d9abf0faf291bfcd</list_id>
+            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cb4e14e92b1dfa10d9abf0faf291bf5b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
-            <sys_id>84c1b0b22b783650d9abf0faf291bfcf</sys_id>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
+            <sys_id>0b4e58e92b1dfa10d9abf0faf291bf08</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04c1b0b22b783650d9abf0faf291bfcd</list_id>
+            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cb4e14e92b1dfa10d9abf0faf291bf5b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
-            <sys_id>88c1b0b22b783650d9abf0faf291bfcf</sys_id>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
+            <sys_id>0f4e58e92b1dfa10d9abf0faf291bf08</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>telmex_insta_case</element>
-            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04c1b0b22b783650d9abf0faf291bfcd</list_id>
+            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cb4e14e92b1dfa10d9abf0faf291bf5b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
-            <sys_id>8cc1b0b22b783650d9abf0faf291bfcf</sys_id>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
+            <sys_id>034e58e92b1dfa10d9abf0faf291bf09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>telmex_supply_order</element>
-            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04c1b0b22b783650d9abf0faf291bfcd</list_id>
+            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cb4e14e92b1dfa10d9abf0faf291bf5b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
             <sum>false</sum>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
-            <sys_id>80c1b0b22b783650d9abf0faf291bfd0</sys_id>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
+            <sys_id>074e58e92b1dfa10d9abf0faf291bf09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>qo</element>
-            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04c1b0b22b783650d9abf0faf291bfcd</list_id>
+            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cb4e14e92b1dfa10d9abf0faf291bf5b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
             <sum>false</sum>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
-            <sys_id>84c1b0b22b783650d9abf0faf291bfd0</sys_id>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
+            <sys_id>0b4e58e92b1dfa10d9abf0faf291bf09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>quote</element>
-            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04c1b0b22b783650d9abf0faf291bfcd</list_id>
+            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cb4e14e92b1dfa10d9abf0faf291bf5b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>11</position>
             <sum>false</sum>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
-            <sys_id>88c1b0b22b783650d9abf0faf291bfd0</sys_id>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
+            <sys_id>0f4e58e92b1dfa10d9abf0faf291bf09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_updated_on</element>
-            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04c1b0b22b783650d9abf0faf291bfcd</list_id>
+            <list_id display_value="x_ssad6_paquetiz_0_ord_servicio" element="NULL" name="x_ssad6_paquetiz_0_ord_servicio" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cb4e14e92b1dfa10d9abf0faf291bf5b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>12</position>
             <sum>false</sum>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
-            <sys_id>44c1b4b22b783650d9abf0faf291bfc0</sys_id>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
+            <sys_id>034e58e92b1dfa10d9abf0faf291bf0a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -207,10 +207,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-28 16:28:53</sys_created_on>
+            <sys_created_on>2025-11-18 14:22:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>04c1b0b22b783650d9abf0faf291bfcd</sys_id>
+            <sys_id>cb4e14e92b1dfa10d9abf0faf291bf5b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_ssad6_paquetiz_0_ord_servicio</sys_name>
             <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
@@ -218,7 +218,7 @@
             <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
             <sys_update_name>sys_ui_list_x_ssad6_paquetiz_0_ord_servicio_null</sys_update_name>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-28 16:28:53</sys_updated_on>
+            <sys_updated_on>2025-11-18 14:22:53</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
