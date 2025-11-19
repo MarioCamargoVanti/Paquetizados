@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=1463798000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=4307808000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,14 +15,14 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>create_billing_order</internal_name>
-        <label_cache>[{"name":"Updated_1.current.service_ord_id.assignment_group","label":"Trigger - Record Updated➛ Record➛Service order ID➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_ssad6_paquetiz_0_ord_servicio","column_name":"assignment_group","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["assignment_group"]}},{"name":"Updated_1.current.service_ord_id.assigned_to","label":"Trigger - Record Updated➛ Record➛Service order ID➛Assigned_to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ssad6_paquetiz_0_ord_servicio","column_name":"assigned_to","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["assigned_to"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_ssad6_paquetiz_0_ord_aprovisionamiento","reference_display":"Supply order","type":"reference","base_type":"reference","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["supply_ord_id"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_ssad6_paquetiz_0_ord_aprovisionamiento","reference_display":"Supply order","type":"reference","base_type":"reference","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["supply_ord_id"],"7fc66072-74ae-4fc8-8a74-f769b3d67784":["conditions"]},"attributes":{}},{"name":"Updated_1.current.service_ord_id.assigned_to","label":"Trigger - Record Updated➛ Record➛Service order ID➛Assigned_to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ssad6_paquetiz_0_ord_servicio","column_name":"assigned_to","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["assigned_to"]}},{"name":"Updated_1.current.service_ord_id.assignment_group","label":"Trigger - Record Updated➛ Record➛Service order ID➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_ssad6_paquetiz_0_ord_servicio","column_name":"assignment_group","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["assignment_group"]}},{"name":"Updated_1.current.real_insta_date","label":"Trigger - Record Updated➛ Record➛Real installation date","reference":"","reference_display":"Real installation date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_ssad6_paquetiz_0_ord_aprovisionamiento","column_name":"real_insta_date","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["installation_date"]}},{"name":"Updated_1.current.check_list","label":"Trigger - Record Updated➛ Record➛Check list","reference":"","reference_display":"Check list","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_ssad6_paquetiz_0_ord_aprovisionamiento","column_name":"check_list","usedInstances":{}},{"name":"Updated_1.current.config_quest","label":"Trigger - Record Updated➛ Record➛Configuration questionnaire","reference":"","reference_display":"Configuration questionnaire","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_ssad6_paquetiz_0_ord_aprovisionamiento","column_name":"config_quest","usedInstances":{}},{"name":"Updated_1.current.technical_report","label":"Trigger - Record Updated➛ Record➛Technical report","reference":"","reference_display":"Technical report","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_ssad6_paquetiz_0_ord_aprovisionamiento","column_name":"technical_report","usedInstances":{}},{"name":"Updated_1.current.work_order","label":"Trigger - Record Updated➛ Record➛Work order","reference":"","reference_display":"Work order","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_ssad6_paquetiz_0_ord_aprovisionamiento","column_name":"work_order","usedInstances":{}},{"name":"7fc66072-74ae-4fc8-8a74-f769b3d67784.Record","label":"1 - Look Up Record➛Billing order Record","reference":"x_ssad6_paquetiz_0_ord_facturacion","reference_display":"Billing order","type":"reference","base_type":"reference","usedInstances":{"4c9c649d-c4b4-4b27-a8a1-f4fbe8d34c0c":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>915db9f147d832106c0c59f4f16d43d4</master_snapshot>
         <master_snapshot_digest/>
         <name>Create billing order</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>d55db9f147d832106c0c59f4f16d43ed</remote_trigger_id>
+        <remote_trigger_id>01f59abd47d57a106c0c59f4f16d438d</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>af1db5f147d832106c0c59f4f16d43fd</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Create billing order</sys_name>
         <sys_overrides/>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name>sys_hub_flow_af1db5f147d832106c0c59f4f16d43fd</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
+        <sys_updated_on>2025-11-19 18:29:42</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -53,7 +53,9 @@
     <sys_variable_value action="delete_multiple" query="document_key=af1db5f147d832106c0c59f4f16d43fd"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_ssad6_paquetiz_0_ord_aprovisionamiento">statusCHANGESTO3<item display_value="Installed" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+        <condition table="x_ssad6_paquetiz_0_ord_aprovisionamiento">status=3^status_reason=11^uploaded_attachmentsCHANGESTOtrue<item display_value="Installed" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item display_value="Received" endquery="false" field="status_reason" goto="false" newquery="false" operator="=" or="false" value="11"/>
+            <item endquery="false" field="uploaded_attachments" goto="false" newquery="false" operator="CHANGESTO" or="false" value="true"/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -67,15 +69,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-09-30 22:53:48</sys_created_on>
+        <sys_created_on>2025-11-19 17:44:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d55db9f147d832106c0c59f4f16d43ed</sys_id>
+        <sys_id>01f59abd47d57a106c0c59f4f16d438d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-30 22:53:48</sys_updated_on>
+        <sys_updated_on>2025-11-19 17:44:10</sys_updated_on>
         <table>x_ssad6_paquetiz_0_ord_aprovisionamiento</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -85,14 +87,14 @@
         <identifier>af1db5f147d832106c0c59f4f16d43fd</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-10-17 21:29:31</sys_created_on>
-        <sys_id>381dcddf47a0be106c0c59f4f16d432d</sys_id>
+        <sys_created_on>2025-11-19 18:29:42</sys_created_on>
+        <sys_id>dc60a2b947197a106c0c59f4f16d435a</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
-        <trigger display_value="">d55db9f147d832106c0c59f4f16d43ed</trigger>
+        <sys_updated_on>2025-11-19 18:29:42</sys_updated_on>
+        <trigger display_value="">01f59abd47d57a106c0c59f4f16d438d</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT IN381dcddf47a0be106c0c59f4f16d432d"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT INdc60a2b947197a106c0c59f4f16d435a"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=af1db5f147d832106c0c59f4f16d43fd"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT INa71db5f147d832106c0c59f4f16d43fe"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -374,17 +376,17 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:52:52</sys_created_on>
         <sys_id>7f1df5f147d832106c0c59f4f16d432c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-30 22:53:47</sys_updated_on>
+        <sys_updated_on>2025-11-19 18:29:37</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/+Va227bOBD9FUJPu0B2IVm2ZadP2Vy2AdqmcNzuQxAIFEnZwsqSS1JK3CJfsw/7If2xHeoWWRdfk22cvjQVr3OGZ84MZd180yT3JhPGLwMhcUDY9UJcUu1Yo8TFOhsMLatr6oahmwYzHZP0u04PD4fY1Y40HzvMh6Fj7PgMnr1AMh5gf7yYM2iWqtkO8Ez1zXBAsQz5QjuWPGJHmsvD2ZjN5j6WMNjFvoDGkFPGtWPjSEumZWvA9Bj7kXq+t4XAtG/P8ZeISe+rrdswx8ZzHsae8EKY5rFAhjCFegIWX3zOZkLLHHNYVaodvmlk6vmUs0A7vrkF0xVkg1JsdJhOTMPsdHS9M+gaTt90jA41McODBsgVM2UD8kdM7F6ygDJawK05hTNMrwJ/UYyYgk9T42f4XnhfYfWBrsa5DGwnGbDi0c5Ap81kGnqEXc0l+CVtSe1MO0M/mgUfUvuVu5iLI1+W3BUJWI/NlcnKiMwi93oa3o3yDS+8IEGXdfohwX7xhCVwy4kkE8rhrueD6+3UNyKMeGL96Pz0anRm/3UyPn17PrJH59fj0eXp+PxMe0hw2V8itWJqYWaLncKBAYJwby5PiPTinEQPR09B6dMwoF7itxqtSd4lyjaVSFA61dxnq7iu6wWNSGnXnPEAQUbi9O3Jhz/BN1fmBjx2nCGmDLfwuG+14GwwQjZALtu9itFZyyaU7ur6DyJ1pkW7cnoWUuaflTmQMs/2gnkklbdyD9nhnHHlGZinfT55lx3om+zvxejq/ZvikGHeHQ6ksGVoY0rtkv/VFoBlXXCkPnkoVPDCYz5NRz5bzPAogM3tghP1yEmOrjjDd54Al92AMuTnkxgD/e67bMlRFKAQyAP/IBJxOB6J8jBzL2d4kp2q+zEPieRYMibHmNv2zBYLYU8jx146G9tx+sMe67eJfW/Jp0kwwtI3mnb7oPjCfEZkiffuJ1F+eu8J4QWTknsLjMnx1SAW6CB+UO7BFKo4LKy3+whgnUJxhRqVrL6KIOtksk+o0XWsvm4pnwC1HdfQLb2HXWrq+tBcSe1Wg2WF688il9uJpUiizN8gpqrezo1XDPa3IWy8zPZsnY5iR6bJpy/QtEpuMbdKLgVD0+azzYn6xIUWprFScLpprnjWQkoFiOuHd6BEOyQEB5O/JzyMAlqVTLUm8gL0OAL9knn+18MSzHJycEPOVuNdHnE4KPdOC48kygMYB4t6Qkgb10l/lxFq9bt9HRTfBLF3esOhQ3DHda2+xXTaSuBGgw5C8tcETNwUcW0a20jGuInDWwj/jzdwL/nP2Ngo/mnfa5f5uykLbADJbV8JeU3tJ75HWd63nxjUtoofb3jbv/cx3QHt9SyLWKCBoAZulznY6HYApdU3WX8dzlWGyQbs/8sNWkm+MqRFKT6lXS/rFdHLpLRgUqpMtn35EsDVIJmDU/NKOV0dKEqkKuToQxj8dvk4Dl0zIdIXMAeU4ct1zCagFQPRq0LthHJaq9sA6R/QvoRUXUxazvxnu+1XIixedmXDbX8Xh64tBwfmsEddszkBWJ3VqtCO5sUXhhuqUNyqZ00F2KZRHjeKRVGQVUu6Hc69wqZsaXNNMfrzOmWvAjgP2dbXH7sY+1MUGEm9uE+VoaxlduiWk89ZiKADwSbIc1FmLaPIWSA5ZXAYPtyRYEOkdj+wrFNOunXkRai9atzpnbJWa0Azysr+AwL2NGVEJY5Wvidq8Ne6KoG4Q4cOzZZrYq/9mtheKlS6X3y9sLWoxE0atTI/brdudc3GDFk642VObFgQvGLUz/bKq8GK15zLFdxxusoOGTwMSOWeTA74F+4o8L5EzCZTHEzSX69zXBdACIbJFKVDUDrkcJFi/w4vhFatPSCYlV5kP/NBAyhHkCr8gQJlMeOL2kmqRhTNqcrPBwVth3Kj9EliZraQHEZOFku6TBq+UciieW15YQx7HZMOwAFDs+4Ao1Vt2u1qrSfWfIy4pp44v2ckkpijE6K+uKTABQGO4wypoMYo+Vzp+7/f/wnhvxADYh4qVUdhhDCcIBaIYjTn3ox5HKOYff39Kd9oEFY/kabc2ypGcZuONWXbdQEfV6WiyL5VU5ajKa5EXjatu/bdxeuHv1fNkodoY9GSee9pC5Vd65Lb/wAuE84LnC0AAA==</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT IN985db9f147d832106c0c59f4f16d4375"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT IN985db9f147d832106c0c59f4f16d4375,809062a12b553e10d9abf0faf291bf6f"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
@@ -394,23 +396,74 @@
         <display_text/>
         <flow display_value="Create billing order">af1db5f147d832106c0c59f4f16d43fd</flow>
         <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
+        <order>3</order>
+        <parent_ui_id>4c9c649d-c4b4-4b27-a8a1-f4fbe8d34c0c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:53:43</sys_created_on>
         <sys_id>985db9f147d832106c0c59f4f16d4375</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-23 22:05:43</sys_updated_on>
+        <sys_updated_on>2025-11-19 18:29:15</sys_updated_on>
         <ui_id>5c16222f-1540-4ce6-95b7-873f31115bc7</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/9VVy27bMBD8FYNnQZCi1Eh8KxL41MZA0/qSpgQlrmwClMTw4Vgx9FX9hP5YlxKtGG6MNkAv1o27s8uZIbl62BHByYxMU0g+XKfTIkuz7CJJLq4u03ya5ekFzxjAJYlIzSpApGW5BNovIrJh0vnglhrD+JQq9uTAihea0EZzWrLCOs0K0dQI5sIoydplqFloDvWEw2RE/frpYcVaSK6hJrOHx4gopnErC5rMdkepfyUuWQ4SoV898xNCbKvejH06rJ3cDQmU5vkkEYGthZoDEimZNBCRitWc2Ua3ZGa1w4AGxhe1bEfEWtQWGxKP3RrxgtteJR5XAiorYMiNSxpcG8LlLbPsHjt7xwK0WDeiADN4wqFkTtqbw9gAWCjrj6Ev6WWG6ka6qr4bLCFjg/0hYcQZJAHK6/TMg4zyft08f9mznIu6tyQkZVMwOa6YtVrkzno+OwISKmxEK6aUqFdU6WYj+mLkUsUriYu4lM0zbmrEqo7xdiDxGG1l8Rzjt314ybTwKj5jGyzuImJacyOZMa9a0ET65DyTQVnQQAcbfEmhhbIfcYMNBLpdtH8RHJLrkxcrzV8vUv8IzMFrME4p2fYvQPDvLkkyvtt9U6gAOE3jwmk0zXbdD2SLUno7Vrpx6iQ2NqA3eIihZ3xcOPbCItu8s01f03V/vtCz1fHOEfL3k96PkLkAyc0bR7+fH1ChgRbocBWOZkhITpYhGeZI+r/mSDpN+u+Mpskg7uyHycF/48RYefwNn15sgmoHAAA=</values>
+        <values>H4sIAAAAAAAA/+VVy27bMBD8FYNnQZCs1Eh8K1D41hjoI5c0Jdbi2iZAUQwfjh1DX9VP6I91SclO6tZAWhQoivrG5ezszHK9ut0zKdiUTUosXl2Vk7oqq2pcFOPLi3IxqRblWFSAeMEypqFBQnpYKOTpkLENqBCDW+4ciAk3cB/Qy0de8NYKvoTaBwu1bDWBhXRGwe5myJlbgXokcHREff0SYfVaKmFRs+ntXcYMWCrl0bLp/uTK7wxyBQtUxPYhyhpd97Jeaum75DMWY5XTGHmLgoqM4dajFkj1lqAcZqwBLcC3dsem3gYKWAQx12p3RKyl9kTIInbr5COxXxYRt0SyVmN/dzzyoW19uF63ssa58bGlKZKEDZetCo2+7k3EhuMSgvKHhlMkOOJDEyVHEYOi5ft1+/DuUHAmdXI3XKq2BnU8gfdWLoJHF98DFTZExBswRuoVN7bdyJRMWpp8peiQL1X7QEWdXOmcXpqE59QhyGcUf5PCN2BldPGWaCi5S+75fYh1ex+DYt6bJoCrrTT+NdFtcBDXZYdZFlhcnX34cvH00Gl83bM5dsEYtUuzK8WnUBSV2O8/GtKLgpd5HSy1yHfdZ3BReDK/sm0wZ7G5Q7uhJxs489PEIxcl+fYXaVIOMUjtPCgFsbk8Zp7noXFUPOETsOt+/GP+n034zbWDDbXO46hvXvbiCTwQzCQq4X4ykoe9MxTgm6HAsHvKP7V7ykmRfn9nA/U6/7EF9OxbcGYV3X0DYiRdYlgHAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=985db9f147d832106c0c59f4f16d4375"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create billing order">af1db5f147d832106c0c59f4f16d43fd</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-11-18 23:52:02</sys_created_on>
+        <sys_id>809062a12b553e10d9abf0faf291bf6f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-11-19 18:29:15</sys_updated_on>
+        <ui_id>7fc66072-74ae-4fc8-8a74-f769b3d67784</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VY2W7bOhD9FVXPjit5k5232wYGCtw2QJv2Jc0lKJKKiUuTCpckjuF/71CL7XiP46LpI8lZzsycGZG6noachuchHUSDbDDo9pMoarejqNdrExynabtH0ijFnbARSjxmIGlxKhgs77Fwfv2IjMG0h3J855jlTyhCSlOUYWKdxoQrCcKUm1zgyY9K5wMXgsvbAASZhmMy4oJqJsPz65tGmGMNriycnE9XjuwkZ0jglAmwcuWRBF88rMbBUTxTXo/KO6iXSJamS5TnUSNkj5ZJysBVhoVhjXCMJcVW6cl8RzNML6VYbIy4tGAx9MKPhj+B+X7k5TIGYRFWns2XqEpVuU1GihN2mVufxmKnBFoeKuHG8ksZgE8yy7ATtk4y7DgD9ljuMXsQFaLs20g9fK0dDrkswqsOhSJYzFfYWs1TZ5nxtWCCjcEQGuM8h/KhXKt7XigDlnHzVsCimQn1AE4Nv5VN4AAAb0KKcHMI+xfF9g+suY/iM5gpyp9xAdVGZdKNcrrIyj0iwpniQGNpSlvhrMgVunMeZRl1FR8qUwQChmie239A4Z5VocwaNdG7OykyWFCCKEm592mW2G5cnotJwXBOfzqwQafT7zlEyCiKm8RpSKqdzf4zFltn3pUiyXoLHG/ouGb5uBzNoZnYqLwpPVXbPNur2iY+Wdt0ougPNY7V7u31zb5OKAPe0w4x3UkCuqi3UdqiMnNL/bBO7KMZOuRM0Gfj/ABwtfKlJ1uQTrbhrQiaeR8rc73118/1N0lPAAS3gCLfXMLXvvisAtDT8La7kxppvMKDovxLU9zvYUPW2YsDq4Kn46dsUdeavweArBW/AaLgqkS5AXg9X2vzFXXbJ6Nuu/Uy6gJxrqdz9POsbUhwfXvypavln7w8XpUHdi0pxLObOfU/HuczfqnPlve50pvtFzXnMrPKk4stBDvx3WxLszV+Z3ePQLXyh8pmRQ+c3jK78F5LUWUfsPh/03nFrnkPFeG9+p4X73wKpEv3PJ6hMdSJ53D51IwAFQzCmqFMOUlRde1c0MbXLePa2Ep4fYZ8ZfDykYGClgvsiAWFdDCXPsVkOSC6WvFTFtThVRhMAOEFRXjBPLyXJWPLPOqc8K73mnk0xFwUqYfnQ75UO6a10ltm0p6q7Sj/gQPrQFDxSUG9fqJt4vvGybYH61/xFn3t1CEMp50W7iXtOI6iOKJJ1E+SuN9Lsx5OOtmi0RAyksBYBMsZEAPMo5oIdVXj9dFSTc0j/5eA8vthMV0bB8OtlS+U9E/QVmIDjxfKHNR490dUjYtUKcGwXLCz+8fmxVv5peL41Wpuyq1/NxXtd33LHf8u+Z1jnzwp+ixq9WNKzvpJnJx1Mto7G1DcPcODtJu0KSOd7PjP880vBgorgHEUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=809062a12b553e10d9abf0faf291bf6f"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=af1db5f147d832106c0c59f4f16d43fd"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=af1db5f147d832106c0c59f4f16d43fd"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT IN189062a12b553e10d9abf0faf291bf70"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8c9062a12b553e10d9abf0faf291bf6f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create billing order">af1db5f147d832106c0c59f4f16d43fd</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-11-18 23:52:02</sys_created_on>
+        <sys_id>189062a12b553e10d9abf0faf291bf70</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-11-19 18:29:40</sys_updated_on>
+        <ui_id>4c9c649d-c4b4-4b27-a8a1-f4fbe8d34c0c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXW/aQBD8K5afwTIGbMJb1BYpUlOqgCJFVWStz2s49Xzn3J0hFPHfu2cbghqitlEf++ab/ZrZHXnvq9pWtTVLdW0MX0l/+u2x53PpMPre+xJK9Kc+UzLnliuZNkDP34CoXWCBHn3yHLynGj2pvDXswJvPPMg4aguGcnNuKgG7+78oYWsuco0dnwo0TbWo/en+l5DdVZgKyFC4zlZzuaJyntOrCKEYXLEBG0bxMArDaDIaZPEwG0T5EBCGlHcs/HCU531ukN6but08ws1xktK5ozUIez4+W5Q50ugChMGeX4LMwSq9OyEaIZ9L8QKsubTUznfJz4b/oN7ReOwSCySNDNvg6Zl2u2xhtlac4bxyBFvEQia6GqZEXcovrQ53BSygFvZ4BUJqQ/2wcqQdi45SsVir7d1x4IzLRmAXFIqBOL3A0hqy2qJxh0GBJTVKS6gqWk5aabXhTTFxKYMVnRyDQqgtDXVeC4A54gHtCIIZ4R8b+B40dypuqQ0VtzQzMJyljS+pndUk4dCsJX2qHaFWYCclbbdBCYZpXtlrmrPBjvWh99rUZ37e75OCxXGYRP1kBNgfFWzSn0Ay6hdJfJUN8zhJJqPgDhld/nC4WXy6/bp8eG3yd/f5F86/gnExHoTjy84fxZecf8Hzb9s9+o3d3YH+0O1hGP63+7nduUlb23bamuHvdvujs3Y7wbS+yZFxQ0SWDrs5/uldYEcG4Owc2ir93Ul4wQ4/Af05wwIzBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=af1db5f147d832106c0c59f4f16d43fd"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=af1db5f147d832106c0c59f4f16d43fd"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -498,7 +551,7 @@
         <description>Creación de orden de facturación cuando el estado de la orden de aprovisionamiento sea Instalado</description>
         <flow_priority/>
         <internal_name>create_billing_order</internal_name>
-        <label_cache>[{"name":"Updated_1.current.service_ord_id.assignment_group","label":"Trigger - Record Updated➛ Record➛Service order ID➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_ssad6_paquetiz_0_ord_servicio","column_name":"assignment_group","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["assignment_group"]}},{"name":"Updated_1.current.service_ord_id.assigned_to","label":"Trigger - Record Updated➛ Record➛Service order ID➛Assigned_to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ssad6_paquetiz_0_ord_servicio","column_name":"assigned_to","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["assigned_to"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_ssad6_paquetiz_0_ord_aprovisionamiento","reference_display":"Supply order","type":"reference","base_type":"reference","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["supply_ord_id"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛ Record","reference":"x_ssad6_paquetiz_0_ord_aprovisionamiento","reference_display":"Supply order","type":"reference","base_type":"reference","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["supply_ord_id"],"7fc66072-74ae-4fc8-8a74-f769b3d67784":["conditions"]},"attributes":{}},{"name":"Updated_1.current.service_ord_id.assigned_to","label":"Trigger - Record Updated➛ Record➛Service order ID➛Assigned_to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_ssad6_paquetiz_0_ord_servicio","column_name":"assigned_to","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["assigned_to"]}},{"name":"Updated_1.current.service_ord_id.assignment_group","label":"Trigger - Record Updated➛ Record➛Service order ID➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_ssad6_paquetiz_0_ord_servicio","column_name":"assignment_group","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["assignment_group"]}},{"name":"Updated_1.current.real_insta_date","label":"Trigger - Record Updated➛ Record➛Real installation date","reference":"","reference_display":"Real installation date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_ssad6_paquetiz_0_ord_aprovisionamiento","column_name":"real_insta_date","usedInstances":{"5c16222f-1540-4ce6-95b7-873f31115bc7":["installation_date"]}},{"name":"Updated_1.current.check_list","label":"Trigger - Record Updated➛ Record➛Check list","reference":"","reference_display":"Check list","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_ssad6_paquetiz_0_ord_aprovisionamiento","column_name":"check_list","usedInstances":{}},{"name":"Updated_1.current.config_quest","label":"Trigger - Record Updated➛ Record➛Configuration questionnaire","reference":"","reference_display":"Configuration questionnaire","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_ssad6_paquetiz_0_ord_aprovisionamiento","column_name":"config_quest","usedInstances":{}},{"name":"Updated_1.current.technical_report","label":"Trigger - Record Updated➛ Record➛Technical report","reference":"","reference_display":"Technical report","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_ssad6_paquetiz_0_ord_aprovisionamiento","column_name":"technical_report","usedInstances":{}},{"name":"Updated_1.current.work_order","label":"Trigger - Record Updated➛ Record➛Work order","reference":"","reference_display":"Work order","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_ssad6_paquetiz_0_ord_aprovisionamiento","column_name":"work_order","usedInstances":{}},{"name":"7fc66072-74ae-4fc8-8a74-f769b3d67784.Record","label":"1 - Look Up Record➛Billing order Record","reference":"x_ssad6_paquetiz_0_ord_facturacion","reference_display":"Billing order","type":"reference","base_type":"reference","usedInstances":{"4c9c649d-c4b4-4b27-a8a1-f4fbe8d34c0c":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Create billing order</name>
         <natlang/>
@@ -515,7 +568,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>915db9f147d832106c0c59f4f16d43d4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -523,7 +576,7 @@
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
+        <sys_updated_on>2025-11-19 18:29:42</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -691,14 +744,14 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:53:47</sys_created_on>
         <sys_id>d15db9f147d832106c0c59f4f16d43d5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
+        <sys_updated_on>2025-11-19 18:29:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -775,14 +828,14 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:53:47</sys_created_on>
         <sys_id>d95db9f147d832106c0c59f4f16d43e3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_update_name/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
+        <sys_updated_on>2025-11-19 18:29:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -810,17 +863,17 @@
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:53:48</sys_created_on>
         <sys_id>915db9f147d832106c0c59f4f16d43ec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-30 22:53:48</sys_updated_on>
+        <sys_updated_on>2025-11-19 17:44:09</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=915db9f147d832106c0c59f4f16d43d4^sys_idNOT IN5d5db9f147d832106c0c59f4f16d43eb"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=915db9f147d832106c0c59f4f16d43d4^sys_idNOT IN5d5db9f147d832106c0c59f4f16d43eb,e99062a12b553e10d9abf0faf291bff2"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
@@ -830,23 +883,74 @@
         <display_text/>
         <flow display_value="Create billing order">915db9f147d832106c0c59f4f16d43d4</flow>
         <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
+        <order>3</order>
+        <parent_ui_id>4c9c649d-c4b4-4b27-a8a1-f4fbe8d34c0c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:53:48</sys_created_on>
         <sys_id>5d5db9f147d832106c0c59f4f16d43eb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-11-18 23:52:09</sys_updated_on>
+        <ui_id>5c16222f-1540-4ce6-95b7-873f31115bc7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVy27bMBD8FYNnQZDi1Eh8KxLk1CZA0/qSpsRaXNkEKIrhw7Fj+Kv6Cf2xLinZMZwYbYBegvrG3dnlzGi5vlszKdiYjUosPpyXo2pYDocnRXFydlpOR8NpeSKGgHjKMqahQUJ6mCrk6ZCxBagQg0vuHIgRN/AQ0MsnXvDWCl5D5YOFSraawEI6o2A16WturEA9EDjYoX79jLBqLpWwqNn47j5jBixd5dGy8fog9bfEFUxREfRrZH5EiF+ZV2Of9msH112CpEU+RcZw6VELJCI1KIcZa0AL8K1dsbG3gQIWQdxotdoh5lJ7asgidunkE117VkRcjaSswi63O/LetS5cX4KHW+ocHeuh1byVFbrOE4E1BOUv9mMd4Mb4+BlSSZLZV7cqNPq6s4TtGmw/EkWCIxJoos7IvJdR387bxy9blldSJ0v6pGorULsTeG/lNPjIZ81QYUONeAPGSD3jxrYLmYqJS5PPFB3yWrWPdKmTM53TdBDxnGyF/Irilyk8ASujis/Uhoo3GXMrd6HAuWctZCJ/CJFJp6zXwDsbYkllpfEf6YIF9nQ32fZFCCzOjw5WOX0epPQI3N5rcMEYtUovQIrvoSiGYr3+ZkgBCl7mVbBkmt9sfhBbkpLsmNk2mKPY3KFd0Efse+aHhbteVOTbN7ZJNdRBaudBKYh281h5vA9NteIJn4Cbzcvn/X+a8Mbl9ecZ2y6vK4lKuFeGbru5sCH3PfJuCA+2V58cTPpkv8HKf7XBylGRfu9oj3Xi3v0a2/vHOrLQ7n8D4PzfwOQHAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5d5db9f147d832106c0c59f4f16d43eb"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create billing order">915db9f147d832106c0c59f4f16d43d4</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-11-18 23:52:08</sys_created_on>
+        <sys_id>e99062a12b553e10d9abf0faf291bff2</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
-        <ui_id>5c16222f-1540-4ce6-95b7-873f31115bc7</ui_id>
+        <sys_updated_on>2025-11-19 00:03:16</sys_updated_on>
+        <ui_id>7fc66072-74ae-4fc8-8a74-f769b3d67784</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/9VVy27bMBD8FYNnQZCi1Eh8KxL41MZA0/qSpgQlrmwClMTw4Vgx9FX9hP5YlxKtGG6MNkAv1o27s8uZIbl62BHByYxMU0g+XKfTIkuz7CJJLq4u03ya5ekFzxjAJYlIzSpApGW5BNovIrJh0vnglhrD+JQq9uTAihea0EZzWrLCOs0K0dQI5sIoydplqFloDvWEw2RE/frpYcVaSK6hJrOHx4gopnErC5rMdkepfyUuWQ4SoV898xNCbKvejH06rJ3cDQmU5vkkEYGthZoDEimZNBCRitWc2Ua3ZGa1w4AGxhe1bEfEWtQWGxKP3RrxgtteJR5XAiorYMiNSxpcG8LlLbPsHjt7xwK0WDeiADN4wqFkTtqbw9gAWCjrj6Ev6WWG6ka6qr4bLCFjg/0hYcQZJAHK6/TMg4zyft08f9mznIu6tyQkZVMwOa6YtVrkzno+OwISKmxEK6aUqFdU6WYj+mLkUsUriYu4lM0zbmrEqo7xdiDxGG1l8Rzjt314ybTwKj5jGyzuImJacyOZMa9a0ET65DyTQVnQQAcbfEmhhbIfcYMNBLpdtH8RHJLrkxcrzV8vUv8IzMFrME4p2fYvQPDvLkkyvtt9U6gAOE3jwmk0zXbdD2SLUno7Vrpx6iQ2NqA3eIihZ3xcOPbCItu8s01f03V/vtCz1fHOEfL3k96PkLkAyc0bR7+fH1ChgRbocBWOZkhITpYhGeZI+r/mSDpN+u+Mpskg7uyHycF/48RYefwNn15sgmoHAAA=</values>
+        <values>H4sIAAAAAAAA/+VYTW/jNhD9K6rOjiv5S3ZubQIDC2w3wCa7l+2WoEQqJkqTCkklcQz/9w5FSRZsxbZaB0jQI4dD8s3Me6Oxf6x9RvxLn8yCWTqbjadREAyHQTCZDBMcxvFwksRBjEd+zxd4ScHT4JhTWD5intv1M9IakwnK8ENODXtBAZKKoBQnJlc4YVKAM2E643j1vTzzO+OciXsPHKmC7WTBOFFU+Jc/fvb8DCt4ysDO5Xpn61SsHMeUg+tdCXYHu1ll9RIVe872uXnM++I2HMjLoOfTZ0MFoYAhxVzTnr/EgmAj1aq2KIrJjeBbw4IJAzf61vlZsxd4dxpYv5RCVAl1e/USlZly5vQaG3xrVG5zWbomC8kSql0+CE1xzs1V0+YcbjJjU18ccWG705LnS/HFpcOvL6gKA5ZcAwia2UAt8jKM9HYhn75WKOdMFDkpN7lMMK9X2BjF4txYPGufcrqEi9ASZxmUHGVKPrLiMGBZ9u85LPopl0/wqGb3og+8AeB9yCvuz8F+XZi/Y8VsFH/ANQVlUsaBIciVUMtcFal8RAnPdbGhsNDuLn/T8/VKX3Gs9TZySDl6yC1ul4cyYuSSZo8kimXmN7jikZbBbXqVXMYHKTjbUi6RgjCLQjc0o/Ms46tCJ4z8mcMdZL3+lkHMlKCwn+QK0mw2m7+0wSbXvziXaF9I//6ijpI7Hm8luatmwG1JKMW3Z/vcdkEpvvBs4hsFwUeSHzz+/tTXXU8uBUdEFZKDJCNbPmmpDHK5bKhqXx6deX4ChIrnN5aZXrx6DVVJ85RRTtq+MXO7sfONGfw/vzHvkuQACKaYonpMwLRSDAwA9K3YPz5IvTjc4VlBr8YXxdqwTvY1gD0jvZfOSjgBTqWEW3jbu3N4WiBW/b6gzG6vr4ylAIZnE8BwcB4BrOsw60S25LyaEW01K/8X6493/YGCjQPhpk1gnd4Mu7452OwLeNhJwU2yuZ3rVzh35mHyFUX23rIFLOBo+R5y+kVPjNxTs3298iLSPGH+d9t+yThUFaoI7w0G0/Dgb6O4MZiyFC2hciyD+VnRBMihEVYUpTIXBJWT85ZItpIpU9qUzvuN5isF/QhPgjA9s6Be4e3V3h0/xMfjqFL5KfWqQMrXtAeBeEUgXh1It7C7NK3RGYfTczetOWa8qAb8KMoa5aRKSfVK4zpSyAOMOLGrnQgqPCuo/9722iTQ2v6OYP0Qv7DP35oSiuPRAE+iYRgGQRiQKJhGUTidxOkER6N0q1GEtEigm8LNKVAFrkcVNao6h/v9p2y23frMCaAqBl5LYX8+DyLjWVRQXq9CdRx32U9iKTnFYqeh3AHyX+fFF6Gm6/jdNZUP8XdTzu52M+1Mrbl+q7EhZ98Ee8jpJ0uxKQ0G05AkF9MojC5GKZlczAgeX+BZPI6GhCaj9JyTwM9/ABpP8f/TFQAA</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5d5db9f147d832106c0c59f4f16d43eb"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e99062a12b553e10d9abf0faf291bff2"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=915db9f147d832106c0c59f4f16d43d4"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=915db9f147d832106c0c59f4f16d43d4"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=915db9f147d832106c0c59f4f16d43d4^sys_idNOT INa59062a12b553e10d9abf0faf291bff3"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8c9062a12b553e10d9abf0faf291bf6f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create billing order">915db9f147d832106c0c59f4f16d43d4</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-11-18 23:52:08</sys_created_on>
+        <sys_id>a59062a12b553e10d9abf0faf291bff3</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-11-19 18:29:42</sys_updated_on>
+        <ui_id>4c9c649d-c4b4-4b27-a8a1-f4fbe8d34c0c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXW/aMBT9K5GfAwoBEspb1a5SpXadSlVpmqroxrkBa8ZObQfKEP9910mAau20se1xb/Hx/Tjn+h5ly3TtqtrZB31urZgrNv3yFDKhPEbfW6ZgiWzKuFaFcEKrrAFCtgJZ+4sZBvQpCgieawyUDhawgeDuKoBcoHFgKbYQtpKweTwhhS+ELAx2fCow1NWhYdPtD1eioIplBOXgjA/4ME6GcRTFk9EgT4b5IC6GgDCkghJylBR6sRcS3DRI+FOFblN53Doj1Lw733RVZntQm8KzGkQhwxeHqkDiU4K0GLIlqAKcNpsDYhCKOyWPwEIoR+WYD36x4hs1jMdjH1giSeTYXh6OWTfKFi4vwQFRqbmrTRfKF1pwtO1wCiyhlu7iNdYG3FVeapviIJf7bC3rpfrYToQdCuxfjpDaEgmsvFJPvdNRzhZ6fb9neSVUM5XuUmoO8nACR7PLa+f5bBlKXFKhbAlVRRPNKqNXokkmLsv+nNYE+6XUa2rq97MP3BPv02Chf0X4ZQM/ghFexS2VoeSWZg5W8KzZZSpHY0K2C5nd2AsJ1h5F0nSz59pTbCV34rJ2Pj6FG1G5c+q8wk7HLnxrjVeu2G7TkidJlMa9dATYG5V80ptAOuqVaXKWD4skTSej/j1yWqDd7nr24fbTw+e3VvnjOqf55wzG5XgQjd/3zyh5zz/vOOdE08S/MI1/sd/0TBRF/03z16YRNmtXvdPWNP+HnnnyBml7HmbNhSVqDx673v91/MWGlkvw19Bam69e1BHbfQdv+WLOvwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=915db9f147d832106c0c59f4f16d43d4"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=915db9f147d832106c0c59f4f16d43d4"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -923,25 +1027,25 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>af1db5f147d832106c0c59f4f16d43fd</sys_id>
         <latest_snapshot>915db9f147d832106c0c59f4f16d43d4</latest_snapshot>
-        <compiler_build>glide-yokohama-12-18-2024__patch7-hotfix2-09-18-2025_09-21-2025_1435.zip</compiler_build>
+        <compiler_build>glide-yokohama-12-18-2024__patch7-hotfix2a-09-24-2025_10-07-2025_2003.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=af1db5f147d832106c0c59f4f16d43fd^sys_idNOT IN915db9f147d832106c0c59f4f16d43ee"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"915db9f147d832106c0c59f4f16d43ee","name":"plan","plan_signature":null}}</plan>
         <plan_id>af1db5f147d832106c0c59f4f16d43fd</plan_id>
-        <snapshot>65eec8d92bb0fe10d9abf0faf291bf8b</snapshot>
+        <snapshot>915db9f147d832106c0c59f4f16d43d4</snapshot>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
         <sys_created_on>2025-09-30 22:53:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>915db9f147d832106c0c59f4f16d43ee</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-10-17 21:29:31</sys_updated_on>
-        <trigger display_value="">d55db9f147d832106c0c59f4f16d43ed</trigger>
+        <sys_updated_on>2025-11-19 18:29:42</sys_updated_on>
+        <trigger display_value="">01f59abd47d57a106c0c59f4f16d438d</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=af1db5f147d832106c0c59f4f16d43fd"/>
 </record_update>
