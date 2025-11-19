@@ -2,27 +2,27 @@
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <cleared>false</cleared>
         <disabled>ignore</disabled>
-        <field>config_quest</field>
+        <field>technical_report</field>
         <field_message/>
         <field_message_type>none</field_message_type>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-        <sys_created_on>2025-09-29 17:52:02</sys_created_on>
-        <sys_id>79ae2b952b583610d9abf0faf291bfa1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>config_quest</sys_name>
+        <sys_created_on>2025-11-18 23:20:22</sys_created_on>
+        <sys_id>75499aa92b153e10d9abf0faf291bf5b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>technical_report</sys_name>
         <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
         <sys_policy/>
         <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
-        <sys_update_name>sys_ui_policy_action_79ae2b952b583610d9abf0faf291bfa1</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_75499aa92b153e10d9abf0faf291bf5b</sys_update_name>
         <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-        <sys_updated_on>2025-09-29 17:52:02</sys_updated_on>
+        <sys_updated_on>2025-11-18 23:24:09</sys_updated_on>
         <table>x_ssad6_paquetiz_0_ord_aprovisionamiento</table>
-        <ui_policy display_value="Mandatory Fields Policy (Installed State)">097d23552b583610d9abf0faf291bf8a</ui_policy>
+        <ui_policy display_value="Mandatory Fields Policy (Received Status reason)">6d1996a92b153e10d9abf0faf291bf7a</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>ignore</visible>
     </sys_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=79ae2b952b583610d9abf0faf291bfa1"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=75499aa92b153e10d9abf0faf291bf5b"/>
 </record_update>
