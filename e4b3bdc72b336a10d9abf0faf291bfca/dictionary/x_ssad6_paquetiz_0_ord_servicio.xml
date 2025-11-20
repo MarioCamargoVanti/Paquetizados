@@ -7,7 +7,7 @@
         <element label="Implementations IO" max_length="40" name="implementation_io" type="string"/>
         <element label="Project ID" max_length="40" name="project_id" type="string"/>
         <element label="Assignment date" max_length="40" name="assignment_date" type="glide_date_time"/>
-        <element label="Special bundle" max_length="255" name="special_bundle" type="boolean"/>
+        <element label="Special bundle" max_length="255" name="special_bundle" read_only="true" type="boolean"/>
         <element label="Floor" max_length="40" name="floor" type="string"/>
         <element choice="1" label="Link type" max_length="40" name="link_type" type="choice">
             <choice>
