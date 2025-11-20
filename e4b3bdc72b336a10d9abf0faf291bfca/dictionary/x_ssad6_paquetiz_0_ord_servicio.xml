@@ -7,6 +7,7 @@
         <element label="Implementations IO" max_length="40" name="implementation_io" type="string"/>
         <element label="Project ID" max_length="40" name="project_id" type="string"/>
         <element label="Assignment date" max_length="40" name="assignment_date" type="glide_date_time"/>
+        <element label="Special bundle" max_length="255" name="special_bundle" type="boolean"/>
         <element label="Floor" max_length="40" name="floor" type="string"/>
         <element choice="1" label="Link type" max_length="40" name="link_type" type="choice">
             <choice>
@@ -170,7 +171,6 @@
                 <element inactive_on_update="false" label="VITECSA" language="es" sequence="10" value="11"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;})(current);" label="Special packaged" max_length="40" name="special_packaged" read_only="true" type="boolean"/>
         <element label="State" max_length="40" name="state" type="string"/>
         <element label="Corporate code" max_length="40" name="corporate_cod" type="string"/>
         <element label="Cross streets" max_length="40" name="cross_streets" type="string"/>
