@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="0991f1174733a6106c0c59f4f16d4366" label="Service order" max_length="40" name="x_ssad6_paquetiz_0_ord_servicio" type="collection">
-        <element label="Equipment delivery" max_length="40" name="equip_delivery" type="glide_date_time"/>
+        <element label="Actual equipment arrival date" max_length="40" name="equip_delivery" type="glide_date_time"/>
         <element label="Folio number" max_length="40" name="folio_number" type="string"/>
         <element label="Company name" max_length="40" name="company_name" type="string"/>
         <element label="Contract code" max_length="40" name="contract_code" type="string"/>
@@ -40,7 +40,7 @@
         <element label="Rental code" max_length="32" name="rental_code" reference="x_ssad6_paquetiz_0_rental_code" type="reference"/>
         <element label="OC placement" max_length="40" name="oc_placement" type="glide_date"/>
         <element label="QO" max_length="40" name="qo" type="string"/>
-        <element label="Link delivery" max_length="40" name="link_delivery" type="glide_date_time"/>
+        <element label="Actual link delivery date" max_length="40" name="link_delivery" type="glide_date_time"/>
         <element label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
         <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
         <element choice="1" label="IOM movement type" max_length="40" name="iom_move_type" type="choice">
@@ -103,12 +103,12 @@
                 <element inactive_on_update="false" label="PYME" language="es" sequence="1" value="2"/>
             </choice>
         </element>
-        <element label="Estimated supply" max_length="40" name="estim_supply" type="glide_date"/>
+        <element label="Estimated implementation date" max_length="40" name="estim_supply" type="glide_date"/>
         <element label="Equipment model" max_length="40" name="equip_model" type="string"/>
-        <element label="Estimated equipment delivery" max_length="40" name="estim_equip_delivery" type="glide_date"/>
+        <element label="Estimated equipment arrival date" max_length="40" name="estim_equip_delivery" type="glide_date"/>
         <element label="RFC" max_length="40" name="rfc" type="string"/>
         <element label="Price" max_length="40" name="price" type="currency"/>
-        <element label="Information request to CAP" max_length="40" name="info_request_cap" type="glide_date_time"/>
+        <element label="Information request date to CAP" max_length="40" name="info_request_cap" type="glide_date_time"/>
         <element choice="1" label="Telmex sector" max_length="40" name="telmex_sector" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Governo I" language="pt" sequence="1" value="2"/>
@@ -177,7 +177,7 @@
         <element label="Component ID" max_length="40" name="component_id" type="string"/>
         <element label="Previous project" max_length="40" name="previous_project" type="string"/>
         <element label="Cancellation folio" max_length="40" name="cancel_folio" type="string"/>
-        <element label="Estimated link delivery" max_length="40" name="estim_link_delivery" type="glide_date"/>
+        <element label="Estimated link delivery date" max_length="40" name="estim_link_delivery" type="glide_date"/>
         <element choice="1" label="Service acronym" max_length="40" name="service_acronym" type="choice">
             <choice>
                 <element inactive_on_update="false" label="FLXP" language="es" sequence="2" value="3"/>
@@ -429,7 +429,7 @@
         <element label="Additional comments" max_length="40" name="comments" type="journal_input"/>
         <element attributes="email=true" label="CAP email" max_length="40" name="cap_email" type="string"/>
         <element label="Contracted C licence" max_length="40" name="contracted_c_lic" type="string"/>
-        <element label="Information received from CAP" max_length="40" name="info_received_cap" type="glide_date_time"/>
+        <element label="Information reception date from CAP" max_length="40" name="info_received_cap" type="glide_date_time"/>
         <element label="Assignment group" max_length="32" name="assignment_group" read_only="true" reference="sys_user_group" reference_qual="active=true^descriptionLIKEpaquetizados^EQ" reference_qual_condition="active=true^descriptionLIKEpaquetizados^EQ" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;return current.service_acronym;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Service name" max_length="40" name="service_name" read_only="true" type="choice" virtual="true">
             <choice>
@@ -490,7 +490,7 @@
                 <element inactive_on_update="false" label="Baja" language="es" sequence="5" value="6"/>
                 <element inactive_on_update="false" label="Pendiente" language="es" sequence="3" value="4"/>
                 <element inactive_on_update="false" label="Cancelado" language="es" sequence="6" value="7"/>
-                <element inactive_on_update="false" label="Cancelamento" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Baixa" language="pt" sequence="5" value="6"/>
                 <element inactive_on_update="false" label="Cancelado" language="pt" sequence="6" value="7"/>
             </choice>
         </element>

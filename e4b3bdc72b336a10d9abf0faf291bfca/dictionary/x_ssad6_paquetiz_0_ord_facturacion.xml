@@ -131,7 +131,7 @@
                 <element inactive_on_update="false" label="Cerrado" language="es" sequence="4" value="5"/>
                 <element inactive_on_update="false" label="Implementation documents" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Pendente" language="pt" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="Cancelamento" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Baixa" language="pt" sequence="5" value="6"/>
                 <element inactive_on_update="false" label="Encerrado" language="pt" sequence="4" value="5"/>
                 <element inactive_on_update="false" label="Instalado" language="pt" sequence="2" value="3"/>
                 <element inactive_on_update="false" label="IDC reconciliation" sequence="8" value="9"/>

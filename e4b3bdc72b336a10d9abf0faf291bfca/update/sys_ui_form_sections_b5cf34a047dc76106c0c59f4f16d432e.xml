@@ -38,7 +38,7 @@
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_ssad6_paquetiz_0_ord_servicio" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b5cf34a047dc76106c0c59f4f16d432e</sys_ui_form>
-            <sys_ui_section caption="General information" display_value="General information" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">1fbed7f92b64f210d9abf0faf291bf03</sys_ui_section>
+            <sys_ui_section caption="Commercial and contracting data" display_value="Commercial and contracting data" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">1fbed7f92b64f210d9abf0faf291bf03</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
             <sys_updated_on>2025-10-13 16:15:05</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_ssad6_paquetiz_0_ord_servicio" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b5cf34a047dc76106c0c59f4f16d432e</sys_ui_form>
-            <sys_ui_section caption="CAP" display_value="CAP" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">7dcff0a047dc76106c0c59f4f16d4325</sys_ui_section>
+            <sys_ui_section caption="Project team" display_value="Project team" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">7dcff0a047dc76106c0c59f4f16d4325</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
             <sys_updated_on>2025-10-13 16:15:05</sys_updated_on>
         </sys_ui_form_section>
@@ -66,7 +66,7 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_ssad6_paquetiz_0_ord_servicio" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b5cf34a047dc76106c0c59f4f16d432e</sys_ui_form>
-            <sys_ui_section caption="Customer information" display_value="Customer information" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b9cf34a047dc76106c0c59f4f16d432c</sys_ui_section>
+            <sys_ui_section caption="Segmentation" display_value="Segmentation" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b9cf34a047dc76106c0c59f4f16d432c</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
             <sys_updated_on>2025-10-13 16:15:05</sys_updated_on>
         </sys_ui_form_section>
@@ -80,7 +80,7 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_ssad6_paquetiz_0_ord_servicio" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b5cf34a047dc76106c0c59f4f16d432e</sys_ui_form>
-            <sys_ui_section caption="Telmex information" display_value="Telmex information" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">79cf34a047dc76106c0c59f4f16d432d</sys_ui_section>
+            <sys_ui_section caption="Address" display_value="Address" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">79cf34a047dc76106c0c59f4f16d432d</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
             <sys_updated_on>2025-10-13 16:15:05</sys_updated_on>
         </sys_ui_form_section>
@@ -94,21 +94,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_ssad6_paquetiz_0_ord_servicio" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b5cf34a047dc76106c0c59f4f16d432e</sys_ui_form>
-            <sys_ui_section caption="FCS" display_value="FCS" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">a7bed7f92b64f210d9abf0faf291bfcc</sys_ui_section>
-            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
-            <sys_updated_on>2025-10-13 16:15:04</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>7</position>
-            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
-            <sys_created_on>2025-10-13 16:15:04</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>2bbed7f92b64f210d9abf0faf291bfd3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_ssad6_paquetiz_0_ord_servicio" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">b5cf34a047dc76106c0c59f4f16d432e</sys_ui_form>
-            <sys_ui_section caption="Pre-installation data" display_value="Pre-installation data" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
+            <sys_ui_section caption="Link / Hardware / Software" display_value="Link / Hardware / Software" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">a7bed7f92b64f210d9abf0faf291bfcc</sys_ui_section>
             <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
             <sys_updated_on>2025-10-13 16:15:04</sys_updated_on>
         </sys_ui_form_section>
