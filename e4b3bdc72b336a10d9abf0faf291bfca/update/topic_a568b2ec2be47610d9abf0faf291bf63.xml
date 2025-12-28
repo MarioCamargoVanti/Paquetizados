@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="topic">
+    <topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_to_child_topics>false</apply_to_child_topics>
+        <available_for/>
+        <banner_image/>
+        <banner_image_url/>
+        <description>Everything related to packaged services</description>
+        <enable_user_criteria_check>false</enable_user_criteria_check>
+        <icon/>
+        <icon_url/>
+        <name>Bundle</name>
+        <not_available_for/>
+        <order>600</order>
+        <parent_topic/>
+        <sys_class_name>topic</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-09 16:16:05</sys_created_on>
+        <sys_id>a568b2ec2be47610d9abf0faf291bf63</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Bundle</sys_name>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name>topic_a568b2ec2be47610d9abf0faf291bf63</sys_update_name>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-11-05 22:30:20</sys_updated_on>
+        <taxonomy display_value="Employee">1f5d5a40c3203010069aec4b7d40dd93</taxonomy>
+        <template display_value="emp_taxonomy_topic">4fb26c9cc3d030102ec1a589a840ddbd</template>
+        <topic_based_navigation>false</topic_based_navigation>
+        <topic_contributor/>
+        <topic_manager/>
+        <topic_path>Bundle</topic_path>
+    </topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=a568b2ec2be47610d9abf0faf291bf63"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a568b2ec2be47610d9abf0faf291bf63</documentkey>
+        <fieldname>description</fieldname>
+        <language>es</language>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-10 16:22:32</sys_created_on>
+        <sys_id>efa304c547e0b6106c0c59f4f16d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:22:32</sys_updated_on>
+        <tablename>topic</tablename>
+        <value>Todo lo referente a paquetizados</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a568b2ec2be47610d9abf0faf291bf63</documentkey>
+        <fieldname>description</fieldname>
+        <language>pt</language>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-10 16:23:58</sys_created_on>
+        <sys_id>2004c4c547e0b6106c0c59f4f16d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:23:58</sys_updated_on>
+        <tablename>topic</tablename>
+        <value>Tudo relacionado a pacotes</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a568b2ec2be47610d9abf0faf291bf63</documentkey>
+        <fieldname>name</fieldname>
+        <language>es</language>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-10 16:22:32</sys_created_on>
+        <sys_id>23a304c547e0b6106c0c59f4f16d4309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:22:32</sys_updated_on>
+        <tablename>topic</tablename>
+        <value>Paquetizados</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a568b2ec2be47610d9abf0faf291bf63</documentkey>
+        <fieldname>name</fieldname>
+        <language>pt</language>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-10 16:23:58</sys_created_on>
+        <sys_id>ac04c00947e0b6106c0c59f4f16d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:23:58</sys_updated_on>
+        <tablename>topic</tablename>
+        <value>Empacotado</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a568b2ec2be47610d9abf0faf291bf63</documentkey>
+        <fieldname>topic_path</fieldname>
+        <language>es</language>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-10 16:22:32</sys_created_on>
+        <sys_id>a3a304c547e0b6106c0c59f4f16d4308</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:22:32</sys_updated_on>
+        <tablename>topic</tablename>
+        <value>Paquetizados</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a568b2ec2be47610d9abf0faf291bf63</documentkey>
+        <fieldname>topic_path</fieldname>
+        <language>pt</language>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-10 16:23:58</sys_created_on>
+        <sys_id>6404c00947e0b6106c0c59f4f16d43fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:23:59</sys_updated_on>
+        <tablename>topic</tablename>
+        <value>Empacotado</value>
+    </sys_translated_text>
+</record_update>

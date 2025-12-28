@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_ssad6_paquetiz_0_ord_facturacion" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Billing order - Default view" name="x_ssad6_paquetiz_0_ord_facturacion" related_list="NULL" sys_domain="global" view="Default view">0d553da4477cb2506c0c59f4f16d4394</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:87627124477cb2506c0c59f4f16d43d1</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-21 21:37:48</sys_created_on>
+            <sys_id>8555b1e4477cb2506c0c59f4f16d43e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-21 21:37:48</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Billing order - Default view</calculated_name>
+            <filter/>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-21 21:37:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d553da4477cb2506c0c59f4f16d4394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Billing order - Default view</sys_name>
+            <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+            <sys_update_name>sys_ui_related_x_ssad6_paquetiz_0_ord_facturacion_null</sys_update_name>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-21 21:37:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

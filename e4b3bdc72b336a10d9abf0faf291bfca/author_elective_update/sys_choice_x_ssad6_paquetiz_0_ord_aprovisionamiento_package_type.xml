@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="package_type" table="x_ssad6_paquetiz_0_ord_aprovisionamiento" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>package_type</element>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>package_type</sys_name>
+            <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+            <sys_update_name>sys_choice_x_ssad6_paquetiz_0_ord_aprovisionamiento_package_type</sys_update_name>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AVN</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:13:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:13:06</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AVN</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:13:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:13:10</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AVN</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CPES</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:15:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:15:29</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CPES</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CPES</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:15:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:15:26</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EPDR</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:15:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:15:37</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EPDR</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:15:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:15:42</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EPDR</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FCE-</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FCE-</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:15:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:15:55</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FCE-</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:15:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:15:52</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FLXP</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:16:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:16:08</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FLXP</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:16:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:16:04</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FLXP</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GIA-</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GIA-</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:16:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:16:22</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GIA-</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:16:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:16:18</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SASE</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:16:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:16:32</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SASE</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:16:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:16:36</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SASE</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAC</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAC</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:16:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:16:47</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAC</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:16:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:16:50</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAD</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:17:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:17:09</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAD</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:17:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:17:12</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAD</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAL</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAL</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:13:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:13:54</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAL</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:13:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:13:51</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SSE-</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:14:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:14:08</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SSE-</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SSE-</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:14:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:14:15</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SSEG</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:14:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:14:29</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SSEG</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SSEG</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:14:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:14:33</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SUR-</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:14:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:14:48</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SUR-</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SUR-</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:14:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:14:45</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TS--</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TS--</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:15:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:15:03</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TS--</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:14:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:14:59</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TSL-</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:15:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:15:18</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TSL-</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:15:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:15:13</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>package_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TSL-</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-26 23:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-26 23:12:19</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

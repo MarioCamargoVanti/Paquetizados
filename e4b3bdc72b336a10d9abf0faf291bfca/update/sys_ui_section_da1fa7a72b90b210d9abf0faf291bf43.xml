@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Notes" section_id="da1fa7a72b90b210d9abf0faf291bf43" sys_domain="global" table="x_ssad6_paquetiz_0_ord_aprovisionamiento" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-06 17:40:13</sys_created_on>
+            <sys_id>6a1fa7a72b90b210d9abf0faf291bf95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">da1fa7a72b90b210d9abf0faf291bf43</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-06 17:40:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-06 17:40:13</sys_created_on>
+            <sys_id>a21fa7a72b90b210d9abf0faf291bf96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">da1fa7a72b90b210d9abf0faf291bf43</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-06 17:40:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>2</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-06 17:40:14</sys_created_on>
+            <sys_id>e61fa7a72b90b210d9abf0faf291bf96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" sys_domain="global" view="Default view">da1fa7a72b90b210d9abf0faf291bf43</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-06 17:40:14</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-06 17:40:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da1fa7a72b90b210d9abf0faf291bf43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ssad6_paquetiz_0_ord_aprovisionamiento</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+            <sys_update_name>sys_ui_section_da1fa7a72b90b210d9abf0faf291bf43</sys_update_name>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-06 17:40:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

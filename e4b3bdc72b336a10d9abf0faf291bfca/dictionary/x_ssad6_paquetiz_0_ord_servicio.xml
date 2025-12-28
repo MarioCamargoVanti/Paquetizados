@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="0991f1174733a6106c0c59f4f16d4366" label="Ordem de serviço" max_length="40" name="x_ssad6_paquetiz_0_ord_servicio" type="collection">
+        <element label="Street" max_length="40" name="street" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Municipality" max_length="40" name="municipality" type="string"/>
+        <element label="Floor" max_length="40" name="floor" type="string"/>
+        <element label="District" max_length="40" name="district" type="string"/>
+        <element label="Actual equipment arrival date" max_length="40" name="equip_delivery" type="glide_date_time"/>
+        <element label="Folio number" max_length="40" name="folio_number" type="string"/>
+        <element label="Company name" max_length="40" name="company_name" type="string"/>
+        <element label="Contract code" max_length="40" name="contract_code" type="string"/>
+        <element label="Implementations IO" max_length="40" name="implementation_io" type="string"/>
+        <element label="Cross streets" max_length="40" name="cross_streets" type="string"/>
+        <element label="Special bundle" max_length="255" name="special_bundle" read_only="true" type="boolean"/>
+        <element label="ZIP code" max_length="40" name="zip_code" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element choice="1" label="Service acronym" max_length="40" name="service_acronym" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="FLXP" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="SSEG" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="AVN" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="SSE-" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SPAD" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="TSL-" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="SPAC" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SUR-" language="es" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="SPAD" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="TS--" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="SPAC" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SUR-" language="pt" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="EPDR" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="SSEG" language="pt" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="SPAL" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="AVN" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="EPDR" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="SSE-" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SPAL" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="TSL-" language="es" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="SPAD" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="TS--" language="pt" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="FLXP" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="SUR-" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="AVN" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="SPAC" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="TS--" language="es" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="FLXP" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="SSEG" language="es" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="EPDR" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="SSE-" language="es" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SPAL" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="TSL-" language="pt" sequence="10" value="11"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;return current.service_acronym;  // return the calculated value&#10;&#10;})(current);" choice="1" label="Service name" max_length="40" name="service_name" read_only="true" type="choice" virtual="true">
+            <choice>
+                <element inactive_on_update="false" label="Seguridad perimetral administrada (SPAI Connection)" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SPA negócios" language="pt" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="SOC EPDR" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Secure server" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Análise de vulnerabilidades" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Seguridad perimetral administrada (SPA LATAM)" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Segurança perimetral gerenciada (SPA SDWAN)" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Secure traffic" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Análisis de vulnerabilidades" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Segurança perimetral gerenciada (SPA LATAM)" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Secure traffic Latam" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Seguridad perimetral administrada (SPA SDWAN)" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Tráfego seguro" language="pt" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Flexiport" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="SPA negocios" language="es" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="SOC EPDR" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Special services" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Flexiport" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Servidor seguro" language="es" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="SOC EPDR" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Serviços especiais" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Managed perimeter security (SPA LATAM)" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Tráfego seguro Latam" language="pt" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Segurança perimetral gerenciada (SPAI conexão)" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Tráfico seguro" language="es" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Managed perimeter security (SPA SDWAN)" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Tráfico seguro Latam" language="es" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Managed perimeter security (SPAI Connection)" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SPA business" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Flexiport" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Servidor seguro" language="pt" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Vulnerability analysis" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Servicios especiales" language="es" sequence="6" value="7"/>
+            </choice>
+        </element>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Project ID" max_length="40" name="project_id" type="string"/>
+        <element label="Assignment date" max_length="40" name="assignment_date" type="glide_date_time"/>
+        <element choice="1" label="Link type" max_length="40" name="link_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IDATA" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="IDE" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="MPLS" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="NUBE" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="MPLS" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="NUBE" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="INFINITUM" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="IDE" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="INFINITUM" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="IDE" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="IDATA" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="NUBE" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="IDATA" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="INFINITUM" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="MPLS" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element label="Site name" max_length="40" name="site_name" type="string"/>
+        <element label="Site ID" max_length="40" name="site_id" type="string"/>
+        <element label="Unique customer code" max_length="40" name="unique_customer_cod" type="string"/>
+        <element label="Link folio" max_length="40" name="link_folio" type="string"/>
+        <element label="Onsite contact" max_length="40" name="onsite_contact" type="string"/>
+        <element label="CAP name" max_length="40" name="cap_name" type="string"/>
+        <element label="Rental code" max_length="32" name="rental_code" reference="x_ssad6_paquetiz_0_rental_code" type="reference"/>
+        <element label="OC placement" max_length="40" name="oc_placement" type="glide_date"/>
+        <element label="QO" max_length="40" name="qo" type="string"/>
+        <element label="Actual link delivery date" max_length="40" name="link_delivery" type="glide_date_time"/>
+        <element label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
+        <element choice="1" label="IOM movement type" max_length="40" name="iom_move_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Feature activation" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Alta" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Deactivation" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Cambio de modalidad" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Incremento" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Mudança de modalidade" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Address change" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Alta de funcionalidades" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Activation" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Baja" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Alta de funcionalidades" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Cancelamento" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Upgrade" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Mudança de endereço" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Aumento" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Cambio de domicilio" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Alta" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Service plan change" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="IOM release date" max_length="40" name="iom_release_date" type="glide_date_time"/>
+        <element label="Telmex installation responsible (onsite)" max_length="40" name="telmex_insta_resp_onsite" type="string"/>
+        <element choice="1" label="Sale channel" max_length="40" name="sale_channel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="TELCEL" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="DIVISIONAL" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CLARO" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="TIENDAS TMX" language="es" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="CECOR" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="TELECORP" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="CLARO" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="TIENDAS TMX" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="TELECORP" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="SCITUM" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="DIVISIONAL" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="SCITUM" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="DIVISIONAL" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CECOR" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="TIENDAS TMX" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="TELCEL" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="CECOR" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="TELECORP" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="TELCEL" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="SCITUM" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="CLARO" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="Market" max_length="40" name="market" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Empresarial" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="PYME" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Empresarial" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Corporate" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="PYME" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="PYME" language="pt" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Estimated implementation date" max_length="40" name="estim_supply" type="glide_date"/>
+        <element label="Equipment model" max_length="40" name="equip_model" type="string"/>
+        <element label="Estimated equipment arrival date" max_length="40" name="estim_equip_delivery" type="glide_date"/>
+        <element label="RFC" max_length="40" name="rfc" type="string"/>
+        <element label="Price" max_length="40" name="price" type="currency"/>
+        <element label="Information request date to CAP" max_length="40" name="info_request_cap" type="glide_date_time"/>
+        <element choice="1" label="Telmex sector" max_length="40" name="telmex_sector" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Divisional" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Government II" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Privado" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Privado" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Divisionales" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Government I" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Gobierno II" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Gobierno I" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Private" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Divisional" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Governo II" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Governo I" language="pt" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Component C ID" max_length="40" name="component_c_id" type="string"/>
+        <element label="Cancellation date" max_length="40" name="cancel_date" type="glide_date_time"/>
+        <element label="Customer name" max_length="32" name="customer_name" reference="customer_account" type="reference"/>
+        <element label="CAP phone" max_length="40" name="cap_phone" type="string"/>
+        <element label="Telmex installation case" max_length="40" name="telmex_insta_case" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="Support company" max_length="40" name="support_company" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="DICE" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="QUANTI" language="pt" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="CISTIC" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="NEC" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="ZILCAMEDIA" language="pt" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="HPGC" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="SONDA" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="GUIAR" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SCITUM" language="pt" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="HPGC" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="SONDA" language="pt" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="GUIAR" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SCITUM" language="es" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="CLEAN PIPES" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="QUANTI" language="es" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="CISTIC" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="INTOSYS" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="VITECSA" language="es" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="CLEAN PIPES" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="NEC" language="es" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="ZILCAMEDIA" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="CISTIC" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="INTOSYS" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="VITECSA" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="HPGC" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="SONDA" language="es" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="DICE" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="QUANTI" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="GUIAR" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="SCITUM" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="DICE" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CLEAN PIPES" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="NEC" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="ZILCAMEDIA" language="es" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="INTOSYS" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="VITECSA" language="pt" sequence="10" value="11"/>
+            </choice>
+        </element>
+        <element label="Corporate code" max_length="40" name="corporate_cod" type="string"/>
+        <element label="Component ID" max_length="40" name="component_id" type="string"/>
+        <element label="Previous project" max_length="40" name="previous_project" type="string"/>
+        <element label="Cancellation folio" max_length="40" name="cancel_folio" type="string"/>
+        <element label="Estimated link delivery date" max_length="40" name="estim_link_delivery" type="glide_date"/>
+        <element choice="1" label="Div name" max_length="40" name="div_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Northwest" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Empresas grupo" language="es" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Baixo" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Telnor" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Services &amp; tourism" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="Metro" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Occidente" language="es" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Industry &amp; health" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="Golfo" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="North" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Financeiro" language="pt" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Metro" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Oeste" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Public &amp; parastatal government" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="Gulf" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Norte" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Financial" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Noroeste" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Empresas do grupo" language="pt" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Sudeste" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Pacific" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Serviços e turismo" language="pt" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="Bajío" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Telnor" language="es" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Sureste" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Pacífico" language="pt" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Indústria e saúde" language="pt" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="Metrô" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Governo público e paraestatal" language="pt" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="Norte" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Financiero" language="es" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Golfo" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="West" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Gobierno publico y paraestatal" language="es" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="Noroeste" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Group companies" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Bajío" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Telnor" language="pt" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Servicios y turismo" language="es" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="Southeast" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Pacifico" language="es" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Industria y salud" language="es" sequence="12" value="13"/>
+            </choice>
+        </element>
+        <element choice="1" label="Segment" max_length="40" name="segment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="B" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="A" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="CE" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="C-" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CP" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="TM" language="es" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="CM" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="PR" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="P" language="pt" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="NC" language="es" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="C" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="B" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="A" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="CM" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="P" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="N" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="CP" language="es" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SI" language="es" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="PR" language="es" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="B" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="CE" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="C" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="C-" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="CP" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="SI" language="pt" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="PR" language="pt" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="NC" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="N" language="es" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="TM" language="pt" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="C" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="C-" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="A" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="CE" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="NC" language="pt" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="N" language="pt" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="TM" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="CM" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="SI" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="P" language="es" sequence="9" value="10"/>
+            </choice>
+        </element>
+        <element label="Company acronym" max_length="40" name="company_acronym" type="string"/>
+        <element choice="1" dependent="status" dependent_on_field="status" label="Status reason" max_length="40" name="status_reason" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="4" inactive_on_update="false" label="CAP-execution under review" sequence="9" value="10"/>
+                <element dependent_value="4" inactive_on_update="false" label="Data de instalação do cliente" language="pt" sequence="14" value="15"/>
+                <element dependent_value="7" inactive_on_update="false" label="Requirement change" sequence="19" value="20"/>
+                <element dependent_value="7" inactive_on_update="false" label="Sem ligação" language="pt" sequence="25" value="26"/>
+                <element dependent_value="6" inactive_on_update="false" label="Término do contrato" language="pt" sequence="30" value="32"/>
+                <element dependent_value="6" inactive_on_update="false" label="Encerramento da filial" language="pt" sequence="35" value="36"/>
+                <element dependent_value="4" inactive_on_update="false" label="Scheduled call" sequence="7" value="8"/>
+                <element dependent_value="4" inactive_on_update="false" label="Fecha audio cliente" language="es" sequence="13" value="14"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cambio de carrier" language="es" sequence="18" value="19"/>
+                <element dependent_value="7" inactive_on_update="false" label="Fuera de alcance" language="es" sequence="23" value="24"/>
+                <element dependent_value="6" inactive_on_update="false" label="Presupuesto del cliente" language="es" sequence="29" value="31"/>
+                <element dependent_value="6" inactive_on_update="false" label="Cambio de requerimiento" language="es" sequence="34" value="35"/>
+                <element dependent_value="4" inactive_on_update="false" label="Customer call" sequence="6" value="7"/>
+                <element dependent_value="4" inactive_on_update="false" label="Equipamento em trânsito" language="pt" sequence="11" value="12"/>
+                <element dependent_value="4" inactive_on_update="false" label="Sem resposta do cliente" language="pt" sequence="17" value="18"/>
+                <element dependent_value="7" inactive_on_update="false" label="Desconocido" language="es" sequence="22" value="23"/>
+                <element dependent_value="6" inactive_on_update="false" label="Cliente insatisfecho" language="es" sequence="27" value="29"/>
+                <element dependent_value="6" inactive_on_update="false" label="Mudança de operadora" language="pt" sequence="33" value="34"/>
+                <element dependent_value="6" inactive_on_update="false" label="Cancelación de enlace" language="es" sequence="38" value="39"/>
+                <element dependent_value="4" inactive_on_update="false" label="Link delivery" sequence="10" value="11"/>
+                <element dependent_value="4" inactive_on_update="false" label="Customer rescheduling" sequence="15" value="16"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cliente não necessita do serviço" language="pt" sequence="21" value="22"/>
+                <element dependent_value="6" inactive_on_update="false" label="Cambio de domicilio" language="es" sequence="26" value="28"/>
+                <element dependent_value="7" inactive_on_update="false" label="Termos e condições comerciais" language="pt" sequence="31" value="27"/>
+                <element dependent_value="6" inactive_on_update="false" label="Desconocido" language="es" sequence="37" value="38"/>
+                <element dependent_value="2" inactive_on_update="false" label="Instalação programada" language="pt" sequence="3" value="4"/>
+                <element dependent_value="2" inactive_on_update="false" label="Información adicional cliente" language="es" sequence="2" value="3"/>
+                <element dependent_value="2" inactive_on_update="false" label="Documentos de cierre MV" language="es" sequence="1" value="2"/>
+                <element dependent_value="4" inactive_on_update="false" label="On-site adjustments" sequence="5" value="6"/>
+                <element dependent_value="4" inactive_on_update="false" label="Áudio com cliente" language="pt" sequence="6" value="7"/>
+                <element dependent_value="4" inactive_on_update="false" label="Equipo en tránsito" language="es" sequence="11" value="12"/>
+                <element dependent_value="4" inactive_on_update="false" label="Sem resposta CAP" language="pt" sequence="16" value="17"/>
+                <element dependent_value="7" inactive_on_update="false" label="Unknown" sequence="22" value="23"/>
+                <element dependent_value="6" inactive_on_update="false" label="Cliente insatisfeito" language="pt" sequence="27" value="29"/>
+                <element dependent_value="4" inactive_on_update="false" label="Información adicional cliente" language="es" sequence="32" value="33"/>
+                <element dependent_value="6" inactive_on_update="false" label="Link termination" sequence="38" value="39"/>
+                <element dependent_value="4" inactive_on_update="false" label="Entrega do link" language="pt" sequence="10" value="11"/>
+                <element dependent_value="4" inactive_on_update="false" label="Reprogramación cliente" language="es" sequence="15" value="16"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cierre de sucursal" language="es" sequence="20" value="21"/>
+                <element dependent_value="6" inactive_on_update="false" label="Mudança de endereço" language="pt" sequence="26" value="28"/>
+                <element dependent_value="7" inactive_on_update="false" label="Term. Y cond. Comerciales" language="es" sequence="31" value="27"/>
+                <element dependent_value="6" inactive_on_update="false" label="Cliente não necessita do serviço" language="pt" sequence="36" value="37"/>
+                <element dependent_value="4" inactive_on_update="false" label="CAP información del cliente" language="es" sequence="8" value="9"/>
+                <element dependent_value="4" inactive_on_update="false" label="Fecha de inst. cliente" language="es" sequence="14" value="15"/>
+                <element dependent_value="7" inactive_on_update="false" label="Mudança de requisito" language="pt" sequence="19" value="20"/>
+                <element dependent_value="7" inactive_on_update="false" label="Ordens de serviço duplicadas" language="pt" sequence="24" value="25"/>
+                <element dependent_value="6" inactive_on_update="false" label="Termino de contrato" language="es" sequence="30" value="32"/>
+                <element dependent_value="6" inactive_on_update="false" label="Branch closure" sequence="35" value="36"/>
+                <element dependent_value="4" inactive_on_update="false" label="Áudio programado" language="pt" sequence="7" value="8"/>
+                <element dependent_value="4" inactive_on_update="false" label="Evidência de cancelamento" language="pt" sequence="12" value="13"/>
+                <element dependent_value="7" inactive_on_update="false" label="Carrier change" sequence="18" value="19"/>
+                <element dependent_value="7" inactive_on_update="false" label="Out of scope" sequence="23" value="24"/>
+                <element dependent_value="6" inactive_on_update="false" label="Incremento de ancho de banda" language="es" sequence="28" value="30"/>
+                <element dependent_value="6" inactive_on_update="false" label="Mudança de requisito" language="pt" sequence="34" value="35"/>
+                <element dependent_value="2" inactive_on_update="false" label="Ajustes nas implementações" language="pt" sequence="0" value="1"/>
+                <element dependent_value="4" inactive_on_update="false" label="Scope adjustment" sequence="4" value="5"/>
+                <element dependent_value="2" inactive_on_update="false" label="Instalación programada" language="es" sequence="3" value="4"/>
+                <element dependent_value="2" inactive_on_update="false" label="Additional customer information" sequence="2" value="3"/>
+                <element dependent_value="4" inactive_on_update="false" label="CAP customer information" sequence="8" value="9"/>
+                <element dependent_value="4" inactive_on_update="false" label="Data do áudio do cliente" language="pt" sequence="13" value="14"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cambio de requerimiento" language="es" sequence="19" value="20"/>
+                <element dependent_value="7" inactive_on_update="false" label="Duplicate service orders" sequence="24" value="25"/>
+                <element dependent_value="6" inactive_on_update="false" label="Orçamento do cliente" language="pt" sequence="29" value="31"/>
+                <element dependent_value="6" inactive_on_update="false" label="Cierre de sucursal" language="es" sequence="35" value="36"/>
+                <element dependent_value="4" inactive_on_update="false" label="Audio programado" language="es" sequence="7" value="8"/>
+                <element dependent_value="4" inactive_on_update="false" label="Cancellation evidence" sequence="12" value="13"/>
+                <element dependent_value="4" inactive_on_update="false" label="Sin respuesta cliente" language="es" sequence="17" value="18"/>
+                <element dependent_value="7" inactive_on_update="false" label="Fora de alcance" language="pt" sequence="23" value="24"/>
+                <element dependent_value="6" inactive_on_update="false" label="Bandwidth increase" sequence="28" value="30"/>
+                <element dependent_value="6" inactive_on_update="false" label="Carrier change" sequence="33" value="34"/>
+                <element dependent_value="4" inactive_on_update="false" label="Adecuaciones en sitio" language="es" sequence="5" value="6"/>
+                <element dependent_value="4" inactive_on_update="false" label="Equipment in transit" sequence="11" value="12"/>
+                <element dependent_value="4" inactive_on_update="false" label="No response from CAP" sequence="16" value="17"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cliente no requiere el servicio" language="es" sequence="21" value="22"/>
+                <element dependent_value="6" inactive_on_update="false" label="Dissatisfied customer" sequence="27" value="29"/>
+                <element dependent_value="4" inactive_on_update="false" label="Informações adicionais do cliente" language="pt" sequence="32" value="33"/>
+                <element dependent_value="6" inactive_on_update="false" label="Unknown" sequence="37" value="38"/>
+                <element dependent_value="4" inactive_on_update="false" label="En revisión CAP-Ejec" language="es" sequence="9" value="10"/>
+                <element dependent_value="4" inactive_on_update="false" label="Reprogramação do cliente" language="pt" sequence="15" value="16"/>
+                <element dependent_value="7" inactive_on_update="false" label="Branch closure" sequence="20" value="21"/>
+                <element dependent_value="7" inactive_on_update="false" label="No link available" sequence="25" value="26"/>
+                <element dependent_value="7" inactive_on_update="false" label="Commercial terms &amp; conditions" sequence="31" value="27"/>
+                <element dependent_value="6" inactive_on_update="false" label="Cliente no requiere el servicio" language="es" sequence="36" value="37"/>
+                <element dependent_value="2" inactive_on_update="false" label="Scheduled installation" sequence="3" value="4"/>
+                <element dependent_value="2" inactive_on_update="false" label="Documentos de encerramento MV" language="pt" sequence="1" value="2"/>
+                <element dependent_value="2" inactive_on_update="false" label="Implementation adjustment" sequence="0" value="1"/>
+                <element dependent_value="4" inactive_on_update="false" label="Adequação do alcance" language="pt" sequence="4" value="5"/>
+                <element dependent_value="4" inactive_on_update="false" label="Ajustes no local" language="pt" sequence="5" value="6"/>
+                <element dependent_value="4" inactive_on_update="false" label="Entrega de enlace" language="es" sequence="10" value="11"/>
+                <element dependent_value="4" inactive_on_update="false" label="Sin respuesta CAP" language="es" sequence="16" value="17"/>
+                <element dependent_value="7" inactive_on_update="false" label="Customer does not require service" sequence="21" value="22"/>
+                <element dependent_value="6" inactive_on_update="false" label="Address change" sequence="26" value="28"/>
+                <element dependent_value="4" inactive_on_update="false" label="Additional customer information" sequence="32" value="33"/>
+                <element dependent_value="6" inactive_on_update="false" label="Desconhecido" language="pt" sequence="37" value="38"/>
+                <element dependent_value="4" inactive_on_update="false" label="Em revisão CAP-Ejec" language="pt" sequence="9" value="10"/>
+                <element dependent_value="4" inactive_on_update="false" label="Customer installation date" sequence="14" value="15"/>
+                <element dependent_value="7" inactive_on_update="false" label="Encerramento da filial" language="pt" sequence="20" value="21"/>
+                <element dependent_value="7" inactive_on_update="false" label="Sin enlace" language="es" sequence="25" value="26"/>
+                <element dependent_value="6" inactive_on_update="false" label="Contract termination" sequence="30" value="32"/>
+                <element dependent_value="6" inactive_on_update="false" label="Customer does not require service" sequence="36" value="37"/>
+                <element dependent_value="4" inactive_on_update="false" label="CAP informações do cliente" language="pt" sequence="8" value="9"/>
+                <element dependent_value="4" inactive_on_update="false" label="Customer call date" sequence="13" value="14"/>
+                <element dependent_value="7" inactive_on_update="false" label="Mudança de operadora" language="pt" sequence="18" value="19"/>
+                <element dependent_value="7" inactive_on_update="false" label="Órdenes de servicio duplicadas" language="es" sequence="24" value="25"/>
+                <element dependent_value="6" inactive_on_update="false" label="Customer budget" sequence="29" value="31"/>
+                <element dependent_value="6" inactive_on_update="false" label="Requirement change" sequence="34" value="35"/>
+                <element dependent_value="4" inactive_on_update="false" label="Audio con cliente" language="es" sequence="6" value="7"/>
+                <element dependent_value="4" inactive_on_update="false" label="Evidencia de cancelación" language="es" sequence="12" value="13"/>
+                <element dependent_value="4" inactive_on_update="false" label="No response from customer" sequence="17" value="18"/>
+                <element dependent_value="7" inactive_on_update="false" label="Desconhecido" language="pt" sequence="22" value="23"/>
+                <element dependent_value="6" inactive_on_update="false" label="Aumento da largura de banda" language="pt" sequence="28" value="30"/>
+                <element dependent_value="6" inactive_on_update="false" label="Cambio de carrier" language="es" sequence="33" value="34"/>
+                <element dependent_value="6" inactive_on_update="false" label="Cancelamento do link" language="pt" sequence="38" value="39"/>
+                <element dependent_value="2" inactive_on_update="false" label="Afinación implementaciones" language="es" sequence="0" value="1"/>
+                <element dependent_value="4" inactive_on_update="false" label="Adecuación de alcance" language="es" sequence="4" value="5"/>
+                <element dependent_value="2" inactive_on_update="false" label="Informações adicionais do cliente" language="pt" sequence="2" value="3"/>
+                <element dependent_value="2" inactive_on_update="false" label="MV closing documents" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Additional comments" max_length="40" name="comments" type="journal_input"/>
+        <element attributes="email=true" label="CAP email" max_length="40" name="cap_email" type="string"/>
+        <element label="Contracted C licence" max_length="40" name="contracted_c_lic" type="string"/>
+        <element label="Information reception date from CAP" max_length="40" name="info_received_cap" type="glide_date_time"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" read_only="true" reference="sys_user_group" reference_qual="active=true^descriptionLIKEpaquetizados^EQ" reference_qual_condition="active=true^descriptionLIKEpaquetizados^EQ" type="reference"/>
+        <element label="Telmex supply order" max_length="40" name="telmex_supply_order" type="string"/>
+        <element choice="3" default="1" label="OS status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Baja" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Encerrado" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Documentación" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Cancelado" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Documentation" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Cancelado" language="es" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Nuevo" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Terminated" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Pendiente" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Novo" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Cerrado" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Pendente" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Documentação" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="En curso" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Em andamento" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Baixa" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Pending" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element label="Quote" mandatory="true" max_length="40" name="quote" type="string"/>
+        <element label="Contract period" max_length="40" name="contract_period" type="integer"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="customer_name"/>
+        </index>
+        <index name="index4">
+            <element name="site_name"/>
+        </index>
+        <index name="index5">
+            <element name="rental_code"/>
+        </index>
+    </element>
+</database>

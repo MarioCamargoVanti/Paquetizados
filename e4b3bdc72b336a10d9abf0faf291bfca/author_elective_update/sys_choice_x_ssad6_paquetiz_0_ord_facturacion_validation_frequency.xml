@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="validation_frequency" table="x_ssad6_paquetiz_0_ord_facturacion" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>validation_frequency</element>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-29 17:36:00</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>validation_frequency</sys_name>
+            <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+            <sys_update_name>sys_choice_x_ssad6_paquetiz_0_ord_facturacion_validation_frequency</sys_update_name>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:36:00</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>validation_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mensal</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:42:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:42:53</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>validation_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monthly</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-29 17:36:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:36:00</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>validation_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mensual</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:42:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:42:16</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>validation_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bimonthly</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-29 17:36:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:36:00</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>validation_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bimestral</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:43:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:43:00</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>validation_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bimestral</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:42:25</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>validation_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trimestral</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:42:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:42:34</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>validation_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quarterly</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-29 17:36:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:36:00</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>validation_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trimestral</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:43:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:43:07</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>validation_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Semestral</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:42:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:42:41</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>validation_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Semiannual</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-09-29 17:36:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-09-29 17:36:00</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>validation_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Semestral</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_facturacion</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 22:43:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-13 22:43:15</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

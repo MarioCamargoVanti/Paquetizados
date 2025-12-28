@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Pre-installation data" section_id="67bed7f92b64f210d9abf0faf291bfcd" sys_domain="global" table="x_ssad6_paquetiz_0_ord_servicio" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>estim_equip_delivery</element>
+            <position>0</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9c55ee032bbc7650d9abf0faf291bf52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equip_delivery</element>
+            <position>1</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9055ee032bbc7650d9abf0faf291bf53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>oc_placement</element>
+            <position>2</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9455ee032bbc7650d9abf0faf291bf53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_id</element>
+            <position>3</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9855ee032bbc7650d9abf0faf291bf53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9c55ee032bbc7650d9abf0faf291bf53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>estim_link_delivery</element>
+            <position>5</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9055ee032bbc7650d9abf0faf291bf54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link_delivery</element>
+            <position>6</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9455ee032bbc7650d9abf0faf291bf54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equip_model</element>
+            <position>7</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9855ee032bbc7650d9abf0faf291bf54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>previous_project</element>
+            <position>8</position>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-29 19:32:17</sys_created_on>
+            <sys_id>9c55ee032bbc7650d9abf0faf291bf54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-29 19:32:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Pre-installation data</caption>
+            <header>false</header>
+            <name>x_ssad6_paquetiz_0_ord_servicio</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-13 16:15:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67bed7f92b64f210d9abf0faf291bfcd</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>x_ssad6_paquetiz_0_ord_servicio</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+            <sys_update_name>sys_ui_section_67bed7f92b64f210d9abf0faf291bfcd</sys_update_name>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-31 15:20:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Vista predefinida" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</application>
+        <file_path/>
+        <instance_id>3fdc2910fb226e1089a2f4344eefdc0e</instance_id>
+        <instance_name>scitumdev</instance_name>
+        <name>sys_ui_section_67bed7f92b64f210d9abf0faf291bfcd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Pre-installation data" section_id="67bed7f92b64f210d9abf0faf291bfcd" sys_domain="global" table="x_ssad6_paquetiz_0_ord_servicio" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>estim_equip_delivery</element><position>0</position><sys_created_by>mario.camargo@vantisoft.com</sys_created_by><sys_created_on>2025-10-29 19:32:17</sys_created_on><sys_id>9c55ee032bbc7650d9abf0faf291bf52</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section><sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by><sys_updated_on>2025-10-29 19:32:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>equip_delivery</element><position>1</position><sys_created_by>mario.camargo@vantisoft.com</sys_created_by><sys_created_on>2025-10-29 19:32:17</sys_created_on><sys_id>9055ee032bbc7650d9abf0faf291bf53</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section><sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by><sys_updated_on>2025-10-29 19:32:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>oc_placement</element><position>2</position><sys_created_by>mario.camargo@vantisoft.com</sys_created_by><sys_created_on>2025-10-29 19:32:17</sys_created_on><sys_id>9455ee032bbc7650d9abf0faf291bf53</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section><sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by><sys_updated_on>2025-10-29 19:32:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>project_id</element><position>3</position><sys_created_by>mario.camargo@vantisoft.com</sys_created_by><sys_created_on>2025-10-29 19:32:17</sys_created_on><sys_id>9855ee032bbc7650d9abf0faf291bf53</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section><sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by><sys_updated_on>2025-10-29 19:32:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>mario.camargo@vantisoft.com</sys_created_by><sys_created_on>2025-10-29 19:32:17</sys_created_on><sys_id>9c55ee032bbc7650d9abf0faf291bf53</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section><sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by><sys_updated_on>2025-10-29 19:32:17</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>estim_link_delivery</element><position>5</position><sys_created_by>mario.camargo@vantisoft.com</sys_created_by><sys_created_on>2025-10-29 19:32:17</sys_created_on><sys_id>9055ee032bbc7650d9abf0faf291bf54</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section><sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by><sys_updated_on>2025-10-29 19:32:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>link_delivery</element><position>6</position><sys_created_by>mario.camargo@vantisoft.com</sys_created_by><sys_created_on>2025-10-29 19:32:17</sys_created_on><sys_id>9455ee032bbc7650d9abf0faf291bf54</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section><sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by><sys_updated_on>2025-10-29 19:32:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>equip_model</element><position>7</position><sys_created_by>mario.camargo@vantisoft.com</sys_created_by><sys_created_on>2025-10-29 19:32:17</sys_created_on><sys_id>9855ee032bbc7650d9abf0faf291bf54</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section><sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by><sys_updated_on>2025-10-29 19:32:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>previous_project</element><position>8</position><sys_created_by>mario.camargo@vantisoft.com</sys_created_by><sys_created_on>2025-10-29 19:32:17</sys_created_on><sys_id>9c55ee032bbc7650d9abf0faf291bf54</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Pre-installation data" display_value="Dados de pré-instalação" name="x_ssad6_paquetiz_0_ord_servicio" sys_domain="global" view="Default view">67bed7f92b64f210d9abf0faf291bfcd</sys_ui_section><sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by><sys_updated_on>2025-10-29 19:32:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Pre-installation data</caption><header>false</header><name>x_ssad6_paquetiz_0_ord_servicio</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>mario.camargo@vantisoft.com</sys_created_by><sys_created_on>2025-10-13 16:15:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>67bed7f92b64f210d9abf0faf291bfcd</sys_id><sys_mod_count>4</sys_mod_count><sys_name>x_ssad6_paquetiz_0_ord_servicio</sys_name><sys_overrides/><sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package><sys_policy/><sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope><sys_update_name>sys_ui_section_67bed7f92b64f210d9abf0faf291bfcd</sys_update_name><sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by><sys_updated_on>2025-10-31 15:20:57</sys_updated_on><sys_user/><title>false</title><view display_value="Vista predefinida" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1580409553</payload_hash>
+        <record_name>Service order</record_name>
+        <reverted_from/>
+        <source>67373dcb2b336a10d9abf0faf291bf65</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-31 15:20:57</sys_created_on>
+        <sys_id>12fe372b2bfcf650d9abf0faf291bf40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a3adb899c0000001</sys_recorded_at>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-31 15:20:57</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>5efe372b68fcf6505e48c0543b0ae73f</update_guid>
+        <update_guid_history>5efe372b68fcf6505e48c0543b0ae73f:1580409553,340efba771fcf650e5ebc5e0eeb56187:1125992455,4855ee03c3bc7650d8548f79e6476242:-1219408194,bd056603d9bc76500c1633a57747356f:1375460956,73be1bf91264f210cc36f5f8a5929927:-1219408194</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-11-24 20:47:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>796760c54ca84e208bb6f96d3c891210</sys_id>
+        <sys_metadata>67bed7f92b64f210d9abf0faf291bfcd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pre-installation data</sys_name>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_parent display_value="Service order">0991f1174733a6106c0c59f4f16d4366</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_scope_delete display_value="">81a0523456ff4280a5966745fbd91900</sys_scope_delete>
+        <sys_update_name>sys_ui_section_67bed7f92b64f210d9abf0faf291bfcd</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_67bed7f92b64f210d9abf0faf291bfcd">12fe372b2bfcf650d9abf0faf291bf40</sys_update_version>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-11-24 20:47:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

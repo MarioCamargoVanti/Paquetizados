@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="cc9c81ec47dc76106c0c59f4f16d43dc" label="Supply order" max_length="40" name="x_ssad6_paquetiz_0_ord_aprovisionamiento" type="collection">
+        <element choice="1" dependent="status" dependent_on_field="status" label="Status reason" max_length="40" name="status_reason" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="4" inactive_on_update="false" label="Instalación" language="es" sequence="1" value="2"/>
+                <element dependent_value="7" inactive_on_update="false" label="Red uno" language="es" sequence="6" value="7"/>
+                <element dependent_value="4" inactive_on_update="false" label="Cliente" language="pt" sequence="0" value="1"/>
+                <element dependent_value="7" inactive_on_update="false" label="Multivendor" sequence="5" value="6"/>
+                <element dependent_value="3" inactive_on_update="false" label="Recibido" language="es" sequence="10" value="11"/>
+                <element dependent_value="7" inactive_on_update="false" label="Implementação" language="pt" sequence="4" value="5"/>
+                <element dependent_value="7" inactive_on_update="false" label="Customer" sequence="9" value="10"/>
+                <element dependent_value="4" inactive_on_update="false" label="Maintenance" sequence="2" value="3"/>
+                <element dependent_value="7" inactive_on_update="false" label="Scitum" language="es" sequence="8" value="9"/>
+                <element dependent_value="4" inactive_on_update="false" label="RMA" language="pt" sequence="3" value="4"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cliente" language="es" sequence="9" value="10"/>
+                <element dependent_value="4" inactive_on_update="false" label="Mantenimiento" language="es" sequence="2" value="3"/>
+                <element dependent_value="7" inactive_on_update="false" label="Tech Renewal" sequence="7" value="8"/>
+                <element dependent_value="4" inactive_on_update="false" label="Instalação" language="pt" sequence="1" value="2"/>
+                <element dependent_value="7" inactive_on_update="false" label="Red uno" language="pt" sequence="6" value="7"/>
+                <element dependent_value="7" inactive_on_update="false" label="Multivendor" language="es" sequence="5" value="6"/>
+                <element dependent_value="3" inactive_on_update="false" label="Recebido" language="pt" sequence="10" value="11"/>
+                <element dependent_value="4" inactive_on_update="false" label="Cliente" language="es" sequence="0" value="1"/>
+                <element dependent_value="7" inactive_on_update="false" label="Red uno" sequence="6" value="7"/>
+                <element dependent_value="7" inactive_on_update="false" label="Implementación" language="es" sequence="4" value="5"/>
+                <element dependent_value="3" inactive_on_update="false" label="Received" sequence="10" value="11"/>
+                <element dependent_value="4" inactive_on_update="false" label="RMA" language="es" sequence="3" value="4"/>
+                <element dependent_value="7" inactive_on_update="false" label="Scitum" sequence="8" value="9"/>
+                <element dependent_value="4" inactive_on_update="false" label="Manutenção" language="pt" sequence="2" value="3"/>
+                <element dependent_value="7" inactive_on_update="false" label="Renovação tec." language="pt" sequence="7" value="8"/>
+                <element dependent_value="4" inactive_on_update="false" label="RMA" sequence="3" value="4"/>
+                <element dependent_value="7" inactive_on_update="false" label="Scitum" language="pt" sequence="8" value="9"/>
+                <element dependent_value="4" inactive_on_update="false" label="Installation" sequence="1" value="2"/>
+                <element dependent_value="7" inactive_on_update="false" label="Renovación tec." language="es" sequence="7" value="8"/>
+                <element dependent_value="4" inactive_on_update="false" label="Customer" sequence="0" value="1"/>
+                <element dependent_value="7" inactive_on_update="false" label="Multivendor" language="pt" sequence="5" value="6"/>
+                <element dependent_value="7" inactive_on_update="false" label="Implementation" sequence="4" value="5"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cliente" language="pt" sequence="9" value="10"/>
+            </choice>
+        </element>
+        <element label="Service order ID" max_length="32" name="service_ord_id" reference="x_ssad6_paquetiz_0_ord_servicio" type="reference"/>
+        <element label="Secondary DNS" max_length="40" name="secondary_dns" type="string"/>
+        <element label="Bandwidth" max_length="40" name="bandwidth" type="string"/>
+        <element choice="1" label="License type" max_length="40" name="lic_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="UTM" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Básica" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Basic" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Enterprice" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="UTM" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Enterprice" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="UTM" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Básica" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Enterprice" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Configuration questionnaire" max_length="40" name="config_quest" type="file_attachment"/>
+        <element label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
+        <element choice="1" label="SDWAM configuration" max_length="40" name="sdwam_config" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No habilitado" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Enabled" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Habilitado" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Disabled" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Não habilitado" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Habilitado" language="es" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element label="Local IP" max_length="40" name="local_ip" type="ip_addr"/>
+        <element label="CPE IP" max_length="40" name="cpe_ip" type="ip_addr"/>
+        <element label="Real installation date" max_length="40" name="real_insta_date" type="glide_date_time"/>
+        <element label="Expect arrival date" max_length="255" name="expect_arrival_date" type="glide_date_time"/>
+        <element label="Addicional comments" max_length="40" name="comments" type="journal_input"/>
+        <element label="Arrival date" max_length="40" name="arrival_date" type="glide_date_time"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;return current.ci_name.location;  // return the calculated value&#10;&#10;})(current);" label="Installed location" max_length="32" name="installed_location" reference="cmn_location" type="reference" use_dependent_field="true" virtual="true"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" read_only="true" reference="sys_user_group" reference_qual="active=true^descriptionLIKEpaquetizados^EQ" reference_qual_condition="active=true^descriptionLIKEpaquetizados^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Reception date" max_length="40" name="reception_date" type="glide_date_time"/>
+        <element label="Technical report" max_length="40" name="technical_report" type="file_attachment"/>
+        <element label="Contract expiration date" max_length="40" name="contract_expira_date" type="glide_date_time"/>
+        <element label="Software" max_length="40" name="software" type="string"/>
+        <element choice="1" label="Connection type" max_length="40" name="connection_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Endereços IP" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="DHCP" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Direcciones IP" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="PPPoE" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="IP address" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="PPPoE" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="DHCP" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="PPPoE" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="DHCP" language="pt" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Primary DNS" max_length="40" name="primary_dns" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="CI name" mandatory="true" max_length="32" name="ci_name" reference="cmdb_ci" reference_qual="sys_class_name=cmdb_ci_peripheral^ORsys_class_name=cmdb_ci_ip_router^ORsys_class_name=cmdb_ci_ip_server^ORsys_class_name=cmdb_ci_lb^ORsys_class_name=cmdb_ci_netgear^ORsys_class_name=cmdb_ci_security^ORsys_class_name=cmdb_ci_appl^ORsys_class_name=cmdb_ci_database^ORsys_class_name=cmdb_ci_server^ORsys_class_name=cmdb_ci_storage_device^ORsys_class_name=cmdb_ci_ups^ORsys_class_name=cmdb_ci_wap_network^life_cycle_stage=Inventory^EQ" reference_qual_condition="sys_class_name=cmdb_ci_peripheral^ORsys_class_name=cmdb_ci_ip_router^ORsys_class_name=cmdb_ci_ip_server^ORsys_class_name=cmdb_ci_lb^ORsys_class_name=cmdb_ci_netgear^ORsys_class_name=cmdb_ci_security^ORsys_class_name=cmdb_ci_appl^ORsys_class_name=cmdb_ci_database^ORsys_class_name=cmdb_ci_server^ORsys_class_name=cmdb_ci_storage_device^ORsys_class_name=cmdb_ci_ups^ORsys_class_name=cmdb_ci_wap_network^life_cycle_stage=Inventory^EQ" type="reference"/>
+        <element label="License number" max_length="40" name="lic_number" type="string"/>
+        <element label="Check list" max_length="40" name="check_list" type="file_attachment"/>
+        <element label="Work order" max_length="40" name="work_order" type="file_attachment"/>
+        <element choice="3" default="1" label="OA status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Instalado" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Em andamento" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Cancelado" language="es" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Atribuído" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Recebido" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Assigned" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Pendente" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Installed" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Validado" language="es" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="En curso" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Cancelado" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Instalado" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Validado" language="pt" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Novo" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Received" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Pendiente" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Recibido" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Pending" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="In progress" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Validated" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Nuevo" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Asignado" language="es" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element choice="1" label="Activity category" max_length="40" name="activity_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Instalação" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="RMA" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Mantenimiento" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="RMA" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Manutenção" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Tech Renewal" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Installation" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Renovación tec." language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Instalación" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="RMA" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Renovação técnica" language="pt" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element label="Uploaded attachments" max_length="40" name="uploaded_attachments" read_only="true" type="boolean"/>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="installed_location"/>
+        </index>
+        <index name="index3">
+            <element name="service_ord_id"/>
+        </index>
+        <index name="index4">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index5">
+            <element name="ci_name"/>
+        </index>
+    </element>
+</database>

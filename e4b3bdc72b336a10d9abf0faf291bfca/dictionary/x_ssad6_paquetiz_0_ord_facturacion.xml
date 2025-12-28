@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="e3080da847dc76106c0c59f4f16d43c4" label="Ordem de faturamento" max_length="40" name="x_ssad6_paquetiz_0_ord_facturacion" type="collection">
+        <element label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
+        <element label="Additional comments" max_length="40" name="comments" type="journal_input"/>
+        <element choice="1" label="Validation frequency" max_length="40" name="validation_frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Mensal" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Monthly" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Bimonthly" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Semestral" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Mensual" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Trimestral" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Bimestral" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Bimestral" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Semiannual" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Semestral" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Trimestral" language="pt" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Deactivation folio" max_length="40" name="deactiv_folio" type="string"/>
+        <element label="CRS reception date" max_length="40" name="crs_recep_date" type="glide_date_time"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" read_only="true" reference="sys_user_group" reference_qual="active=true^descriptionLIKEpaquetizados^EQ" reference_qual_condition="active=true^descriptionLIKEpaquetizados^EQ" type="reference"/>
+        <element label="Billing end" max_length="40" name="billing_end" type="glide_date_time"/>
+        <element label="Approval history" max_length="4000" name="approval_history" type="journal"/>
+        <element label="Reconciliation date" max_length="40" name="reconciliation_date" type="glide_date_time"/>
+        <element choice="1" dependent="status" dependent_on_field="status" label="Status reason" max_length="40" name="status_reason" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="7" inactive_on_update="false" label="Outro" language="pt" sequence="7" value="8"/>
+                <element dependent_value="7" inactive_on_update="false" label="Mode change" sequence="1" value="2"/>
+                <element dependent_value="6" inactive_on_update="false" label="Link termination" sequence="11" value="12"/>
+                <element dependent_value="7" inactive_on_update="false" label="FCS duplication" sequence="5" value="6"/>
+                <element dependent_value="6" inactive_on_update="false" label="Customer service" sequence="10" value="11"/>
+                <element dependent_value="6" inactive_on_update="false" label="Mode change" sequence="15" value="16"/>
+                <element dependent_value="7" inactive_on_update="false" label="Revocation" sequence="9" value="10"/>
+                <element dependent_value="7" inactive_on_update="false" label="Fora do âmbito da SPA" language="pt" sequence="6" value="7"/>
+                <element dependent_value="6" inactive_on_update="false" label="Baja de enlace" language="es" sequence="11" value="12"/>
+                <element dependent_value="7" inactive_on_update="false" label="Duplicidade FCS" language="pt" sequence="5" value="6"/>
+                <element dependent_value="7" inactive_on_update="false" label="Mudança de serviço" language="pt" sequence="2" value="3"/>
+                <element dependent_value="6" inactive_on_update="false" label="Presupuesto del cliente" language="es" sequence="13" value="14"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cambio de modalidad" language="es" sequence="1" value="2"/>
+                <element dependent_value="7" inactive_on_update="false" label="Duplicidad FCS" language="es" sequence="5" value="6"/>
+                <element dependent_value="7" inactive_on_update="false" label="Revocación" language="es" sequence="9" value="10"/>
+                <element dependent_value="7" inactive_on_update="false" label="Renovación" language="es" sequence="8" value="9"/>
+                <element dependent_value="7" inactive_on_update="false" label="Fuera de los alcances SPA" language="es" sequence="6" value="7"/>
+                <element dependent_value="6" inactive_on_update="false" label="Out of scope" sequence="12" value="13"/>
+                <element dependent_value="7" inactive_on_update="false" label="Out of scope SPA" sequence="6" value="7"/>
+                <element dependent_value="6" inactive_on_update="false" label="Término do contrato" language="pt" sequence="14" value="15"/>
+                <element dependent_value="6" inactive_on_update="false" label="Cambio de modalidad" language="es" sequence="15" value="16"/>
+                <element dependent_value="7" inactive_on_update="false" label="Service change" sequence="2" value="3"/>
+                <element dependent_value="6" inactive_on_update="false" label="Atención a clientes" language="es" sequence="10" value="11"/>
+                <element dependent_value="7" inactive_on_update="false" label="Renovação" language="pt" sequence="8" value="9"/>
+                <element dependent_value="6" inactive_on_update="false" label="Mudança de modalidade" language="pt" sequence="15" value="16"/>
+                <element dependent_value="6" inactive_on_update="false" label="Atendimento ao cliente" language="pt" sequence="10" value="11"/>
+                <element dependent_value="7" inactive_on_update="false" label="Link change" sequence="3" value="4"/>
+                <element dependent_value="6" inactive_on_update="false" label="Customer budget" sequence="13" value="14"/>
+                <element dependent_value="7" inactive_on_update="false" label="Other" sequence="7" value="8"/>
+                <element dependent_value="7" inactive_on_update="false" label="Mudança de modalidade" language="pt" sequence="1" value="2"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cambio de domicilio" language="es" sequence="0" value="1"/>
+                <element dependent_value="6" inactive_on_update="false" label="Orçamento do cliente" language="pt" sequence="13" value="14"/>
+                <element dependent_value="7" inactive_on_update="false" label="Condição de penalização" language="pt" sequence="4" value="5"/>
+                <element dependent_value="7" inactive_on_update="false" label="Mudança de endereço" language="pt" sequence="0" value="1"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cond. Penalización" language="es" sequence="4" value="5"/>
+                <element dependent_value="6" inactive_on_update="false" label="Fuera de alcance" language="es" sequence="12" value="13"/>
+                <element dependent_value="6" inactive_on_update="false" label="Contract termination" sequence="14" value="15"/>
+                <element dependent_value="7" inactive_on_update="false" label="Renewal" sequence="8" value="9"/>
+                <element dependent_value="6" inactive_on_update="false" label="Termino de contrato" language="es" sequence="14" value="15"/>
+                <element dependent_value="7" inactive_on_update="false" label="Address change" sequence="0" value="1"/>
+                <element dependent_value="7" inactive_on_update="false" label="Otro" language="es" sequence="7" value="8"/>
+                <element dependent_value="7" inactive_on_update="false" label="Penalty terms" sequence="4" value="5"/>
+                <element dependent_value="7" inactive_on_update="false" label="Revogação" language="pt" sequence="9" value="10"/>
+                <element dependent_value="7" inactive_on_update="false" label="Mudança de ligação" language="pt" sequence="3" value="4"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cambio del enlace" language="es" sequence="3" value="4"/>
+                <element dependent_value="6" inactive_on_update="false" label="Fora de alcance" language="pt" sequence="12" value="13"/>
+                <element dependent_value="6" inactive_on_update="false" label="Cancelamento de link" language="pt" sequence="11" value="12"/>
+                <element dependent_value="7" inactive_on_update="false" label="Cambio de servicio" language="es" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Elapsed months" max_length="40" name="elapsed_months" type="integer"/>
+        <element label="Telmex activation date" max_length="40" name="telmex_activ_date" type="glide_date_time"/>
+        <element label="Payment start 84" max_length="40" name="payment_start_84" type="glide_date_time"/>
+        <element label="Reception form 84 date" max_length="40" name="recep_form_84_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" default="not requested" label="Approval" max_length="40" name="approval" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Requested" language="es" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Solicitado" language="pt" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Rejected" language="es" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Not Yet Requested" sequence="0" value="not requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Rejeitado" language="pt" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Aprobada" language="es" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="No solicitada todavía" language="es" sequence="0" value="not requested"/>
+                <element inactive_on_update="false" label="Ainda Não Pedido" language="pt" sequence="0" value="not requested"/>
+                <element inactive_on_update="false" label="Aprovado" language="pt" sequence="2" value="approved"/>
+            </choice>
+        </element>
+        <element label="Supply order ID" max_length="32" name="supply_ord_id" reference="x_ssad6_paquetiz_0_ord_aprovisionamiento" type="reference"/>
+        <element label="Telmex deactivation date" max_length="40" name="telmex_deactiv_date" type="glide_date_time"/>
+        <element label="Form 84 code" max_length="40" name="form_84_cod" type="string"/>
+        <element label="CRS send date" max_length="40" name="crs_send_date" type="glide_date_time"/>
+        <element label="Documents reception" max_length="255" name="docs_reception" type="glide_date_time"/>
+        <element choice="3" default="1" label="OF status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Conciliação IDC" language="pt" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Cancelado" language="es" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Cancelado" language="pt" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Validated" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Pendiente" language="es" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Pending" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Validado" language="pt" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Baja" language="es" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Nuevo" language="es" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Conciliación IDC" language="es" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Conciliação ADT" language="pt" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Faturado" language="pt" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Invoiced" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Installed" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Documentos de implementación" language="es" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Documentos de implementação" language="pt" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Conciliación ADT" language="es" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Validado" language="es" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Instalado" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Novo" language="pt" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="ADT reconciliation" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Terminated" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Cerrado" language="es" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Implementation documents" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Pendente" language="pt" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Baixa" language="pt" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Encerrado" language="pt" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Instalado" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="IDC reconciliation" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Facturado" language="es" sequence="10" value="11"/>
+            </choice>
+        </element>
+        <element attributes="timeDimension=true" label="Approval set" max_length="40" name="approval_set" type="glide_date_time"/>
+        <element label="Deactivation date" max_length="40" name="deactiv_date" type="glide_date_time"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
+        <element label="Installation date" max_length="40" name="installation_date" type="glide_date_time"/>
+        <element label="Payment end 84" max_length="40" name="payment_end_84" type="glide_date_time"/>
+        <element label="Scitum seller" max_length="32" name="scitum_seller" reference="sys_user" type="reference"/>
+        <element default="proceed" hint="Acción que se debe realizar en las tareas de cambio asociadas si se aprueba este cambio. Por ejemplo, &quot;Continuar con la siguiente tarea&quot;." label="Upon approval" max_length="40" name="upon_approval" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="supply_ord_id"/>
+        </index>
+        <index name="index3">
+            <element name="scitum_seller"/>
+        </index>
+        <index name="index4">
+            <element name="assignment_group"/>
+        </index>
+    </element>
+</database>

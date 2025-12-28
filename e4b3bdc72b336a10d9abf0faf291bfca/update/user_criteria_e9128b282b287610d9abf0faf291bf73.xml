@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group/>
+        <location/>
+        <match_all>false</match_all>
+        <name>Paquetizados</name>
+        <role name="x_ssad6_paquetiz_0.user_paquetizados">7cb3bdc72b336a10d9abf0faf291bfe4,3cb3bdc72b336a10d9abf0faf291bfd9</role>
+        <script><![CDATA[/** Scripted User Criteria is not cached, and evaluated everytime, so performance is dependent on the script.
+* Populate `answer` with true/false or evaluate to true/false
+* The script is evaluated in the scope the user criteria is defined
+* Don't use `current` in the script or populate the variable
+* Don't use `gs.getUser()` or  `gs.getUserID()`, 
+* instead use `user_id` which contains the user sys_id against whom the evaluation is happening.
+*/]]></script>
+        <short_description/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-09 16:58:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e9128b282b287610d9abf0faf291bf73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Paquetizados</sys_name>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name>user_criteria_e9128b282b287610d9abf0faf291bf73</sys_update_name>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-09 16:58:08</sys_updated_on>
+        <user/>
+    </user_criteria>
+    <sys_translated_text action="delete_multiple" query="documentkey=e9128b282b287610d9abf0faf291bf73"/>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_regex">
+    <question_regex action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Decimal</name>
+        <regex>^(\d+(\.\d{1,2})?)$</regex>
+        <regex_flag/>
+        <sys_class_name>question_regex</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-11-05 23:19:23</sys_created_on>
+        <sys_id>480c1b55470936906c0c59f4f16d4310</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Decimal</sys_name>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_update_name>question_regex_480c1b55470936906c0c59f4f16d4310</sys_update_name>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-11-05 23:28:32</sys_updated_on>
+        <validation_message>Invalid format. Valid example: 123.45</validation_message>
+    </question_regex>
+    <sys_translated_text action="delete_multiple" query="documentkey=480c1b55470936906c0c59f4f16d4310"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>480c1b55470936906c0c59f4f16d4310</documentkey>
+        <fieldname>validation_message</fieldname>
+        <language>es</language>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-11-05 23:23:15</sys_created_on>
+        <sys_id>805d9b95470936906c0c59f4f16d43fa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-11-05 23:28:03</sys_updated_on>
+        <tablename>question_regex</tablename>
+        <value>Formato inválido. Ejemplo válido: 123.45</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>480c1b55470936906c0c59f4f16d4310</documentkey>
+        <fieldname>validation_message</fieldname>
+        <language>pt</language>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-11-05 23:28:32</sys_created_on>
+        <sys_id>118e5fd5470936906c0c59f4f16d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-11-05 23:28:32</sys_updated_on>
+        <tablename>question_regex</tablename>
+        <value>Formato inválido. Exemplo válido: 123.45</value>
+    </sys_translated_text>
+</record_update>

@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="service" table="x_ssad6_paquetiz_0_rental_code" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>service</element>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:41:58</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>service</sys_name>
+            <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+            <sys_update_name>sys_choice_x_ssad6_paquetiz_0_rental_code_service</sys_update_name>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:41:58</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CPE+Seguridad</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:41:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:41:58</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CPE+Seguridad</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:42:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:42:03</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CPE+Seguridad</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:42:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:42:09</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FLEXIPORT</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:42:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:42:26</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FLEXIPORT</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:42:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:42:31</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FLEXIPORT</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:42:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:42:35</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Servidor Seguro</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:42:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:42:48</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Servidor Seguro</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:42:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:42:52</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Servidor Seguro</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:42:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:42:57</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SOC EPDR</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:43:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:43:10</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SOC EPDR</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:43:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:43:19</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SOC EPDR</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:43:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:43:15</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPA NEGOCIOS</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:43:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:43:36</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPA NEGOCIOS</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:43:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:43:42</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPA NEGOCIOS</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:43:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:43:32</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPA SDWAN V1</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:44:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:44:00</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPA SDWAN V1</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:44:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:44:03</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPA SDWAN V1</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:43:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:43:55</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPA SDWAN V2</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:44:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:44:21</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPA SDWAN V2</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:44:24</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPA SDWAN V2</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:44:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:44:30</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAI  Conexión V1</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:47:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:47:41</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAI  Conexión V1</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:44:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:44:49</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAI  Conexión V1</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:44:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:44:54</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAI  Conexión V2</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:45:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:45:06</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAI  Conexión V2</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:45:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:45:14</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPAI  Conexión V2</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:45:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:45:10</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TRÁFICO SEGURO</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:45:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:45:31</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TRÁFICO SEGURO</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:45:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:45:27</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TRÁFICO SEGURO</label>
+            <language>en</language>
+            <name>x_ssad6_paquetiz_0_rental_code</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-24 14:45:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-24 14:45:36</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

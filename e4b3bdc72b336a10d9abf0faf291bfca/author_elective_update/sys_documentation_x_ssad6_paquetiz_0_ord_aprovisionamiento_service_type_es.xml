@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation action="DELETE" element="service_type" label="Tipo de servicio" language="es" table="x_ssad6_paquetiz_0_ord_aprovisionamiento">
+        <sys_documentation action="DELETE">
+            <element>service_type</element>
+            <help/>
+            <hint/>
+            <label>Tipo de servicio</label>
+            <language>es</language>
+            <name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-10 23:02:01</sys_created_on>
+            <sys_id>231f55c54768b6106c0c59f4f16d43a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Tipo de servicio</sys_name>
+            <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+            <sys_update_name>sys_documentation_x_ssad6_paquetiz_0_ord_aprovisionamiento_service_type_es</sys_update_name>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-10 23:02:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</application>
+        <file_path/>
+        <instance_id>3fdc2910fb226e1089a2f4344eefdc0e</instance_id>
+        <instance_name>scitumdev</instance_name>
+        <name>sys_documentation_x_ssad6_paquetiz_0_ord_aprovisionamiento_service_type_es</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="service_type" label="Tipo de servicio" language="es" table="x_ssad6_paquetiz_0_ord_aprovisionamiento"><sys_documentation action="INSERT_OR_UPDATE"><element>service_type</element><help/><hint/><label>Tipo de servicio</label><language>es</language><name>x_ssad6_paquetiz_0_ord_aprovisionamiento</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>mario.camargo@vantisoft.com</sys_created_by><sys_created_on>2025-10-10 23:02:01</sys_created_on><sys_id>231f55c54768b6106c0c59f4f16d43a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tipo de servicio</sys_name><sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package><sys_policy/><sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope><sys_update_name>sys_documentation_x_ssad6_paquetiz_0_ord_aprovisionamiento_service_type_es</sys_update_name><sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by><sys_updated_on>2025-10-10 23:02:01</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+        <payload_hash>-617245752</payload_hash>
+        <record_name>Supply order.Service type</record_name>
+        <reverted_from/>
+        <source>67373dcb2b336a10d9abf0faf291bf65</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-10 23:02:01</sys_created_on>
+        <sys_id>a31f55c54768b6106c0c59f4f16d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199d05c1d5f0000001</sys_recorded_at>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-10 23:02:01</sys_updated_on>
+        <type>Field Label</type>
+        <update_guid>e71f55c57f68b61023619a8fa5b9efaa</update_guid>
+        <update_guid_history>e71f55c57f68b61023619a8fa5b9efaa:-617245752</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+        <sys_created_on>2025-10-28 17:51:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_documentation">sys_documentation</sys_db_object>
+        <sys_id>0e7ce5d2d06148d8951d9508e5f7a390</sys_id>
+        <sys_metadata>231f55c54768b6106c0c59f4f16d43a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tipo de servicio</sys_name>
+        <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+        <sys_parent display_value="">7f2b19ac4710b6106c0c59f4f16d431e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+        <sys_scope_delete display_value="">81a0523456ff4280a5966745fbd91900</sys_scope_delete>
+        <sys_update_name>sys_documentation_x_ssad6_paquetiz_0_ord_aprovisionamiento_service_type_es</sys_update_name>
+        <sys_update_version display_value="sys_documentation_x_ssad6_paquetiz_0_ord_aprovisionamiento_service_type_es">a31f55c54768b6106c0c59f4f16d43ab</sys_update_version>
+        <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+        <sys_updated_on>2025-10-28 17:51:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

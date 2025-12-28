@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="telmex_supply_order" label="Ordem de abastecimento Telmex" language="pt" table="x_ssad6_paquetiz_0_ord_servicio">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>telmex_supply_order</element>
+            <help/>
+            <hint/>
+            <label>Ordem de abastecimento Telmex</label>
+            <language>pt</language>
+            <name>x_ssad6_paquetiz_0_ord_servicio</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>mario.camargo@vantisoft.com</sys_created_by>
+            <sys_created_on>2025-10-10 22:42:09</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Ordem de abastecimento Telmex</sys_name>
+            <sys_package display_value="Paquetizados" source="x_ssad6_paquetiz_0">e4b3bdc72b336a10d9abf0faf291bfca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Paquetizados">e4b3bdc72b336a10d9abf0faf291bfca</sys_scope>
+            <sys_update_name>sys_documentation_x_ssad6_paquetiz_0_ord_servicio_telmex_supply_order_pt</sys_update_name>
+            <sys_updated_by>mario.camargo@vantisoft.com</sys_updated_by>
+            <sys_updated_on>2025-10-10 22:42:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
